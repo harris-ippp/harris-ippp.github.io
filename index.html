@@ -24,10 +24,9 @@
       </header>
       <section>
         <ul>
-<li>Contact: <a href="mailto:jsaxon@uchicago.edu">jsaxon@uchicago.edu</a>
-</li>
+<li>Contact: James Saxon (<a href="mailto:jsaxon@uchicago.edu">jsaxon@uchicago.edu</a>)</li>
+<li>Discussion Board: <a href="https://piazza.com/uchicago/fall2016/ppha30550">Piazza</a> – please use!</li>
 <li>Meeting Day/Time: Section 1, MW 9-10:20am; Section 2: MW 1:30-2:50</li>
-<li>Discussion Board: Piazza – please use!</li>
 <li>Office Hours: Friday afternoon, TBD.</li>
 </ul>
 
@@ -57,6 +56,336 @@
 </ol>
 
 <p>Throughout we’ll emphasize good practices for collaborative code development and strive to de- mystify computers, the internet, and open source software. Particularly after the first weeks, we’ll highlight how these skills apply to evaluating and improving policy.</p>
+
+<h1>
+<a id="books-and-resources" class="anchor" href="#books-and-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Books and Resources</h1>
+
+<p>Online documentation ('docs') will provide the principal written resources for the class; sources are listed for each week.
+For many code projects/'packages' and languages, these sources are literally <em>the</em> standards that define how to use the products -- and unlike books will keep up with the packages as they evolve.
+Locating these sources and using them to identify the methods or recipes you need is an important skill in coding.</p>
+
+<p>This said, several of the O'Reilly books are very good and also happen to be available electronically through the UC library:
+  <a href="https://catalog.lib.uchicago.edu/vufind/Record/9969856">Think Python</a> (Allen Downey),
+  <a href="https://catalog.lib.uchicago.edu/vufind/Record/9969841">Python for data analysis</a> (Wes McKinney), and the
+  <a href="https://catalog.lib.uchicago.edu/vufind/Record/10176227">SQL cookbook</a> (Anthony Molinaro).
+Seeing the material multiple times will help -- so please use these resources!!</p>
+
+<h1>
+<a id="assignments-and-grading" class="anchor" href="#assignments-and-grading" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Assignments and Grading</h1>
+
+<h2>
+<a id="weekly-assignments-70" class="anchor" href="#weekly-assignments-70" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Weekly assignments (70%)</h2>
+
+<p>Assignments will be posted on the class <a href="https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris">GitHub site</a> at least one week before they are due.
+I will de-weight the lowest grade by one half.
+The first week's assignment will be graded only for completeness.
+Each subsequent assignment will be assessed on: </p>
+
+<ul>
+<li>Correctness (60%): does it give the 'right' answer and behave 'correctly' (no crashing or hanging)?</li>
+<li>Style (30%): is the code commented and organized in a reasonable way?  Is the output visually appealing and clear?  Do all plot axes have meaningful, readable labels with units?</li>
+<li>Performance (10%): does it execute in a reasonable amount of time?
+Since the parts of an assignment may be cumulative, it is <em>strongly</em> advised to review and start the assignments early, so you can get help through Piazza or at office hours if you get stuck.  Assignments will be collected through GitHub, so get a student account <a href="https://education.github.com/pack">here</a>.</li>
+</ul>
+
+<p>An automatic script will collect work at 1:30am, Tuesday morning.
+Since we may review challenging parts of the homeworks in class on Wednesday, 
+  late work will be penalized 20%; notify the instructor to 'pull' it when it is complete.  </p>
+
+<h2>
+<a id="final-projects-30" class="anchor" href="#final-projects-30" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final Projects (30%)</h2>
+
+<p>Working in groups of two or three, students will create a small web application to interactively present data that they have gathered.
+Students will choose a subject and propose the functionality to me in advance.
+That proposal should specify both a 'baseline' functionality, and several extensions.
+(I will provide example proposals, and endeavor to keep the baseline projects 'fairly equal,' taking into account different group sizes.)
+The grading rubric will be modified to benefit ambitious projects:</p>
+
+<ul>
+<li>Scope (30%): how many of the extensions did the group complete?  How much does the application do?</li>
+<li>Correctness (30%): is the baseline functionality fully delivered, bug-free?</li>
+<li>Style (25%): are the front-end and code both manageable?</li>
+<li>Performance (15%): is the site 'snappy?'</li>
+</ul>
+
+<h1>
+<a id="where-to-work--how-to-compute" class="anchor" href="#where-to-work--how-to-compute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Where to Work / How to Compute</h1>
+
+<p>Part of the overhead to doing computation is getting the software running.
+Students are therefore encouraged to install the software required for the class on their personal laptops.
+This will enable them to straightforwardly continue using the skills that they develop, when the quarter is over.</p>
+
+<p>Python will be the primary language of instruction for the course.
+There are many ways of installing and running it, but I suggest
+  <a href="https://www.continuum.io/downloads">Anaconda</a>.
+A small program may be scaffolded up on many others, 
+  and depend on their being in the correct place with the correct versions in order to function.
+(These are called <em>dependencies</em>.)
+For moderately recent computers, Anaconda handles all of this.
+Anaconda installs to a single folder, so you can easily remove it at the end of the course, if so desired.</p>
+
+<p>If you have any concerns about this, talk to me.
+If we end up having any trouble with Anaconda, 
+   I'll provide an Ubuntu Linux distribution through Docker.</p>
+
+<p><strong>Bring your laptop to every class</strong> -- short demos will be an important part of the lectures.</p>
+
+<h1>
+<a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Schedule</h1>
+
+<h2>
+<a id="week-1-welcome-to-the-course----and-to-python" class="anchor" href="#week-1-welcome-to-the-course----and-to-python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 1: Welcome to the Course -- and to Python!</h2>
+
+<h3>
+<a id="why-should-you-code" class="anchor" href="#why-should-you-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why should you code?</h3>
+
+<p>What is 'big data'?
+Case studies of effective use of data in transforming public policy decisions.</p>
+
+<h3>
+<a id="first-steps-with-python-thinking-algorithmically" class="anchor" href="#first-steps-with-python-thinking-algorithmically" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>First Steps with Python: Thinking Algorithmically</h3>
+
+<p>Introduction of the standard data types, operations, and control statements.
+Syntax and semantics of the language; comments.
+Methods for iterating.
+Interactive, scripted, and compiled code.</p>
+
+<ul>
+<li>
+<strong>Readings</strong>: 
+
+<ul>
+<li>Data and Technology in Government: <a href="https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/">Innovative State</a> (Aneesh Chopra), and <a href="https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/">The Responsive City</a> (Stephen Goldsmith and Susan Crawford).</li>
+<li>Python: <a href="http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006">Think Python</a> (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official <a href="https://docs.python.org/3/tutorial/index.html">Python Tutorial</a>.</li>
+<li>Git: <a href="https://guides.github.com/activities/hello-world/">Hello World</a>, GitHub Guides.</li>
+</ul>
+</li>
+<li>
+<strong>Assignments</strong>: Simple algorithmic problem solving for several <a href="https://projecteuler.net/">Project Euler</a> type problems.  Create a <a href="https://education.github.com/pack">student GitHub account</a>, and upload the first week's work.</li>
+</ul>
+
+<h2>
+<a id="week-2-command-line-and-version-control--python-functions-classes-and-style" class="anchor" href="#week-2-command-line-and-version-control--python-functions-classes-and-style" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 2: Command line and version control.  Python functions, classes, and style.</h2>
+
+<h3>
+<a id="bash-editors-and-version-control" class="anchor" href="#bash-editors-and-version-control" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bash, editors, and version control.</h3>
+
+<p>Navigating directories; creating, manipulating, and executing files.
+Simple bash commands and scripts; piping and redirecting.
+The vim editor. Regular expressions.
+Version control.</p>
+
+<h3>
+<a id="functions-classes-and-modules" class="anchor" href="#functions-classes-and-modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functions, classes, and modules.</h3>
+
+<ul>
+<li>
+<strong>Readings</strong>: 
+
+<ul>
+<li>Vim: <a href="https://danielmiessler.com/study/vim/">A vim Tutorial and Primer</a>, Daniel Miessler.  % \note{haven't found a great reference}.</li>
+<li>Shell: <a href="http://linuxcommand.org/learning_the_shell.php">Learning the Shell</a>, William E. Shotts, Jr, parts 2, 3, 5, and 6.</li>
+<li>Python: <a href="http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006">Think Python</a> chapters 3 and 5-8.</li>
+</ul>
+</li>
+<li>
+<strong>Assignments</strong>: command line fu.  Git commits, branches, and merge.  Drawing with turtles.</li>
+</ul>
+
+<h2>
+<a id="week-3-debugging-optimizing-and-reusing" class="anchor" href="#week-3-debugging-optimizing-and-reusing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 3: Debugging, Optimizing, and Reusing.</h2>
+
+<h3>
+<a id="inputoutput-and-data-formats--options--exceptions" class="anchor" href="#inputoutput-and-data-formats--options--exceptions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input/Output and data formats.  Options.  Exceptions.</h3>
+
+<p>Reading from and writing to files.  CSV, JSON, pickle.
+Reusable code.<br>
+Programs and arguments.  </p>
+
+<h3>
+<a id="debugging-and-profiling--algorithmic-complexity-and-optimization" class="anchor" href="#debugging-and-profiling--algorithmic-complexity-and-optimization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Debugging and profiling.  Algorithmic complexity and optimization.</h3>
+
+<p>Using <code>pdb</code> and <code>time</code>.
+Big O notation.
+Recursive algorithms.
+Precomputation.
+Asking questions.</p>
+
+<ul>
+<li>
+<strong>Readings</strong>: Official documentation for <a href="https://docs.python.org/3/tutorial/inputoutput.html">input and output</a>, <a href="https://docs.python.org/3/library/argparse.html">argparse</a> and <a href="https://docs.python.org/3/library/pdb.html">pdb</a>.  <a href="http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006">Think Python</a> Chapter 20 on debugging and 21 on complexity.
+
+<ul>
+<li>Coding can be tough, and everyone needs to ask for help sometimes.  Eric Steven Raymond wrote an important (though somewhat snarky) piece on <a href="http://www.catb.org/esr/faqs/smart-questions.html#intro">How To Ask Questions The Smart Way</a>, to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!</li>
+</ul>
+</li>
+<li>
+<strong>Assignments</strong>:  Turtle tag: students will work in pairs to orchestrate a game of turtle tag using classes and functions.  )Commit to each others' repositories!_</li>
+</ul>
+
+<h2>
+<a id="week-4-data-visualization-with-python-matplotlib-and-pandas" class="anchor" href="#week-4-data-visualization-with-python-matplotlib-and-pandas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 4: Data Visualization with Python: matplotlib and pandas</h2>
+
+<h3>
+<a id="pandas" class="anchor" href="#pandas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pandas.</h3>
+
+<p>Data imports, slicing, merging, and exploration.</p>
+
+<h3>
+<a id="plotting-and-data-analysis" class="anchor" href="#plotting-and-data-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plotting and data analysis.</h3>
+
+<p>The matplotlib, seaborn, and statsmodels libraries</p>
+
+<ul>
+<li>
+<strong>Readings</strong>
+
+<ul>
+<li>
+<em>matplotlib</em>: <a href="http://matplotlib.org/users/beginner.html">Beginner's Guide</a> and <a href="http://nbviewer.jupyter.org/github/jrjohansson/numerical-python-book-code/blob/master/ch04-code-listing.ipynb">Plotting and Visualization</a>, Robert Johansson.</li>
+<li>
+<em>pandas</em>: Reference for the <a href="http://pandas.pydata.org/pandas-docs/stable/index.html">Official Documentation</a>, with <a href="http://pandas.pydata.org/pandas-docs/stable/tutorials.html">tutorials</a>.  I think <a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">Greg Reda's</a> is easier to understand for new users.  Once you've read that, Tom Augspurger's <a href="https://tomaugspurger.github.io/modern-1.html">Modern Pandas</a> (with Jupyter notebooks) gives a bit more detail.</li>
+<li>
+<em>matplotlib</em>: <a href="http://matplotlib.org/users/beginner.html">Beginner's Guide</a> and <a href="http://nbviewer.jupyter.org/github/jrjohansson/numerical-python-book-code/blob/master/ch04-code-listing.ipynb">Plotting and Visualization</a>, Robert Johansson.</li>
+<li>
+<em>seaborn</em>: <a href="https://stanford.edu/%7Emwaskom/software/seaborn/tutorial/distributions.html">tutorial</a>.</li>
+</ul>
+</li>
+<li>
+<strong>Assignments</strong>: Descriptive analysis of Chicago crime data. </li>
+</ul>
+
+<h2>
+<a id="week-5-relational-databases" class="anchor" href="#week-5-relational-databases" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 5: Relational Databases</h2>
+
+<h3>
+<a id="relational-databases" class="anchor" href="#relational-databases" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Relational Databases</h3>
+
+<p>What is Structured Query Language (SQL)?  Motivations, use cases.
+Data types.  Creating, selecting, updating, dropping, and joining in SQLite.
+Database design: primary keys, triggers, and uniqueness and redundancy.
+Precomputation revisited.</p>
+
+<h3>
+<a id="creating-and-querying-a-simple-database" class="anchor" href="#creating-and-querying-a-simple-database" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating and Querying a Simple Database</h3>
+
+<p>Importing data.  Aggregation with group; ordering and limiting.  Python interface: <code>psycopg2</code> and <code>sqlalchemy</code>.
+Injection attacks and security.</p>
+
+<ul>
+<li>
+<strong>Readings</strong>: <a href="https://catalog.lib.uchicago.edu/vufind/Record/10176227">SQL Cookbook</a> Chapters 1-3 and <a href="http://www.sqlitetutorial.net/">SQLite Tutorial</a>.  The <a href="http://initd.org/psycopg/docs/usage.html">psycopg2 basic model usage</a> and <a href="http://docs.sqlalchemy.org/en/latest/orm/tutorial.html">sqlalchemy</a> tutorial.</li>
+<li>
+<strong>Assignments</strong>: create database with tables for weather, crime, and income; join queries, and group them to make various plots using matplotlib.  Export to pandas.</li>
+</ul>
+
+<h2>
+<a id="week-6-static-websites-and-web-scraping" class="anchor" href="#week-6-static-websites-and-web-scraping" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 6: Static Websites and Web Scraping</h2>
+
+<h3>
+<a id="the-interwebs-pipes-and-tubes" class="anchor" href="#the-interwebs-pipes-and-tubes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The interwebs: pipes and tubes.</h3>
+
+<p>The Internet and the world wide web.
+Servers and the cloud; Apache, nginx, etc.
+The html protocol (there are others)!
+Cascading style sheets.</p>
+
+<h3>
+<a id="apis-and-web-scraping-with-beautiful-soup" class="anchor" href="#apis-and-web-scraping-with-beautiful-soup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>APIs and web scraping with beautiful soup.</h3>
+
+<ul>
+<li>
+<strong>Readings</strong>:
+
+<ul>
+<li>
+<a href="http://www.vox.com/cards/the-internet">The Internet, explained</a> and <a href="http://www.vox.com/a/internet-maps">40 maps that explain the internet</a>, by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).</li>
+<li>See the w3schools references for <a href="http://www.w3schools.com/html/default.asp">html</a>, [css](<a href="http://www.w3schools.com/css/default.asp%7D%7BCSS">http://www.w3schools.com/css/default.asp}{CSS</a>}, and <a href="http://www.w3schools.com/bootstrap/">bootstrap</a>.</li>
+<li>
+<a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>.</li>
+</ul>
+</li>
+<li>
+<strong>Assignments</strong>: Create a simple but professional personal website with at least three sections, and post it to <a href="http://home.uchicago.edu">home.uchicago.edu</a> (or wherever).  Scrape wikipedia or elections site to answer factual questions.<br>
+</li>
+</ul>
+
+<h2>
+<a id="week-7-dynamic-websites" class="anchor" href="#week-7-dynamic-websites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 7: Dynamic Websites</h2>
+
+<h3>
+<a id="dynamic-websites-and-django" class="anchor" href="#dynamic-websites-and-django" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dynamic websites and Django</h3>
+
+<p>Dynamic versus static sites: python WSGI, php, cgi, and javascript.
+Setting up the test server, and getting your files from week 7 in place.
+Simple templates and responses.</p>
+
+<h3>
+<a id="django-responding-to-queries" class="anchor" href="#django-responding-to-queries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Django: Responding to Queries</h3>
+
+<p>Models.<br>
+Get and post revisited.
+Incorporating other python modules, and displaying plots.</p>
+
+<ul>
+<li>
+<strong>Readings</strong>: The <a href="https://docs.djangoproject.com/en/1.9/intro/">Django Tutorial</a> and <a href="http://hplgit.github.io/web4sciapps/doc/pub/web4sa_plain_all.html#wf:vib:django">Using Web Frameworks for Scientific Applications</a>, Hans Petter Langtangen.</li>
+<li>
+<strong>Assignments</strong>: Create a django application to (a) load your website from last week, (b) perform a simple calculation, and (c) present a configurable scatter plot using the SQLite database created in week 5.</li>
+</ul>
+
+<h2>
+<a id="week-8-geographic-information-systems" class="anchor" href="#week-8-geographic-information-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 8: Geographic Information Systems</h2>
+
+<h3>
+<a id="introduction-to-gis" class="anchor" href="#introduction-to-gis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction to GIS</h3>
+
+<p>Shapefiles and data -- what's available?
+Working with the QGIS GUI: importing, merging, filtering, and clipping vector layers.
+Projections and coordinate reference systems.
+Postgres and merging.</p>
+
+<h3>
+<a id="geopandas-shapely-and-folium-scripting-and-interactive-plotting" class="anchor" href="#geopandas-shapely-and-folium-scripting-and-interactive-plotting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GeoPandas, shapely, and folium: scripting and interactive plotting.</h3>
+
+<ul>
+<li>
+<strong>Readings</strong>: 
+
+<ul>
+<li>QGIS: <a href="https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/">QGIS Basics For Journalists</a>, Len De Groot; and the <a href="http://www.qgistutorials.com/en/index.html">QGIS Tutorial</a>.</li>
+<li>Python GIS: <a href="http://geopandas.org/">GeoPandas</a> and the <a href="http://toblerity.org/shapely/manual.html">shapely</a> users manual.</li>
+</ul>
+</li>
+<li>
+<strong>Assignment</strong>: make an attractive map for one field profiled by tract for the entire US.  Make a PDF.  Detailed tutorial provided.</li>
+</ul>
+
+<h2>
+<a id="week-9-maximizing-the-power-of-your-data-multivariate-discrimination" class="anchor" href="#week-9-maximizing-the-power-of-your-data-multivariate-discrimination" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 9: Maximizing the Power of Your Data: Multivariate Discrimination</h2>
+
+<h3>
+<a id="theory-and-context" class="anchor" href="#theory-and-context" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Theory and context.</h3>
+
+<p>Understanding errors versus optimizing results, and their interplay.
+Multilayer perceptrons, decision trees, and likelihoods.
+Overtraining.
+Deep and shallow learning.</p>
+
+<h3>
+<a id="implementation" class="anchor" href="#implementation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implementation.</h3>
+
+<p>Creating and understanding a (very) simple multilayer perceptron</p>
+
+<ul>
+<li>
+<strong>Readings</strong>: <a href="https://www.amazon.com/Networks-Pattern-Recognition-Advanced-Econometrics/dp/0198538642">Neural Networks for Pattern Recognition</a>, Christopher Bishop (fine, this is a book); Statistical Data Analysis, Glen Cowan.  <a href="http://www.informatica.si/index.php/informatica/article/download/148/140">Supervised Machine Learning: A Review of Classification Techniques</a>, S. B. Kotsiantis.</li>
+<li>
+<strong>Assignment</strong>: None -- time for final project!</li>
+</ul>
+
+<h2>
+<a id="week-10-and-finals-project-presentations-to-be-finalized" class="anchor" href="#week-10-and-finals-project-presentations-to-be-finalized" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Week 10 and Finals: Project presentations (to be finalized).</h2>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
