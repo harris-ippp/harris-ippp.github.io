@@ -96,10 +96,41 @@ Since we may review challenging parts of the homeworks in class on Wednesday,
 <a id="final-projects-30" class="anchor" href="#final-projects-30" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final Projects (30%)</h2>
 
 <p>Working in groups of two or three, students will create a small web application to interactively present data that they have gathered.
-Students will choose a subject and propose the functionality to me in advance.
-That proposal should specify both a 'baseline' functionality, and several extensions.
-(I will provide example proposals, and endeavor to keep the baseline projects 'fairly equal,' taking into account different group sizes.)
-The grading rubric will be modified to benefit ambitious projects:</p>
+Students will choose a subject and propose the functionality to me by November 9.
+That proposal should identify data sources, specify a 'baseline' functionality, and describe several extensions.
+(I will provide example proposals, and endeavor to keep the baseline projects 'fairly equal,' taking into account different group sizes.)</p>
+
+<h3>
+<a id="the-baseline" class="anchor" href="#the-baseline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The baseline</h3>
+
+<ul>
+<li>Your app must include data from at least two sources, which you will specify to me by Wednesday November 9.  I am much more interested in projects that start from some sort of a "question" and that take the merge seriously.  It is not enough to plot dots representing one type of incident on a chloropleth map from another source.
+
+<ul>
+<li>Scour the web for city, state, federal, and foreign data portals, BLS, Census, Twitter, or any NGOs that you know.  I'd love to learn about new datasets! </li>
+</ul>
+</li>
+<li>You <em>may</em> merge the data once and save it as CSV file (<code>df.to_csv()</code>).  Alternatively, if it is feasible and fast, you can use only the existing sources (no cached data).<br>
+</li>
+<li>Write at least one function that use the data to make plots or maps.  Varying the inputs (for instance, the variable or the sample) should give me diverse outputs.</li>
+<li>Integrate that function into a lightweight web application, in Django.  I should be able to navigate around and see a set of nice-looking plots through matplotlib or seaborn.</li>
+<li>The website should look nice.</li>
+</ul>
+
+<h3>
+<a id="suggested-extensions" class="anchor" href="#suggested-extensions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Suggested extensions</h3>
+
+<ul>
+<li>I would like you to build a sqlite database from the two sources, and load your data from SQL in your functions.</li>
+<li>The more I can vary your input, the better.  The more meaningful your plots, the better.</li>
+<li>If you want to do some real statistics or analysis, I'd love to see it.</li>
+<li>Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.</li>
+</ul>
+
+<h3>
+<a id="grading" class="anchor" href="#grading" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Grading</h3>
+
+<p>The grading rubric will be modified to benefit ambitious projects:</p>
 
 <ul>
 <li>Scope (30%): how many of the extensions did the group complete?  How much does the application do?</li>
