@@ -23,8 +23,8 @@ This is an introductory course in programming and data analysis for public polic
 It is for anyone who wants to gather, explore, and share raw quantitative data – or work with others who do.
 The course has three goals:
 
-1. We will first introduce students to the basic tools required to write and share: text editors, the command line, and version control (git).
-2. Students will learn to think algorithmically using self-contained problems in python: to turn a question into a python program.
+1. We will first introduce students to the tools required to write and share code: text editors, the command line, and version control (git).
+2. Students will learn to think algorithmically, translating self-contained questions into python programs.
    We will cover the fundamentals of the language including types, control, functions, input/output, and scripts.
    We will touch on debugging and (time-permitting) computability.
 3. We will then cover tools and recipes for retrieving, cleaning, visualizing, and analyzing data. 
@@ -32,25 +32,25 @@ The course has three goals:
     * Relational databases (SQL): selecting and aggregating data from databases.
     * Web scraping and APIs: how to retrieve and use public data from the web.
 
-Ultimately, students should be comfortable using what they've learned in further Harris/Chicago courses in programming, statistics, and Policy Lab -- and in research after leaving Harris.
-They should be confident independently exploring new packages for further projects.
+Ultimately, students should be comfortable using what they've learned in further Harris/Chicago courses in programming and statistics (incl. Policy Lab) -- and in research after leaving Harris.
+They should be confident independently finding and exploring new packages for those projects.
 They should know enough to productively collaborate on projects with engineers, and understand the potential of such work.
 
-Throughout we’ll emphasize good practices for collaborative code development and strive to de- mystify computers, the internet, and open source software.
+Throughout we’ll emphasize good practices for collaborative code development.
 Particularly after the first weeks, we’ll highlight how these skills apply to evaluating and improving policy.
-
-
 
 
 # Books and Resources
 Online documentation ('docs') will provide the principal written resources for the class; sources are listed for each week.
 For many code projects/'packages' and languages, these sources are literally _the_ standards that define how to use the products -- and unlike books will keep up with the packages as they evolve.
 Locating these sources and using them to identify the methods or recipes you need is an important skill in coding.
+The most relevant starting sites for us will be for [python 3.5](https://docs.python.org/3.5/library/index.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/).
+You will also likely find the question site [Stack Overflow](http://stackoverflow.com/) very useful.
 
-This said, several of the O'Reilly books are very good and also happen to be available electronically through the UC library:
-  [Think Python](https://catalog.lib.uchicago.edu/vufind/Record/9969856) (Allen Downey),
-  [Python for data analysis](https://catalog.lib.uchicago.edu/vufind/Record/9969841) (Wes McKinney), and the
-  [SQL cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) (Anthony Molinaro).
+
+This said, two of the O'Reilly books are very good and happen to be available electronically through the UC library:
+  [Think Python](https://catalog.lib.uchicago.edu/vufind/Record/9969856) (Allen Downey) and
+  [Python for data analysis](https://catalog.lib.uchicago.edu/vufind/Record/9969841) (Wes McKinney).
 Seeing the material multiple times will help -- so please use these resources!!
 
 # Assignments and Grading 
@@ -63,12 +63,12 @@ Each subsequent assignment will be assessed on:
 * **Correctness (60%)**: Most questions will be evaluated directly on chalk.  In some cases you will have to submit plots, etc. to GitHub.
 * **Style and performance (40%)**: A TA will review your code from GitHub. 
   An automatic script will collect work at 1:30am, Wednesday morning.
-  _You are responsible for ensuring that your push was sucessful._
+  _You are responsible for ensuring that your push was successful._
   A per-question rubric out of 4 is as follows:
     0. No apparent effort -- the code is absent or effectively incomplete.
     1. A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
-    2. The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.
-    3. The answer is correct and the code is readable.
+    2. The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
+    3. The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but very well-commented.
     4. The code is clear, the solution correct, and the commenting appropriate.  If relevant, it runs "quickly."
 
 
@@ -76,14 +76,24 @@ Since we may review challenging parts of the homeworks in class on Wednesday,
   late work submitted within one week will count for 80%; notify the TAs to 'pull' it when it is complete.
 You must complete eight out of the nine assignments to pass the course.
 
+
 ## Final Projects (30%) 
 
 Working in pairs, students will ask a simple policy question.
 To answer it they will identify at least two disjoint data sources, merge them,
 perform a simple but correct statistical analysis
 and create a simple (but possibly dynamic) dashboard to illustrate this.
+See [final](https://harris-ippp.github.io/final) for full details and due dates.
 
-Please see [final](https://harris-ippp.github.io/final) for full details on the project, and due dates.
+## Plagiarism policy.
+
+Writing code is substantially different from writing essays:
+it is standard practice to find individual functions or google things that don't work, and copy a line or two from the manual or stack overflow.
+I encourage you to discuss general strategies for solving problems with your classmates and friends.
+Questions and answers on the discussion board will naturally include code.
+However -- you should never ask to see another's solutions, and you absolutely should not copy code from your classmates.
+No one but you should type your code.
+If you find more than a single line/method, you should attribute the source in your comments.
 
 # Where to Work / How to Compute
 
@@ -91,167 +101,129 @@ Part of the overhead to doing computation is getting the software running.
 Students are therefore encouraged to install the software required for the class on their personal laptops.
 This will enable them to straightforwardly continue using the skills that they develop, when the quarter is over.
 
-Python will be the primary language of instruction for the course.
-There are many ways of installing and running it, but I suggest
-  [Anaconda](https://www.continuum.io/downloads).
-A small program may be scaffolded up on many others, 
-  and depend on their being in the correct place with the correct versions in order to function.
-(These are called _dependencies_.)
-For moderately recent computers, Anaconda handles all of this.
-Anaconda installs to a single folder, so you can easily remove it at the end of the course, if so desired.
-
-If you have any concerns about this, talk to me.
-If we end up having any trouble with Anaconda, 
-   I'll provide an Ubuntu Linux distribution through Docker.
+You will need the command line ([cygwin](https://www.cygwin.com/) on PCs, Terminal on Mac),
+python (I will only support the [Anaconda](https://www.continuum.io/downloads) distribution), and a text editor ([Atom](https://atom.io/)).
+Installation instructions are posted for [macs](https://harris-ippp.github.io/mac_install) and
+[PCs](https://harris-ippp.github.io/windows_install).  (If you're using Linux, you're probably not in this class.)
+This installation is the entire first week's homework, but it will also be used in the first week's classes!
+At a minimum, you should have Atom (and cygwin, for Windows) installed *before the first class.*
+We will hold multiple lab sessions in the first week, when will provide direct computing support.
+You **must** get the help you need at that point -- we won't provide this support for the entire quarter.
 
 **Bring your laptop to every class** -- short demos will be an important part of the lectures.
 
-# Schedule
+# Weekly Schedule
 
 ## Week 1: Welcome to the Course -- and to the Command line!
 
-### Welcome to the Course.  Command line and version control.  
-Case studies of effective use of data in transforming public policy decisions.
-Welcome to the command line and to version control.
+1. Welcome to the course: expectations and case studies of effective use of data in transforming public policy decisions.
+   Navigating the command line.
+2. Writing basic scripts with an editor (Atom).  Running scripts from the command line.
+   Getting basic answers to your questions, with bash.
+   Uploading them with Git.
 
-### First Steps with Python: Data Types and Operations
-A first shell script.
-Syntax and semantics of the language; comments.
-Introduction of the standard data types and operations.
-
-* **Slides**: [Command line](https://github.com/harris-ippp/lectures/blob/master/01/01a_welcome.pdf), [Git](https://github.com/harris-ippp/lectures/blob/master/01/01b_git.pdf), [Python starter/scripts](https://github.com/harris-ippp/lectures/blob/master/01/01b_python.pdf), [Simple Program Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Simple%20Program.ipynb), [Variables and Types Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Variables%20and%20Types.ipynb).
+* **Slides**: [Welcome](https://github.com/harris-ippp/lectures/blob/master/01/01a_welcome.pdf), bash, [Git](https://github.com/harris-ippp/lectures/blob/master/01/01b_git.pdf).
 * **Readings**: 
-    * Data and Technology in Government: [Innovative State](https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/) (Aneesh Chopra), and [The Responsive City](https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/) (Stephen Goldsmith and Susan Crawford).
-    * Python: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
-* **[Assignment](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b)**:  Command line fu: crime and salary data from Chicago.  Create a [student GitHub account](https://education.github.com/pack), and upload the first week's work.
-
-## Week 2: Python functions, classes, and style.
-
-### Python Introduction Continued: Control Statements and iterating
-
-### Functions, classes, and modules.
-
-* **Slides**: [Control Statements](https://github.com/harris-ippp/lectures/blob/master/02/Control.ipynb), [Functions, Classes and Modules](https://github.com/harris-ippp/lectures/blob/master/02/Functions%2C%20Classes%2C%20and%20Modules.ipynb).
-* **Readings**: 
     * Shell: [Learning the Shell](http://linuxcommand.org/learning\_the\_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
-    * Python: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
+    * Data and Technology in Government: [Innovative State](https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/) (Aneesh Chopra), and [The Responsive City](https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/) (Stephen Goldsmith and Susan Crawford).
+* **[Assignment](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b)**: Ensure that your installation is complete by running [this script](https://github.com/harris-ippp/01-welcome).
+  Command line fu: answer some basic questions about crime and salaries in Chicago.
+  Create a [student GitHub account](https://education.github.com/pack), and upload the first week's work.
+
+## Week 2: Introduction to Python
+
+1. First steps with python: data types and operations
+   A first shell script.
+   Syntax and semantics of the language; comments.
+   Introduction of the standard data types and operations:
+   `int`, `float`, `string`, `dict`, `list`, etc.
+2. Basic formal logic: if, not, and, & or.
+   Control statements (`if`, `else`, `break`, `continue`) and iterating with `for` and `while` loops.
+
+* **Slides**:  [Python starter/scripts](https://github.com/harris-ippp/lectures/blob/master/01/01b_python.pdf), [Simple Program Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Simple%20Program.ipynb), [Variables and Types Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Variables%20and%20Types.ipynb), [Control Statements](https://github.com/harris-ippp/lectures/blob/master/02/Control.ipynb).
+* **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
 * **[Assignments](https://github.com/harris-ippp/02-algorithmic-thinking/blob/master/README.md)**: Simple algorithmic problem solving for several [Project Euler](https://projecteuler.net/) type problems.  Drawing with turtles. 
 
-## Week 3: Debugging, Optimizing, and Reusing.
+## Week 3: List comprehension; functions, classes, and libraries.
 
-### Input/Output and data formats.  Options.  Exceptions.
+1. List Comprehension.
+2. Functions: parameters, defaults, and return values.  Scope.
+   Classes and libraries: imports and member functions.
 
-Reading from and writing to files.
-CSV, JSON, pickle.
-Reusable code.
-Programs and arguments.  
+* **Slides**: [List comprehension](https://github.com/harris-ippp/lectures/blob/master/03/list_comprehension.pdf), [file formats](https://github.com/harris-ippp/lectures/blob/master/03/files.pdf), [Functions, Classes and Modules](https://github.com/harris-ippp/lectures/blob/master/02/Functions%2C%20Classes%2C%20and%20Modules.ipynb).
+* **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
+* **Assignment**: More Project Euler type problems.
 
-### Debugging and profiling.  Algorithmic complexity and optimization. 
 
-Using `pdb` and `time`.
-Big-O notation.
-Recursive algorithms.
-Precomputation.
-Asking questions.
+## Week 4: Scripts and an example from Athens.
 
-* **Slides**: [List comprehension](https://github.com/harris-ippp/lectures/blob/master/03/list_comprehension.pdf), [file formats](https://github.com/harris-ippp/lectures/blob/master/03/files.pdf), [debugging](https://github.com/harris-ippp/lectures/blob/master/03/debugging.pdf), and [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
-* **Readings**: Official documentation for [input and output](https://docs.python.org/3/tutorial/inputoutput.html), [argparse](https://docs.python.org/3/library/argparse.html) and [pdb](https://docs.python.org/3/library/pdb.html).  [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
-    * Coding can be tough, and everyone needs to ask for help sometimes.  Eric Steven Raymond wrote an important (though somewhat snarky) piece on [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#intro), to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!
-* **[Assignments](https://github.com/harris-ippp/03-sudoku/blob/master/README.md)**:  Solve Sudoku.  Students will work in groups of up to three to solve Sudoku.  [Assignment description](https://github.com/harris-ippp/03-sudoku/blob/master/README.md) and [repositories](https://classroom.github.com/assignment-invitations/acb6c296950cc73142b3ba923b8a35fc).
+1. Scripts revisited: programs, arguments, and reusable code.
+   Fixing your code: debugging and asking questions.
+2. A large-scale example: Athenian Taxes.
+3. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
-## Week 4: Data Visualization with Python: matplotlib and pandas
+* **Slides**:
+[debugging](https://github.com/harris-ippp/lectures/blob/master/03/debugging.pdf), and [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
+* **Readings**:
+    * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
+    * Asking for help.  Eric Steven Raymond wrote an important (though somewhat snarky) piece on [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#intro), to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!
+* **[Assignments](https://github.com/harris-ippp/03-sudoku/blob/master/README.md)**:  Solve Tic Tac Toe.  Students will work in groups of up to three to implement the computer's strategy for tic tac toe.  [Assignment description](https://github.com/harris-ippp/03-sudoku/blob/master/README.md) and [repositories](https://classroom.github.com/assignment-invitations/acb6c296950cc73142b3ba923b8a35fc).
 
-### Pandas.
-Data imports, slicing, merging, and exploration.
+## Week 5: Pandas introduction and file formats.
 
-### Plotting and data analysis.
-The matplotlib, seaborn, and statsmodels libraries
+Data Visualization with Python: matplotlib and pandas
+
+1. Pandas data types.
+   Data frames, series.  Basic exploration, slicing and plots.
+2. Reading basic files.
+   Complex data imports: csv and json files.
 
 * **Slides**: [Introduction to Pandas](https://github.com/harris-ippp/lectures/blob/master/04/Introduction%20to%20Pandas.ipynb), [Worked Examples](https://github.com/harris-ippp/lectures/blob/master/04/Examples%2C%20and%20Some%20More%20Features.ipynb).
 * **Readings**
-    * _matplotlib_: [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Plotting and Visualization](http://nbviewer.jupyter.org/github/jrjohansson/numerical-python-book-code/blob/master/ch04-code-listing.ipynb), Robert Johansson.
-    * _pandas_: Reference for the [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
-    * _matplotlib_: [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Plotting and Visualization](http://nbviewer.jupyter.org/github/jrjohansson/numerical-python-book-code/blob/master/ch04-code-listing.ipynb), Robert Johansson.
-    * _seaborn_: [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html).
+    * Pandas: [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
+    * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
 * **[Assignments](https://github.com/harris-ippp/04-pandas/blob/master/README.md)**: Pandas and python.  Problem statement [here](https://github.com/harris-ippp/04-pandas/blob/master/README.md).
 
-## Week 5: Relational Databases
+## Week 6: Relational Databases
 
-### Relational Databases
-What is Structured Query Language (SQL)?  Motivations, use cases.
-Data types.  Creating, selecting, updating, dropping, and joining in SQLite.
-Database design: primary keys, triggers, and uniqueness and redundancy.
-Precomputation revisited.
+(Drop to save GIS, or decompress week 9?  Or save since they want it?)
 
-### Creating and Querying a Simple Database
-Importing data.  Aggregation with group; ordering and limiting.  Python interface: `sqlite3`.
+1. Relational databases and Structured Query Language (SQL).
+   Selecting.
+   Data types.
+   Pandas integration.
+2. Aggregation in SQL and Pandas: `group by`, `order by`, `limit`, `max`, `avg`, etc.
 
 * **Slides**: [SQL](https://github.com/harris-ippp/lectures/blob/master/05/sql.pdf), see also the [examples](https://github.com/harris-ippp/lectures/tree/master/05/ex) directory.
 * **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html) and [sqlalchemy](http://docs.sqlalchemy.org/en/latest/orm/tutorial.html) tutorial.
 * **[Assignments](https://github.com/harris-ippp/05-sql/blob/master/README.md)**: query data on the American Time Use Survey.  Create a salaries database.  Plot through pandas.
 
-## Week 6: Static Websites and Web Scraping
+## Week 7: Reading and Scraping Static Websites; Querying APIs
 
-### The interwebs: pipes and tubes.
-The Internet and the world wide web.
-Servers and the cloud; Apache, nginx, etc.
-The HTTP protocol (there are others)!
-Cascading style sheets.
-
-### RESTful APIs, Scraping.
+1. Reading and scraping html.  Beautiful Soup.  HTTP requests.  School data.
+2. RESTful APIs and hidden APIs: Census, weather, and health.
+3. The Internet and the world wide web (time-permitting).
 
 * **Slides**: [The Internet, the Web, and HTML](https://github.com/harris-ippp/lectures/blob/master/06/web_html.pdf), [APIs and Scraping](https://github.com/harris-ippp/lectures/blob/master/06/resources.pdf).
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
-    * See the w3schools references for [html](http://www.w3schools.com/html/default.asp), [css](http://www.w3schools.com/css/default.asp}{CSS}, and [bootstrap](http://www.w3schools.com/bootstrap/).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
-* **[Assignments](https://github.com/harris-ippp/06-web/blob/master/README.md)**: Create a simple but professional personal website with at least three sections, and post it to [home.uchicago.edu](http://home.uchicago.edu) (or wherever).  Assemble data from the Virginia elections site.
+* **[Assignments](https://github.com/harris-ippp/06-web/blob/master/README.md)**: Assemble data from the Virginia elections site.
 
-## Week 7: Dynamic Websites
+## Week 8: Statistical Tools and Dashboards.
+1. Scipy statistical tests.  Statsmodels -- regressions from data
+2. Dashboards with Plotly.
 
-### Dynamic websites and Django
-Dynamic versus static sites: python WSGI, php, cgi, and javascript.
-Setting up the test server, and getting your files from week 7 in place.
-Simple templates and responses.
+* **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
 
-### Django: Responding to Queries
-Models.  
-Get and post revisited.
-Incorporating other python modules, and displaying plots.
+## Week 9: Large-Scale Example -- Weather and Crime
 
-* **Readings**: The [Django Tutorial](https://docs.djangoproject.com/en/1.9/intro/) and [Using Web Frameworks for Scientific Applications](http://hplgit.github.io/web4sciapps/doc/pub/web4sa_plain_all.html#wf:vib:django), Hans Petter Langtangen.
-* **Assignments**: Create a django application to (a) load your website from last week, (b) perform a simple calculation, and (c) present a configurable scatter plot using the SQLite database created in week 5.
+## Week 10: Geographic Information Systems (Time Permitting)
+1. Introduction to GIS in GeoPandas.  Shapefiles and data -- what's available?
+   Making a map: projections and coordinate reference systems.
+2. Spatial joins and aggregation.
 
-## Week 8: Geographic Information Systems
-
-### Introduction to GIS
-Shapefiles and data -- what's available?
-Working with the QGIS GUI: importing, merging, filtering, and clipping vector layers.
-Projections and coordinate reference systems.
-Postgres and merging.
-
-### GeoPandas, shapely, and folium: scripting and interactive plotting.
-
-* **Readings**: 
-    * QGIS: [QGIS Basics For Journalists](https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/), Len De Groot; and the [QGIS Tutorial](http://www.qgistutorials.com/en/index.html).
-    * Python GIS: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
-* **Assignment**: make an attractive map for one field profiled by tract for the entire US.  Make a PDF.  Detailed tutorial provided.
-
-## Week 9: Maximizing the Power of Your Data: Multivariate Discrimination
-
-### Theory and context.
-Understanding errors versus optimizing results, and their interplay.
-Multilayer perceptrons, decision trees, and likelihoods.
-Overtraining. Deep and shallow learning.
-
-### Implementation.
-Creating and understanding a (very) simple multilayer perceptron
-
-* **Readings**: [Neural Networks for Pattern Recognition](https://www.amazon.com/Networks-Pattern-Recognition-Advanced-Econometrics/dp/0198538642), Christopher Bishop (fine, this is a book); Statistical Data Analysis, Glen Cowan.  [Supervised Machine Learning: A Review of Classification Techniques](http://www.informatica.si/index.php/informatica/article/download/148/140), S. B. Kotsiantis.
-* **Assignment**: None -- time for final project!
-
-## Week 10 and Finals: Project presentations (to be finalized).
-
-
+* **Readings**: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
+* **Assignment**: finish your final project!!!
 
