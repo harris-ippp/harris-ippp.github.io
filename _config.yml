@@ -1,6 +1,7 @@
 title: Introduction to Programming for Public Policy (30550)
-author: James Saxon
-author_email: jsaxon@uc
+author:
+  name: James Saxon
+  email: jsaxon@uchicago.edu
 description: "Class Syllabus "
 google_analytics: 
 show_downloads: true
