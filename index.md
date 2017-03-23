@@ -9,28 +9,35 @@ header-includes:
 ---
 
 * Contact: James Saxon ([jsaxon@uchicago.edu](mailto:jsaxon@uchicago.edu)), TAs (2017 TBD)
-* Discussion Board: [Piazza](https://piazza.com/uchicago/fall2016/ppha30550) – please use!
+* Discussion Board: [Chalk](https://chalk.uchicago.edu/).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, MW 9-10:20am; Section 2: MW 1:30-2:50
 * Lab Sessions: Thursday and Friday afternoons, time TBD.
 
 # Course Aims
-The past five to ten years have witnessed an explosion in both the collection of ‘big data,’ and the sophistication and accessibility of the tools required to analyze that data. This has spurred government agencies and policy analysts to develop novel, data-driven approaches to policy creation and evaluation.
+The past decade has witnessed an explosion in the collection of ‘big data,’ and the sophistication and accessibility of the tools required to analyze those data.
+This has spurred government agencies and policy analysts to embrace novel, data-driven approaches to policy creation and evaluation.
+Yet this development remains hesitant: analysts often rely on pre-processed data for their decisions.
 
-This is an introductory course in programming and data analysis for public policy students with no prior coding experience. It is for anyone who wants to gather, explore, and share quantitative data – or work with others who do. The course has three goals:
+This is an introductory course in programming and data analysis for public policy students with no prior coding experience;
+ it is the first in Harris's new data science sequence.
+It is for anyone who wants to gather, explore, and share raw quantitative data – or work with others who do.
+The course has three goals:
 
-1. Early on, students will learn to think algorithmically using self-contained problems in python.
-2. We will then cover tools and recipes for retrieving, cleaning, visualizing, and analyzing data. This will include:
-    * The command line. It is the ‘standard’ interface to computers for programmers. We’ll cover how to navigate it and use its many tools.
-    * Coding in python: fundamentals of the language including types, control, functions and classes, input/output, complexity theory, debugging. Students will learn to turn a question into a python program.
-    * Fundamentals of data science libraries (toolkits) including pandas and geopandas, plotting with matplotlib and seaborn, and basic analysis with scikit-learn.
-    * Basics of relational databases – one of the most powerful ways of storing, accumulating, combining, and accessing data.
-    * Basic web development: simple websites and an introduction to dynamic sites.
-    * Creating datasets and accessing available data: scraping web data and using APIs.
-    * Geographic Information Systems (GIS): representing your data in beautiful maps.
-    * Large projects depend on many people working together on the same code. Version control (now git) makes this possible. Students will use it to submit all work, and to collaborate on several assignments.
-3. Ultimately, students should be comfortable applying skills for research at Harris and beyond, and confident independently exploring new packages for further projects. They should know enough to work with and direct engineers for the projects that they need, and they should understand the potential of such work.
+1. We will first introduce students to the basic tools required to write and share: text editors, the command line, and version control (git).
+2. Students will learn to think algorithmically using self-contained problems in python: to turn a question into a python program.
+   We will cover the fundamentals of the language including types, control, functions, input/output, and scripts.
+   We will touch on debugging and (time-permitting) computability.
+3. We will then cover tools and recipes for retrieving, cleaning, visualizing, and analyzing data. 
+    * Data science libraries: manipulating data with pandas, plotting with matplotlib and plotly, and running basic statistical and geographical analysis (GIS).  The pandas structures resemble R, and are a useful groundwork for the second course in this series.
+    * Relational databases (SQL): selecting and aggregating data from databases.
+    * Web scraping and APIs: how to retrieve and use public data from the web.
 
-Throughout we’ll emphasize good practices for collaborative code development and strive to de- mystify computers, the internet, and open source software. Particularly after the first weeks, we’ll highlight how these skills apply to evaluating and improving policy.
+Ultimately, students should be comfortable using what they've learned in further Harris/Chicago courses in programming, statistics, and Policy Lab -- and in research after leaving Harris.
+They should be confident independently exploring new packages for further projects.
+They should know enough to productively collaborate on projects with engineers, and understand the potential of such work.
+
+Throughout we’ll emphasize good practices for collaborative code development and strive to de- mystify computers, the internet, and open source software.
+Particularly after the first weeks, we’ll highlight how these skills apply to evaluating and improving policy.
 
 
 
@@ -49,57 +56,34 @@ Seeing the material multiple times will help -- so please use these resources!!
 # Assignments and Grading 
 ## Weekly assignments (70%)
 Assignments will be posted on the class GitHub site at least one week before they are due.
-I will de-weight the lowest grade by one half.
-The first week's assignment will be graded only for completeness.
+Work will be collected through Chalk and GitHub, so get a student account [here](https://education.github.com/pack).
+The first week's assignment will be graded only for completeness, and I will de-weight the lowest grade by one half.
 Each subsequent assignment will be assessed on: 
 
-* Correctness (60%): does it give the 'right' answer and behave 'correctly' (no crashing or hanging)?
-* Style (30%): is the code commented and organized in a reasonable way?  Is the output visually appealing and clear?  Do all plot axes have meaningful, readable labels with units?
-* Performance (10%): does it execute in a reasonable amount of time?
-Since the parts of an assignment may be cumulative, it is _strongly_ advised to review and start the assignments early, so you can get help through Piazza or at office hours if you get stuck.  Assignments will be collected through GitHub, so get a student account [here](https://education.github.com/pack).
+* **Correctness (60%)**: Most questions will be evaluated directly on chalk.  In some cases you will have to submit plots, etc. to GitHub.
+* **Style and performance (40%)**: A TA will review your code from GitHub. 
+  An automatic script will collect work at 1:30am, Wednesday morning.
+  _You are responsible for ensuring that your push was sucessful._
+  A per-question rubric out of 4 is as follows:
+    0. No apparent effort -- the code is absent or effectively incomplete.
+    1. A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
+    2. The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.
+    3. The answer is correct and the code is readable.
+    4. The code is clear, the solution correct, and the commenting appropriate.  If relevant, it runs "quickly."
 
-An automatic script will collect work at 1:30am, Wednesday morning.
-Since we may review challenging parts of the homeworks in class on Wednesday.
-_You are responsible for checking GitHub online, that your push was sucessful._
 
+Since we may review challenging parts of the homeworks in class on Wednesday,
+  late work submitted within one week will count for 80%; notify the TAs to 'pull' it when it is complete.
 You must complete eight out of the nine assignments to pass the course.
-Late work submitted within one week will count for 80%; notify the TAs to 'pull' it when it is complete.  
 
 ## Final Projects (30%) 
-Working in groups of two or three, students will create a small web application to interactively present data that they have gathered.
-Students will choose a subject and propose the functionality to me by November 9.
-That proposal should identify data sources, specify a 'baseline' functionality, and describe several extensions.
-(You can consider, for instance [this proposal](http://cfss.uchicago.edu/ACS_final.html) from an earlier version of this class.)
 
-### Due Date
+Working in pairs, students will ask a simple policy question.
+To answer it they will identify at least two disjoint data sources, merge them,
+perform a simple but correct statistical analysis
+and create a simple (but possibly dynamic) dashboard to illustrate this.
 
-Each group will make a five minute presentation of their work (+ 2 minutes for questions) -- the question they sought to ask, the data, the structure of their code and challenges, and basic functionality of their site -- on **November 30**.  Of course, you're welcome to form groups between the two sections, but I do want all group members to participate in the presentation.  Please arrange yourself to attend one of the sessions; I will send a sign-up, to make sure we don't load too heavily to one class.
-
-By midnight **December 2nd**, all code must be definitively checked in, with a README for launching and using the site, mirroring the class presentation (questions, data sources, code structure, site layout).  Please send me a link to your code repositories well in advance.
-
-### The baseline
-
-* Your app must include data from at least two sources, which you will specify to me by Wednesday November 9.  I am much more interested in projects that start from some sort of a "question" and that take the merge seriously.  It is not enough to plot dots representing one type of incident on a choropleth map from another source.
-    * Scour the web for city, state, federal, and foreign data portals, BLS, Census, Twitter, or any NGOs that you know.  I'd love to learn about new datasets! 
-* You _may_ merge the data once and save it as CSV file (`df.to_csv()`).  Alternatively, if it is feasible and fast, you can use only the existing sources (no cached data).  
-* Write at least one function that use the data to make plots or maps.  Varying the inputs (for instance, the variable or the sample) should give me diverse outputs.  In other words: there should be some sort of changeable parameters/selection/menu.
-* Integrate that function into a lightweight web application, in Django.  I should be able to navigate around and see a set of nice-looking plots through matplotlib or seaborn.
-* The website should look nice.
-
-### Suggested extensions
-* I would like you to build a sqlite database from the two sources, and load your data from SQL in your functions.
-* The more I can vary your input, the better.  The more meaningful your plots, the better.
-* If you want to do some real statistics or analysis, I'd love to see it.
-* Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.
-
-### Grading
-The grading rubric will be modified to benefit ambitious projects:
-
-* Scope (20%): how many of the extensions did the group complete?  How much does the application do?
-* Correctness (25%): is the baseline functionality fully delivered, bug-free?
-* Style (25%): are the front-end and code both manageable?
-* Performance (15%): is the site 'snappy?'
-* Documentation (15%): is the class presentation engaging and interesting?  Does the README actually make it possible to understand how to find your data and run your site?
+Please see [final](https://harris-ippp.github.io/final) for full details on the project, and due dates.
 
 # Where to Work / How to Compute
 
