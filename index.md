@@ -3,6 +3,7 @@ title: Introduction to Programming for Public Policy
 author: James Saxon (jsaxon@uchicago.edu)
 ---
 
+* Contact: James Saxon (jsaxon@uchicago.edu)
 * Discussion Board: [Piazza](https://piazza.com/uchicago/fall2016/ppha30550) – please use!
 * Meeting Day/Time: Section 1, MW 9-10:20am; Section 2: MW 1:30-2:50
 * Office Hours: Friday afternoon, TBD.
