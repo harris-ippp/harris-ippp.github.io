@@ -65,11 +65,11 @@ Each subsequent assignment will be assessed on:
   An automatic script will collect work at 1:30am, Wednesday morning.
   _You are responsible for ensuring that your push was successful._
   A per-question rubric out of 4 is as follows:
-    0. No apparent effort -- the code is absent or effectively incomplete.
-    1. A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
-    2. The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
-    3. The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but very well-commented.
-    4. The code is clear, the solution correct, and the commenting appropriate.  If relevant, it runs "quickly."
+    * 0: No apparent effort -- the code is absent or effectively incomplete.
+    * 1: A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
+    * 2: The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
+    * 3: The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but very well-commented.
+    * 4: The code is clear, the solution correct, and the commenting appropriate.  If relevant, it runs "quickly."
 
 
 Since we may review challenging parts of the homeworks in class on Wednesday,
