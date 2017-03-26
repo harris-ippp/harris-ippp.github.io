@@ -16,7 +16,6 @@ header-includes:
 # Course Aims
 The past decade has witnessed an explosion in the collection of ‘big data,’ and the sophistication and accessibility of the tools required to analyze those data.
 This has spurred government agencies and policy analysts to embrace novel, data-driven approaches to policy creation and evaluation.
-Yet this development remains hesitant: analysts often rely on pre-processed data for their decisions.
 
 This is an introductory course in programming and data analysis for public policy students with no prior coding experience;
  it is the first in Harris's new data science sequence.
@@ -57,7 +56,7 @@ Seeing the material multiple times will help -- so please use these resources!!
 ## Weekly assignments (70%)
 Assignments will be posted on the class GitHub site at least one week before they are due.
 Work will be collected through Chalk and GitHub, so get a student account [here](https://education.github.com/pack).
-The first week's assignment will be graded only for completeness, and I will de-weight the lowest grade by one half.
+The first week's assignment will be graded only for completeness, and I will downweight the lowest grade by one half.
 Each subsequent assignment will be assessed on: 
 
 * **Correctness (60%)**: Most questions will be evaluated directly on chalk.  In some cases you will have to submit plots, etc. to GitHub.
@@ -68,8 +67,10 @@ Each subsequent assignment will be assessed on:
     * 0: No apparent effort -- the code is absent or effectively incomplete.
     * 1: A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
     * 2: The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
-    * 3: The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but very well-commented.
-    * 4: The code is clear, the solution correct, and the commenting appropriate.  If relevant, it runs "quickly."
+    * 3: The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but well-commented.
+    * 4: The code is readable and idiomatic (pythonic), and employs the functionality covered in class to succinctly solve the problem.
+         The are are no bugs -- the solution is correct.
+         The commenting is appropriate.  If relevant, it runs "quickly."
 
 
 Since we may review challenging parts of the homeworks in class on Wednesday,
