@@ -143,7 +143,7 @@ You MUST come to one of the three TA sessions to get any help or,
   if none of the three are possible,
   contact me or the TAs.**
 I understand that computer mishaps happen,
-  but one-on-one installation tech support after the first week is at the prerogative of the TAs.
+  but one-on-one installation tech support after the first week is at the discretion of the TAs.
 
 1. Welcome to the course: expectations and case studies of effective use of data in transforming public policy decisions.
    Navigating the command line.
