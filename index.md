@@ -53,7 +53,7 @@ This said, two of the O'Reilly books are very good and happen to be available el
 Seeing the material multiple times will help -- so please use these resources!!
 
 # Assignments and Grading 
-## Weekly assignments (70%)
+## Weekly assignments (65%)
 Assignments will be posted on the class GitHub site at least one week before they are due.
 Work will be collected through Chalk and GitHub, so get a student account [here](https://education.github.com/pack).
 The first week's assignment will be graded only for completeness, and I will downweight the lowest grade by one half.
@@ -64,27 +64,45 @@ Each subsequent assignment will be assessed on:
   An automatic script will collect work at 1:30am, Wednesday morning.
   _You are responsible for ensuring that your push was successful._
   A per-question rubric out of 4 is as follows:
-    * 0: No apparent effort -- the code is absent or effectively incomplete.
-    * 1: A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
-    * 2: The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
-    * 3: The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but well-commented.
-    * 4: The code is readable and idiomatic (pythonic), and employs the functionality covered in class to succinctly solve the problem.
-         The are are no bugs -- the solution is correct.
+    0. No apparent effort -- the code is absent or effectively incomplete.
+    1. A clear start has been made but the code hangs, crashes or otherwise provides an incomplete answer.
+    2. The code is largely complete but gets the wrong answer.  Readily identifiable modifications would result in a working solution.  Commenting is absent or not meaningful.
+    3. The answer is correct and the code is readable but uncommented *OR* it is plagued by a single small error but well-commented.
+    4. The code is readable and idiomatic (pythonic), and employs the functionality covered in class to succinctly solve the problem.
+         The are no bugs -- the solution is correct.
          The commenting is appropriate.  If relevant, it runs "quickly."
 
 
 Since we may review challenging parts of the homeworks in class on Wednesday,
   late work submitted within one week will count for 80%; notify the TAs to 'pull' it when it is complete.
-You must complete eight out of the nine assignments to pass the course.
+You must complete (make a concerted effort) on eight of the nine assignments to pass the course.
+(This includes pass/fail students.)
 
 
-## Final Projects (30%) 
+## Final Projects (25%) 
 
 Working in pairs, students will ask a simple policy question.
 To answer it they will identify at least two disjoint data sources, merge them,
 perform a simple but correct statistical analysis
 and create a simple (but possibly dynamic) dashboard to illustrate this.
 See [final](https://harris-ippp.github.io/final) for full details and due dates.
+A proposal including a dataset and a question is due in Week 5 (October 31).
+
+## Participation (10%)
+
+I hope that you will actively use the discussion board.
+Asking questions in a public forum means that I and the TAs do not have to answer the same questions repeatedly.
+It gives your classmates an opportunity to answer the questions.
+Asking good questions is an important and demanding skill.
+You will receive credit both for questions that demonstrate effort,
+  as well as for answering your classmates.
+
+## Curve
+
+I expect to follow the standard Harris curve: 1/8 A, 1/4 A-, 1/4 B+, 1/4 B, 1/8 B-.
+If I feel that it better maps the effort of the class, I may instead adopt
+  1/6 A, 1/3 A-, 1/6 B+, 1/6 B, 1/6 B-,
+  which is more generous almost everywhere.
 
 ## Plagiarism policy.
 
@@ -116,6 +134,16 @@ You **must** get the help you need at that point -- we won't provide this suppor
 # Weekly Schedule
 
 ## Week 1: Welcome to the Course -- and to the Command line!
+
+The first class is the only one for which there will be no live demos.
+The homework assignment requires that your installation is complete.
+There will be an additional TA session in the first week (on Tuesday) to assist with this.
+**It is absolutely required that your installation work.
+You MUST come to one of the three TA sessions to get any help or,
+  if none of the three are possible,
+  contact me or the TAs.**
+I understand that computer mishaps happen,
+  but one-on-one installation tech support after the first week is at the prerogative of the TAs.
 
 1. Welcome to the course: expectations and case studies of effective use of data in transforming public policy decisions.
    Navigating the command line.
@@ -169,7 +197,7 @@ You **must** get the help you need at that point -- we won't provide this suppor
 * **Readings**:
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
     * Asking for help.  Eric Steven Raymond wrote an important (though somewhat snarky) piece on [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#intro), to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!
-* **[Assignments](https://github.com/harris-ippp/03-sudoku/blob/master/README.md)**:  Solve Tic Tac Toe.  Students will work in groups of up to three to implement the computer's strategy for tic tac toe.  [Assignment description](https://github.com/harris-ippp/03-sudoku/blob/master/README.md) and [repositories](https://classroom.github.com/assignment-invitations/acb6c296950cc73142b3ba923b8a35fc).
+* **[Assignments](https://github.com/harris-ippp/03-sudoku/blob/master/README.md)**:  Solve Tic Tac Toe.  Students will work in pairs to implement the computer's strategy for tic tac toe.  [Assignment description](https://github.com/harris-ippp/03-sudoku/blob/master/README.md) and [repositories](https://classroom.github.com/assignment-invitations/acb6c296950cc73142b3ba923b8a35fc).
 
 ## Week 5: Pandas introduction and file formats.
 
@@ -186,21 +214,7 @@ Data Visualization with Python: matplotlib and pandas
     * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
 * **[Assignments](https://github.com/harris-ippp/04-pandas/blob/master/README.md)**: Pandas and python.  Problem statement [here](https://github.com/harris-ippp/04-pandas/blob/master/README.md).
 
-## Week 6: Relational Databases
-
-(Drop to save GIS, or decompress week 9?  Or save since they want it?)
-
-1. Relational databases and Structured Query Language (SQL).
-   Selecting.
-   Data types.
-   Pandas integration.
-2. Aggregation in SQL and Pandas: `group by`, `order by`, `limit`, `max`, `avg`, etc.
-
-* **Slides**: [SQL](https://github.com/harris-ippp/lectures/blob/master/05/sql.pdf), see also the [examples](https://github.com/harris-ippp/lectures/tree/master/05/ex) directory.
-* **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html) and [sqlalchemy](http://docs.sqlalchemy.org/en/latest/orm/tutorial.html) tutorial.
-* **[Assignments](https://github.com/harris-ippp/05-sql/blob/master/README.md)**: query data on the American Time Use Survey.  Create a salaries database.  Plot through pandas.
-
-## Week 7: Reading and Scraping Static Websites; Querying APIs
+## Week 6: Reading and Scraping Static Websites; Querying APIs
 
 1. Reading and scraping html.  Beautiful Soup.  HTTP requests.  School data.
 2. RESTful APIs and hidden APIs: Census, weather, and health.
@@ -211,6 +225,19 @@ Data Visualization with Python: matplotlib and pandas
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 * **[Assignments](https://github.com/harris-ippp/06-web/blob/master/README.md)**: Assemble data from the Virginia elections site.
+
+
+## Week 7: Relational Databases
+
+1. Relational databases and Structured Query Language (SQL).
+   Selecting.
+   Data types.
+   Pandas integration.
+2. Aggregation in SQL and Pandas: `group by`, `order by`, `limit`, `max`, `avg`, etc.
+
+* **Slides**: [SQL](https://github.com/harris-ippp/lectures/blob/master/05/sql.pdf), see also the [examples](https://github.com/harris-ippp/lectures/tree/master/05/ex) directory.
+* **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html).
+* **[Assignments](https://github.com/harris-ippp/05-sql/blob/master/README.md)**: query data on the American Time Use Survey.  Create a salaries database.  Plot through pandas.
 
 ## Week 8: Statistical Tools and Dashboards.
 1. Scipy statistical tests.  Statsmodels -- regressions from data
