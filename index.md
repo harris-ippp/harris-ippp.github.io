@@ -117,7 +117,7 @@ If you find more than a single line/method, you should attribute the source in y
 # Where to Work / How to Compute
 
 Part of the overhead to doing computation is getting the software running.
-Students are therefore encouraged to install the software required for the class on their personal laptops.
+Students will therefore install the software required for the class on their personal laptops.
 This will enable them to straightforwardly continue using the skills that they develop, when the quarter is over.
 
 You will need the command line ([cygwin](https://www.cygwin.com/) on PCs, Terminal on Mac),
