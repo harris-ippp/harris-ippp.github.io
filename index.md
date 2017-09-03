@@ -53,7 +53,7 @@ This said, two of the O'Reilly books are very good and happen to be available el
 Seeing the material multiple times will help -- so please use these resources!!
 
 # Assignments and Grading 
-## Weekly assignments (65%)
+## Weekly assignments (70%)
 Assignments will be posted on the class GitHub site at least one week before they are due.
 Work will be collected through Chalk and GitHub, so get a student account [here](https://education.github.com/pack).
 The first week's assignment will be graded only for completeness, and I will downweight the lowest grade by one half.
@@ -88,7 +88,7 @@ and create a simple (but possibly dynamic) dashboard to illustrate this.
 See [final](https://harris-ippp.github.io/final) for full details and due dates.
 A proposal including a dataset and a question is due in Week 5 (October 31).
 
-## Participation (10%)
+## Participation (5%)
 
 I hope that you will actively use the discussion board.
 Asking questions in a public forum means that I and the TAs do not have to answer the same questions repeatedly.
