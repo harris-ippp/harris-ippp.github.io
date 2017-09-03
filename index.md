@@ -185,11 +185,11 @@ I understand that computer mishaps happen,
 * **Assignment**: More Project Euler type problems.
 
 
-## Week 4: Scripts and an example from Athens.
+## Week 4: Scripts: Putting it Together
 
 1. Scripts revisited: programs, arguments, and reusable code.
    Fixing your code: debugging and asking questions.
-2. A large-scale example: Athenian Taxes.
+2. A large example: networks and inequality.
 3. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
 * **Slides**:
