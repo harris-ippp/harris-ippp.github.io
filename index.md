@@ -162,13 +162,14 @@ I understand that computer mishaps happen,
 
 ## Week 2: Introduction to Python
 
-1. First steps with python: data types and operations
-   A first shell script.
+1. First steps with python.
+   A first shell script, reviewed.
    Syntax and semantics of the language; comments.
    Introduction of the standard data types and operations:
    `int`, `float`, `string`, `dict`, `list`, etc.
 2. Basic formal logic: if, not, and, & or.
    Control statements (`if`, `else`, `break`, `continue`) and iterating with `for` and `while` loops.
+   List Comprehension.
 
 * **Slides**:  [Python starter/scripts](https://github.com/harris-ippp/lectures/blob/master/01/01b_python.pdf), [Simple Program Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Simple%20Program.ipynb), [Variables and Types Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Variables%20and%20Types.ipynb), [Control Statements](https://github.com/harris-ippp/lectures/blob/master/02/Control.ipynb).
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
@@ -176,21 +177,19 @@ I understand that computer mishaps happen,
 
 ## Week 3: List comprehension; functions, classes, and libraries.
 
-1. List Comprehension.
-2. Functions: parameters, defaults, and return values.  Scope.
-   Classes and libraries: imports and member functions.
+1. Functions: parameters, defaults, and return values.  Scope.
+   Member functions, classes and libraries.
+2. Reading in data.  Scripts revisited: programs, arguments, and reusable code.
+3. Fixing your code: debugging and asking questions.
 
 * **Slides**: [List comprehension](https://github.com/harris-ippp/lectures/blob/master/03/list_comprehension.pdf), [file formats](https://github.com/harris-ippp/lectures/blob/master/03/files.pdf), [Functions, Classes and Modules](https://github.com/harris-ippp/lectures/blob/master/02/Functions%2C%20Classes%2C%20and%20Modules.ipynb).
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
-* **Assignment**: More Project Euler type problems.
-
+* **Assignment**: More Project Euler and Turtle type problems.
 
 ## Week 4: Scripts: Putting it Together
 
-1. Scripts revisited: programs, arguments, and reusable code.
-   Fixing your code: debugging and asking questions.
-2. A large example: networks and inequality.
-3. Complexity (time permitting): big-O notation, computability, and pre-computation.
+1. A large example: networks and inequality.
+2. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
 * **Slides**:
 [debugging](https://github.com/harris-ippp/lectures/blob/master/03/debugging.pdf), and [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
@@ -203,10 +202,8 @@ I understand that computer mishaps happen,
 
 Data Visualization with Python: matplotlib and pandas
 
-1. Pandas data types.
-   Data frames, series.  Basic exploration, slicing and plots.
-2. Reading basic files.
-   Complex data imports: csv and json files.
+1. Pandas data types.  Data frames, series.  
+2. Reading basic files.  Basic exploration, slicing and plots.
 
 * **Slides**: [Introduction to Pandas](https://github.com/harris-ippp/lectures/blob/master/04/Introduction%20to%20Pandas.ipynb), [Worked Examples](https://github.com/harris-ippp/lectures/blob/master/04/Examples%2C%20and%20Some%20More%20Features.ipynb).
 * **Readings**
