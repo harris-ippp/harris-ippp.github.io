@@ -154,7 +154,7 @@ I understand that computer mishaps happen,
 * **Slides**: [Welcome](https://github.com/harris-ippp/lectures/blob/master/01/01a_welcome.pdf), bash, [Git](https://github.com/harris-ippp/lectures/blob/master/01/01b_git.pdf).
 * **Readings**: 
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
-    * Shell: [Learning the Shell](http://linuxcommand.org/learning\_the\_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
+    * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
     * Data and Technology in Government: [Innovative State](https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/) (Aneesh Chopra), and [The Responsive City](https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/) (Stephen Goldsmith and Susan Crawford).
 * **[Assignment](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b)**: Ensure that your installation is complete by running [this script](https://github.com/harris-ippp/01-welcome).
   Command line fu: answer some basic questions about crime and salaries in Chicago.
