@@ -80,11 +80,11 @@ But I particularly enjoy seeing foreign datasets.
   * Virginia [returns](http://historical.elections.virginia.gov/elections/search/year_from:1924/year_to:2016/office_id:1/stage:General) and [maps](https://github.com/vapublicaccessproject/va-precinct-maps-2016)  (Actually, I've fixed those maps...)
   * [Minnesota](https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020) 
   * [Wisconsin](http://data-ltsb.opendata.arcgis.com/datasets/e702e29dbdf74d3b8b153c06fac2c721_0)
-Stocks
+* [FBI Unified Crime Reports](https://crime-data-explorer.fr.cloud.gov/api) ... to complete the crime spree
+* Stocks: These are constantly breaking (Google and Yahoo just did).  But check out [Bloomberg](https://www.bloomberg.com/professional/support/api-library) and you can look around for a way to hack google finance.  As Harris students, you also have access to the Bloomberg terminal in the basement...
 * [World Bank Development Indicators](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)
 * [Integrated Public Use MicroSamples](https://usa.ipums.org/usa/) -- standardizes data across many Censuses and the ACS.  Great for time series or old data.
 * [google maps](https://developers.google.com/maps/documentation/) -- they have APIs for elevations (biking!?), travel times (isolation?), distances, geolocation, etc.
-* [FBI Unified Crime Reports](https://crime-data-explorer.fr.cloud.gov/api) ... to complete the crime spree
 * [National Longitudinal Study of Youth](https://www.nlsinfo.org/content/cohorts) -- one of the great datasets of all time, but it can be a lot to bite off.
 * [WHO Global Health Observatory](http://apps.who.int/gho/data/node.home)
 * [National Center for Education Statistics](https://nces.ed.gov/): [CollegeScorecard](https://collegescorecard.ed.gov/data/) (not an API, but the superficial information is trivially extractable), [Common Core Data](https://nces.ed.gov/ccd/), [High School Longitudinal Study](https://nces.ed.gov/surveys/hsls09/), [Drop out rates](https://nces.ed.gov/ccd/drpcompstatelvl.asp), [National Assessment of Educational Progress](https://nces.ed.gov/nationsreportcard/naepdata/)
