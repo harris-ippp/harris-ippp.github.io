@@ -46,3 +46,56 @@ The grading rubric will be modified to benefit ambitious projects:
 * Style (20%): are the front-end and code both navigable?
 * Documentation (20%): is the presentation in the data palooza functional and engaging?  Does the README actually make it possible to understand how to find your data and run your site? 
 
+## Datasets for Inspiration
+
+Please go hunting for dataset that interest you.
+In the past, students have come up with really great datasets from their home countries.
+My suggestions below are super US-centric ones that I've used recently.
+But I particularly enjoy seeing foreign datasets.  
+
+* US Census APIs and Geographies
+  * [American Community Survey](https://www.census.gov/data/developers/data-sets/acs-5year.html) 5-year estimates.  This is my go-to for demographic data at very good granularity
+  * [Decennial Census](https://www.census.gov/data/developers/data-sets/decennial-census.html) is somewhat more precise for ethnic/racial and breakdowns, but the data are less rich.
+  * [Health Insurance Statistics](https://www.census.gov/data/developers/data-sets/Health-Insurance-Statistics.html)
+  * [City SDK](https://uscensusbureau.github.io/citysdk/) -- from what I can tell, a slightly less-good version of the Census API.
+  * Also Check out [TIGER](https://www.census.gov/geo/maps-data/data/tiger.html) for mapping.
+* Bureau of Labor Statistics: [main page](https://www.bls.gov/data/) and [python example](https://www.bls.gov/developers/api_python.htm).  Let me know if you use this, and I have examples...
+  * [American Time Use Survey](https://www.bls.gov/tus/) -- we used it in class.
+* Weather Underground [historical data](https://www.wunderground.com/weather/api/d/docs?d=data/history) has a fantastic, free API for current and historical data.
+* City Data portals:
+  - [Chicago](): Crime, DIVVY, Grocery Stores
+City portals  Chicago, NYC, etc.
+  - DIVVY
+Illinois Schools
+World Health health-data.org
+Twitter
+Elections v. demographics
+  - Louisiana, North Carolina, Virginia, Minnesota, Wisconsin
+Stocks
+
+World Bank Development Indicators: 
+https://datahelpdesk.worldbank.org/knowledgebase/topics/125589
+IPUMS
+
+google map APIs -- elevations, travel time
+
+migration
+
+FBI UCT
+https://crime-data-explorer.fr.cloud.gov/api
+
+NLSY
+
+WHO Global Health Observatory http://apps.who.int/gho/data/node.home
+
+Education
+https://collegescorecard.ed.gov/data/
+https://nces.ed.gov/surveys/hsls09/
+https://nces.ed.gov/ccd/
+Drop-out rates : https://nces.ed.gov/ccd/drpcompstatelvl.asp
+
+National Assessment of Educational Progress
+https://nces.ed.gov/nationsreportcard/naepdata/
+
+Migration -- LODES, etc
+
