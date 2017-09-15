@@ -61,31 +61,32 @@ But I particularly enjoy seeing foreign datasets.
   * [Migration flows](https://www.census.gov/data/developers/data-sets/acs-migration-flows.html)
   * Commuting patterns: [LODES](https://lehd.ces.census.gov/data/)
   * Also Check out [TIGER](https://www.census.gov/geo/maps-data/data/tiger.html) for mapping.
+* [National Longitudinal Study of Youth](https://www.nlsinfo.org/content/cohorts) -- one of the great datasets of all time, but it can be a lot to bite off.
+* [Integrated Public Use MicroSamples](https://usa.ipums.org/usa/) -- standardizes data across many Censuses and the ACS.  Great for time series or old data.
 * Bureau of Labor Statistics: [main page](https://www.bls.gov/data/) and [python example](https://www.bls.gov/developers/api_python.htm).  Let me know if you use this, and I have examples...
   * [American Time Use Survey](https://www.bls.gov/tus/) -- we used it in class.
-* Weather Underground has a [fantastic, free API](https://www.wunderground.com/weather/api/d/docs?d=data/history) for current and historical weather data.
 * City Data portals (I looked at a bunch of crime, whence the slant... but it's legitimately one of the more interesting datasets that they release)
   * [Chicago](https://data.cityofchicago.org/): [Salaries](https://data.cityofchicago.org/Administration-Finance/Budget-2017-Budget-Ordinance-Positions-and-Salarie/x94i-grxu), [Crime](https://data.cityofchicago.org/view/5cd6-ry5g), [DIVVY trips](https://data.cityofchicago.org/Transportation/Divvy-Trips-Dashboard/u94x-unre), [Grocery Stores](https://data.cityofchicago.org/Community-Economic-Development/Grocery-Stores-2013/53t8-wyrc/data), [CTA Ridership](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7/data)
   * [New York](https://data.cityofnewyork.us/browse?provenance=official&sortBy=most_accessed&utf8=%E2%9C%93): e.g., [Crime](https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7), 
   * [Philadelphia](https://www.opendataphilly.org/dataset): [Crime](https://www.opendataphilly.org/dataset/crime-incidents), [Traffic Cameras](https://www.opendataphilly.org/dataset/red-light-cameras), [School Survey](https://data.cityofnewyork.us/Education/NYC-School-Survey/kwk4-6u9e)
   * [San Francisco](https://datasf.org/opendata/): [Crime](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry)
   * [Boston](https://data.boston.gov/): [Crime](https://data.boston.gov/dataset/crime-incident-reports-july-2012-august-2015-source-legacy-system)
+* [FBI Unified Crime Reports](https://crime-data-explorer.fr.cloud.gov/api) ... to complete the crime spree
+* [National Center for Education Statistics](https://nces.ed.gov/): [CollegeScorecard](https://collegescorecard.ed.gov/data/) (not an API, but the superficial information is trivially extractable), [Common Core Data](https://nces.ed.gov/ccd/), [High School Longitudinal Study](https://nces.ed.gov/surveys/hsls09/), [Drop out rates](https://nces.ed.gov/ccd/drpcompstatelvl.asp), [National Assessment of Educational Progress](https://nces.ed.gov/nationsreportcard/naepdata/)
 * Illinois [Report Card](https://illinoisreportcard.com/) doesn't have an API, but it's very scrap-able.
 * Institute for Health Metrics and Evaluation: http://healthdata.org
   * It's not an API, but with a little bit of work, you can pull all their data right out.
-* Twitter has one of _the_ great [APIs](https://dev.twitter.com/rest/public)
-* State Election Returns (this is an area I know very well)
+* [World Bank Development Indicators](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)
+* [WHO Global Health Observatory](http://apps.who.int/gho/data/node.home)
+* Voting -- State Election Returns (this is an area I know very well)
+  * It's very easy to find good [county-level election returns](https://github.com/tonmcg/County_Level_Election_Results_12-16) for national elections.  Precinct-level is harder.
   * Louisiana [Official](https://voterportal.sos.la.gov/Graphical), but json [backend](https://voterportal.sos.la.gov/ElectionResults/ElectionResults/Data?blob=20161108/VotesRaceByPrecinct/Votes_53898_01.htm)
   * North Carolina [returns](http://er.ncsbe.gov/downloads.html?election_dt=11/08/2016)  and [maps](http://dl.ncsbe.gov/index.html?prefix=PrecinctMaps/)
   * Virginia [returns](http://historical.elections.virginia.gov/elections/search/year_from:1924/year_to:2016/office_id:1/stage:General) and [maps](https://github.com/vapublicaccessproject/va-precinct-maps-2016)  (Actually, I've fixed those maps...)
   * [Minnesota](https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020) 
   * [Wisconsin](http://data-ltsb.opendata.arcgis.com/datasets/e702e29dbdf74d3b8b153c06fac2c721_0)
-* [FBI Unified Crime Reports](https://crime-data-explorer.fr.cloud.gov/api) ... to complete the crime spree
 * Stocks: These are constantly breaking (Google and Yahoo just did).  But check out [Bloomberg](https://www.bloomberg.com/professional/support/api-library) and you can look around for a way to hack google finance.  As Harris students, you also have access to the Bloomberg terminal in the basement...
-* [World Bank Development Indicators](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)
-* [Integrated Public Use MicroSamples](https://usa.ipums.org/usa/) -- standardizes data across many Censuses and the ACS.  Great for time series or old data.
+* Twitter has one of _the_ great [APIs](https://dev.twitter.com/rest/public)
 * [google maps](https://developers.google.com/maps/documentation/) -- they have APIs for elevations (biking!?), travel times (isolation?), distances, geolocation, etc.
-* [National Longitudinal Study of Youth](https://www.nlsinfo.org/content/cohorts) -- one of the great datasets of all time, but it can be a lot to bite off.
-* [WHO Global Health Observatory](http://apps.who.int/gho/data/node.home)
-* [National Center for Education Statistics](https://nces.ed.gov/): [CollegeScorecard](https://collegescorecard.ed.gov/data/) (not an API, but the superficial information is trivially extractable), [Common Core Data](https://nces.ed.gov/ccd/), [High School Longitudinal Study](https://nces.ed.gov/surveys/hsls09/), [Drop out rates](https://nces.ed.gov/ccd/drpcompstatelvl.asp), [National Assessment of Educational Progress](https://nces.ed.gov/nationsreportcard/naepdata/)
+* Weather Underground has a [fantastic, free API](https://www.wunderground.com/weather/api/d/docs?d=data/history) for current and historical weather data.
 
