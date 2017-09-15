@@ -72,7 +72,14 @@ But I particularly enjoy seeing foreign datasets.
   * [San Francisco](https://datasf.org/opendata/): [Crime](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry)
   * [Boston](https://data.boston.gov/): [Crime](https://data.boston.gov/dataset/crime-incident-reports-july-2012-august-2015-source-legacy-system)
 * [FBI Unified Crime Reports](https://crime-data-explorer.fr.cloud.gov/api) ... to complete the crime spree
-* [National Center for Education Statistics](https://nces.ed.gov/): [CollegeScorecard](https://collegescorecard.ed.gov/data/) (not an API, but the superficial information is trivially extractable), [Common Core Data](https://nces.ed.gov/ccd/), [High School Longitudinal Study](https://nces.ed.gov/surveys/hsls09/), [Drop out rates](https://nces.ed.gov/ccd/drpcompstatelvl.asp), [National Assessment of Educational Progress](https://nces.ed.gov/nationsreportcard/naepdata/)
+* [National Center for Education Statistics](https://nces.ed.gov/) and its [DataLab](https://nces.ed.gov/datalab/)
+  * [CollegeScorecard](https://collegescorecard.ed.gov/data/) (not an API, but the superficial information is trivially extractable)
+  * [Common Core Data](https://nces.ed.gov/ccd/)
+  * [High School Longitudinal Study](https://nces.ed.gov/surveys/hsls09/)
+  * [Drop out rates](https://nces.ed.gov/ccd/drpcompstatelvl.asp)
+  * [National Assessment of Educational Progress](https://nces.ed.gov/nationsreportcard/naepdata/)
+  * [International Dat Explorer](https://nces.ed.gov/surveys/pisa/idepisa/report.aspx)
+  * Also... [used.gov](https://usedgov.github.io/)
 * Illinois [Report Card](https://illinoisreportcard.com/) doesn't have an API, but it's very scrap-able.
 * Institute for Health Metrics and Evaluation: http://healthdata.org
   * It's not an API, but with a little bit of work, you can pull all their data right out.
