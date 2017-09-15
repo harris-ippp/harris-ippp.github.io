@@ -92,6 +92,7 @@ But I particularly enjoy seeing foreign datasets.
   * Virginia [returns](http://historical.elections.virginia.gov/elections/search/year_from:1924/year_to:2016/office_id:1/stage:General) and [maps](https://github.com/vapublicaccessproject/va-precinct-maps-2016)  (Actually, I've fixed those maps...)
   * [Minnesota](https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020) 
   * [Wisconsin](http://data-ltsb.opendata.arcgis.com/datasets/e702e29dbdf74d3b8b153c06fac2c721_0)
+  * Ask if you want more -- these are a pain to work with.  But you can get TN, MD, TX, FL, etc.
 * Stocks: These are constantly breaking (Google and Yahoo just did).  But check out [Bloomberg](https://www.bloomberg.com/professional/support/api-library) and you can look around for a way to hack google finance.  As Harris students, you also have access to the Bloomberg terminal in the basement...
 * Twitter has one of _the_ great [APIs](https://dev.twitter.com/rest/public)
 * [google maps](https://developers.google.com/maps/documentation/) -- they have APIs for elevations (biking!?), travel times (isolation?), distances, geolocation, etc.
