@@ -208,7 +208,7 @@ Data Visualization with Python: matplotlib and pandas
 * **Readings**
     * Pandas: [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
     * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
-* **Assignment** ([README](https://github.com/harris-ippp/05-pandas/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/de7acce809fc99f051f534d4b454ba0a)): Pandas and python.  Problem statement [here](https://github.com/harris-ippp/04-pandas/blob/master/README.md).
+* **Assignment** ([README](https://github.com/harris-ippp/05-pandas/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/de7acce809fc99f051f534d4b454ba0a)): Crime, education, and demographics with Pandas and python.
 
 ## Week 6: Reading and Scraping Static Websites; Querying APIs
 
