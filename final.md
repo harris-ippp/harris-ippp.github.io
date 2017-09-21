@@ -61,7 +61,7 @@ But I particularly enjoy seeing foreign datasets.
   * [Migration flows](https://www.census.gov/data/developers/data-sets/acs-migration-flows.html)
   * Commuting patterns: [LODES](https://lehd.ces.census.gov/data/)
   * Also Check out [TIGER](https://www.census.gov/geo/maps-data/data/tiger.html) for mapping.
-* [National Longitudinal Study of Youth](https://www.nlsinfo.org/content/cohorts) -- one of the great datasets of all time, but it can be a lot to bite off.
+* [National Longitudinal Survey of Youth](https://www.nlsinfo.org/content/cohorts) -- one of the great datasets of all time, but it can be a lot to bite off.
 * [Integrated Public Use MicroSamples](https://usa.ipums.org/usa/) -- standardizes data across many Censuses and the ACS.  Great for time series or old data.
 * Bureau of Labor Statistics: [main page](https://www.bls.gov/data/) and [python example](https://www.bls.gov/developers/api_python.htm).  Let me know if you use this, and I have examples...
   * [American Time Use Survey](https://www.bls.gov/tus/) -- we used it in class.
@@ -85,9 +85,9 @@ But I particularly enjoy seeing foreign datasets.
   * It's not an API, but with a little bit of work, you can pull all their data right out.
 * [World Bank Development Indicators](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589)
 * [WHO Global Health Observatory](http://apps.who.int/gho/data/node.home)
-* Voting -- State Election Returns (this is an area I know very well)
+* Voting -- State Election Returns (this is an area I know very well -- ask if you're interested)
   * It's very easy to find good [county-level election returns](https://github.com/tonmcg/County_Level_Election_Results_12-16) for national elections.  Precinct-level is harder.
-  * Louisiana [Official](https://voterportal.sos.la.gov/Graphical), but json [backend](https://voterportal.sos.la.gov/ElectionResults/ElectionResults/Data?blob=20161108/VotesRaceByPrecinct/Votes_53898_01.htm)
+  * Louisiana [Official](https://voterportal.sos.la.gov/Graphical), but json [backend](https://voterportal.sos.la.gov/ElectionResults/ElectionResults/Data?blob=20161108/VotesRaceByPrecinct/Votes_53898_01.htm), and [maps](http://house.louisiana.gov/H_Redistricting2011/default_LouisianaPrecinctShapefiles.htm) available.
   * North Carolina [returns](http://er.ncsbe.gov/downloads.html?election_dt=11/08/2016)  and [maps](http://dl.ncsbe.gov/index.html?prefix=PrecinctMaps/)
   * Virginia [returns](http://historical.elections.virginia.gov/elections/search/year_from:1924/year_to:2016/office_id:1/stage:General) and [maps](https://github.com/vapublicaccessproject/va-precinct-maps-2016)  (Actually, I've fixed those maps...)
   * [Minnesota](https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020) 
