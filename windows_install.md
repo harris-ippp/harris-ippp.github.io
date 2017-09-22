@@ -12,11 +12,11 @@ Please complete the cygwin installation before the first class!
 * "Select Local Package Directory" → again, whatever you'd like, but the Downloads default  is good.
 * "Select Connection Type" → "Direct Connection"
 * "Choose Download Sites" → any are fine.
-* "Select packages."  Pay attention here: what you're doing is selecting the "additional prorams that you'll want!
-   * search "git".  Click on "git: Distributed version control system", so that it says 2.8.2-1 (or so), instead of "Skip".
-   * search "python3".  Click on "python3: Py3K language interpreter" to see version 3.2.5-4 instead of "Skip".
-   * search "curl".  Click on curl so that it doesn't Skip.
-   * search "unzip".  Click on unzip so that it doesn't Skip (around 6.0-16).
+* "Select packages."  Switch "View" to "Not Installed."  Pay attention here: what you're doing is selecting the "additional prorams that you'll want!  
+   * search "git".  For "git: Distributed version control system", click on "Skip" that it says 2.14.0-1 (or so), instead of "Skip".
+   * search "python3".  Click on "python3: Py3K language interpreter" to replace "Skip" with (~3.6.1-1).
+   * search "curl".  Click on "curl: Multi-protocol file transfer tool" to replace "Skip" with (~7.55.1-1).
+   * search "unzip".  Click on "unzip: Info-Zip decompression utility" to replace "Skip" with (~6.0-17).
    * Next.
 * "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
 * The setup will now start "spinning."  Give it some time.
