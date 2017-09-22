@@ -18,7 +18,7 @@ Please complete the cygwin installation before the first class!
    * search "curl".  Click on "curl: Multi-protocol file transfer tool" to replace "Skip" with (~7.55.1-1).
    * search "unzip".  Click on "unzip: Info-Zip decompression utility" to replace "Skip" with (~6.0-17).
    * Next.
-* "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
+* If it comes up: "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
 * The setup will now start "spinning."  Give it some time.
 * "Installation Status and Create Icons" → Up to you ("Finish").  I do have the icons.
 
