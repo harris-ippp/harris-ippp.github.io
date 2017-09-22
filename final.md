@@ -9,6 +9,7 @@ and create a simple (but possibly dynamic) dashboard to illustrate this.
 
 By **October 31**, students should form groups and propose the analysis and project.
 The proposal should identify a question and data sources that help them to address it (with links).
+A number of data sources are listed below, for inspiration.
 It should specify a 'baseline' functionality, describe several extensions, and include a link to the code repository.
 (For an example, see [this proposal](http://cfss.uchicago.edu/ACS_final.html) from an earlier version of this class.)
 
@@ -22,20 +23,22 @@ During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
 
 ## Baseline
 
-* Your dashboard must include data from at least two sources, specified in your proposal.
-  I am much more interested in projects that start from some sort of a "question" and that take the merge seriously.
-  It is not enough to plot dots representing one type of incident on a choropleth map from another source.
-    * Scour the web for city, state, federal, and foreign data portals, BLS, Census, Twitter, or any NGOs that you know.  I'd love to learn about new datasets!
-* You _may_ merge the data once and save it as CSV file (`df.to_csv()`).
-  Alternatively, if it is feasible and fast, you can use only the existing sources (no cached data).
-* Write at least one function that use the data to make plots or maps.  Varying the inputs (for instance, the variable or the sample) should give me diverse outputs.  In other words: there should be some sort of changeable parameters/selection/menu.
+* Your work must* include data from at least two sources, specified in your proposal.
+  I am much more interested in projects that start from some sort of a "question" and that take the data merge seriously.
+  This is not a statistics class, and I'm not looking for iron-clad causality.  But neither am I interested in a scatter plot of two random variables.
+  * It is not enough to plot dots representing one type of incident on a choropleth map from another source, or plot school quality against crime rates.
+  * *I will make an exception for the two source rule, if one or more of the parameters require significant cleaning.  For example, fertility histories in the NLSY are very, very messy.  So too, are some state election returns.  But this is the exception, and you must discuss this with me before your proposal.
+* Produce plots and tables and develop a sensible model with statsmodels.  Give that model a workout.
+* Describe what you have done in a clean and presentable notebook (or website), preferably with some degree of manipulability.
+* Document your technical work in the README file.
 
 ## Suggested extensions
 
+* I recognize that not all data sources are equally easy to use.  I will reward efforts to use datasets that are take a bit of work.  For instance, lining up two 20-line excel spreadsheets... not that impressive.
 * Build a sqlite database from the two sources, and load your data from SQL in your functions.
-* The more I can vary your input, the better.  The more meaningful your plots, the better.
-* If you want to do some real statistics or analysis, I'd love to see it.
-* Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.
+* Build a website, and put it online as you did in Week 6.  You are welcome to use html as in HW6, or Jekyll themes on GitHub to do this, as I do for the class websites.
+* Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.  See [slides](https://github.com/harris-ippp/lectures/blob/master/old/nn/nn.pdf) from last year's class.  (This is fire -- be careful with this stuff in the real world.)
+* Build a dashboard as in our Thanksgiving lectures.
 
 ## Grading
 The grading rubric will be modified to benefit ambitious projects:
@@ -66,7 +69,7 @@ But I particularly enjoy seeing foreign datasets.
 * Bureau of Labor Statistics: [main page](https://www.bls.gov/data/) and [python example](https://www.bls.gov/developers/api_python.htm).  Let me know if you use this, and I have examples...
   * [American Time Use Survey](https://www.bls.gov/tus/) -- we used it in class.
 * City Data portals (I looked at a bunch of crime, whence the slant... but it's legitimately one of the more interesting datasets that they release)
-  * [Chicago](https://data.cityofchicago.org/): [Salaries](https://data.cityofchicago.org/Administration-Finance/Budget-2017-Budget-Ordinance-Positions-and-Salarie/x94i-grxu), [Crime](https://data.cityofchicago.org/view/5cd6-ry5g), [DIVVY trips](https://data.cityofchicago.org/Transportation/Divvy-Trips-Dashboard/u94x-unre), [Grocery Stores](https://data.cityofchicago.org/Community-Economic-Development/Grocery-Stores-2013/53t8-wyrc/data), [CTA Ridership](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7/data)
+  * [Chicago](https://data.cityofchicago.org/): [Salaries](https://data.cityofchicago.org/Administration-Finance/Budget-2017-Budget-Ordinance-Positions-and-Salarie/x94i-grxu), [Crime](https://data.cityofchicago.org/view/5cd6-ry5g), [DIVVY trips](https://data.cityofchicago.org/Transportation/Divvy-Trips-Dashboard/u94x-unre), [Grocery Stores/Food Deserts](https://data.cityofchicago.org/Community-Economic-Development/Grocery-Stores-2013/53t8-wyrc/data), [CTA Ridership](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7/data)
   * [New York](https://data.cityofnewyork.us/browse?provenance=official&sortBy=most_accessed&utf8=%E2%9C%93): e.g., [Crime](https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7), 
   * [Philadelphia](https://www.opendataphilly.org/dataset): [Crime](https://www.opendataphilly.org/dataset/crime-incidents), [Traffic Cameras](https://www.opendataphilly.org/dataset/red-light-cameras), [School Survey](https://data.cityofnewyork.us/Education/NYC-School-Survey/kwk4-6u9e)
   * [San Francisco](https://datasf.org/opendata/): [Crime](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry)
