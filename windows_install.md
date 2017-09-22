@@ -38,7 +38,10 @@ Bonus: if you need to install additional packages, you can just run the exact sa
    * At the end of this fille, add and save (with an appropriate substitution for the path)</br>
       `export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:$PATH`
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
-* Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 |Anaconda 4..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
+* Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 |Anaconda 4..."), and a Jupyter notebook with 
+  ```
+  ./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
+  ```
 * Exit python (`quit()`) and add a few more (mainly geographic) packages, with this command:
   ```
   conda install -c conda-forge geopandas geopy folium fiona shapely pyproj rtree pysal psycopg2 descartes beautifulsoup4 requests
