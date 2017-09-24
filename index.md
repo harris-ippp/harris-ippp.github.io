@@ -8,10 +8,11 @@ header-includes:
   - \input{js_header.tex}
 ---
 
-* Contact: James Saxon ([jsaxon@uchicago.edu](mailto:jsaxon@uchicago.edu)), TAs (2017 TBD)
-* Discussion Board: [Chalk](https://chalk.uchicago.edu/).  Please use -- we will monitor.
+* Instructor: James Saxon ([jsaxon@uchicago.edu](mailto:jsaxon@uchicago.edu))
+* TAs: Emma Peterson, Victor Vilchis Tella, Yuxi Wu, Andrew Yaspan
+* Discussion Board: [Canvas](canvas.uchicago.edu/courses/10240).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, MW 9-10:20am; Section 2: MW 1:30-2:50
-* Lab Sessions: Thursday and Friday afternoons, time TBD.
+* TA Sessions: Thursday and Friday afternoons, 3:30pm in 289A (Oct. 6 in 224).
 
 # Course Aims
 The past decade has witnessed an explosion in the collection of ‘big data,’ and the sophistication and accessibility of the tools required to analyze those data.
