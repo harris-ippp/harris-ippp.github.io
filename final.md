@@ -23,6 +23,8 @@ During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
 
 ## Baseline
 
+You are aiming for something like our week 9 example on weather and crime.
+
 * Your work must* include data from at least two sources, specified in your proposal.
   I am much more interested in projects that start from some sort of a "question" and that take the data merge seriously.
   This is not a statistics class, and I'm not looking for iron-clad causality.  But neither am I interested in a scatter plot of two random variables.
@@ -36,18 +38,20 @@ During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
 
 * I recognize that not all data sources are equally easy to use.  I will reward efforts to use datasets that are take a bit of work.  For instance, lining up two 20-line excel spreadsheets... not that impressive.
 * Build a sqlite database from the two sources, and load your data from SQL in your functions.
-* Build a website, and put it online as you did in Week 6.  You are welcome to use html as in HW6, or Jekyll themes on GitHub to do this, as I do for the class websites.
+* Mapping the data... more points for "[very complex](http://saxon.harris.uchicago.edu/~jsaxon/migration/migration.html)") maps.
+* Build a website, and put it online as you did in Week 6.  You are welcome to use html as in HW6, or Jekyll themes on GitHub to do this, as I do for the class websites.  More points for your own, navigable HTML or Jekyll; less points for copying your jupyter notebook.
 * Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.  See [slides](https://github.com/harris-ippp/lectures/blob/master/old/nn/nn.pdf) from last year's class.  (This is fire -- be careful with this stuff in the real world.)
-* Build a dashboard as in our Thanksgiving lectures.
+* Build interactive functions or a dashboard as in our Thanksgiving lectures.
+* Use a machine learning model (sci-kit learn), to predict one outcome from inputs.  But you must be careful that the predictor makes sense.
 
 ## Grading
 The grading rubric will be modified to benefit ambitious projects:
 
 * Proposal and Interest (20%): does the proposal represent a serious effort to find data and ask or explore an interesting policy question with those data?  It is understood that this is a proposal and not a finished product.  But if you are unsure if you can do a project with a dataset, please ask me or the TAs for input.  You must look at the data, to understand what it can do.  The proposal must be on-time.
 * Correctness (20%): is the baseline analysis delivered bug-free with thought for the statistics?
-* Scope (20%): how much do you try to do?  You will get points for correct and meaningful: plots, tables, maps, manipulable data (drop-down, etc.), hosting the website online, etc.
-* Style (20%): are the front-end and code both navigable?
-* Documentation (20%): is the presentation in the data palooza functional and engaging?  Does the README actually make it possible to understand how to find your data and run your site? 
+* Scope (20%): how much do you try to do?  You will get points for correct and meaningful: plots, tables, maps, manipulable data (drop-down, etc.), hosting the website online, etc. -- see "extensions."
+* Style (20%): are the front-end and code both navigable?  Is the code well-commented?  Does its division among files make sense?  Do all plots have appropriate legends and labels?  
+* Documentation (20%): is the presentation in the data palooza functional and engaging?  Does the README actually make it possible to understand how to find your data and run your site?  Is your code well-commented?
 
 ## Datasets for Inspiration
 
