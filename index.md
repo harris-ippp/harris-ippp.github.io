@@ -190,6 +190,7 @@ I understand that computer mishaps happen,
 ## Week 4: Scripts: Putting it Together
 
 1. A large example: networks and inequality.
+   * Before class read: Antoni Calvó-Armengol and Matthew O. Jackson, [_The Effects of Social Networks on Employment and Inequality_](https://www.jstor.org/stable/3592937).
 2. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
 * **Slides**: [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
