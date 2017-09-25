@@ -1,4 +1,4 @@
-# Final Projects (30%) 
+# Final Projects (25%) 
 
 Working in pairs, students will ask a simple policy question.
 To answer it they will identify at least two disjoint data sources, merge them,
