@@ -17,7 +17,7 @@ You're done the python part!  Go back to the [main instructions](README.md) to c
 
 ### Atom Text Editor
 I encourage you to use [**Atom**](https://atom.io/) as a text editor; it provides syntax highlighting that you will find useful.  The [Download](https://atom.io/) and installation should be trivial.  If you want, you can delete it when you're done.
-* Installing a "de-linter" to find bugs in your code will help a lot.  Go to settings (⌘,) and click on "Packages."  Then search for "linter-pylint" and install it with all of the dependencies that come up.  Now whenever you save a python file, it will (partially!!) check your work!
+* Installing a "de-linter" to find bugs in your code will help a lot.  Go to settings (⌘,) and click on "Install."  Then search for "linter-pylint" and install it with all of the dependencies that come up.  Now whenever you save a python file, it will (partially!!) check your work!
 * As an alternative, you may sometimes wantto use Jupyter notebooks or Spyder.  Both of these come with your Anaconda installation.
 * Atom requires OS X 10.8 or later.  For 10.6 or 10.7, try Sublime or TextWrangler ([4.5.12](http://www.barebones.com/support/textwrangler/updates.html)).
 
