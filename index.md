@@ -152,7 +152,7 @@ I understand that computer mishaps happen,
    Getting basic answers to your questions, with bash.
    Uploading them with Git.
 
-* **Slides**: [Welcome and Bash](https://github.com/harris-ippp/lectures/blob/master/01-bash/01a_welcome.pdf), [Git](https://github.com/harris-ippp/lectures/blob/master/01/01b_git.pdf), [scripts](https://github.com/harris-ippp/lectures/blob/master/01-bash/01b_scripting.pdf).
+* **Slides**: [Welcome and Bash](https://github.com/harris-ippp/lectures/blob/master/01-bash/01a_welcome.pdf), [Git](https://github.com/harris-ippp/lectures/blob/master/01-bash/01b_git.pdf), [scripts](https://github.com/harris-ippp/lectures/blob/master/01-bash/01b_scripting.pdf).
 * **Readings**: 
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
     * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
@@ -193,7 +193,7 @@ I understand that computer mishaps happen,
 
 2. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
-* **Slides**: [Networks Replication](https://github.com/harris-ippp/lectures/blob/master/04-example/caj.pdf), [Arguments](https://github.com/harris-ippp/lectures/blob/master/04-example/arguments.pdf), [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
+* **Slides**: [Networks Replication](https://github.com/harris-ippp/lectures/blob/master/04-example/caj.pdf), [Arguments](https://github.com/harris-ippp/lectures/blob/master/04-example/arguments.pdf), [complexity](https://github.com/harris-ippp/lectures/blob/master/04-example/complexity.pdf).
 * **Readings**:
     * **Before class read: Antoni Calvó-Armengol and Matthew O. Jackson, [_The Effects of Social Networks on Employment and Inequality_](https://www.jstor.org/stable/3592937).**
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
