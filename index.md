@@ -157,7 +157,7 @@ I understand that computer mishaps happen,
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
     * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
     * Data and Technology in Government: [Innovative State](https://smile.amazon.com/Innovative-State-Aneesh-Chopra/dp/0802121349/) (Aneesh Chopra), and [The Responsive City](https://smile.amazon.com/Responsive-City-Communities-Data-Smart-Governance-ebook/dp/B00MQTIA3M/) (Stephen Goldsmith and Susan Crawford).
-* **Assignment** ([README](https://github.com/harris-ippp/01-welcome/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b)): Ensure that your installation is complete by running [this script](https://github.com/harris-ippp/01-welcome/blob/master/test-suite.py).
+* **Assignment** ([README](https://github.com/harris-ippp/01-welcome/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b)): Ensure that your installation is complete by running [this script](https://github.com/harris-ippp/01-welcome/blob/master/test-suite.py), which is included in your homework checkout.
   Use some command line fu to answer some basic questions about crime and salaries in Chicago.
   Create a [student GitHub account](https://education.github.com/pack), and upload the first week's work.
 
