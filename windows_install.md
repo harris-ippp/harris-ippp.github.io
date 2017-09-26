@@ -47,7 +47,7 @@ Bonus: if you need to install additional packages, you can just run the exact sa
   ```
 * Finally, let's make sure that Jupyter can be started easily.
   * Search for it in the start menu, then right-click, and select "Properties."  (See pictures, below.)
-    * If you're on Windows 10, I think you will need to first click on "Show in Folder," and then again right click to see "properties.
+    * If you're on Windows 10, I think you will need to first click on "Show in Folder," and then again right click to see "Properties."
   * Change the target field to the following, _with appropriate substitutions_!  By "appropriate substitutions," I mean that you will replace the final path in this string to where you want juptyer notebooks to launch.
     The earlier parts will be different from mine -- they are on your computer.
     The last bit -- the final path -- is where you want to the notebook to launch, and it is the only part you will change.
