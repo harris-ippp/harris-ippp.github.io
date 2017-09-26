@@ -190,7 +190,6 @@ I understand that computer mishaps happen,
 ## Week 4: Scripts: Putting it Together
 
 1. A large example: networks and inequality.
-
 2. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
 * **Slides**: [Networks Replication](https://github.com/harris-ippp/lectures/blob/master/04-example/caj.pdf), [Arguments](https://github.com/harris-ippp/lectures/blob/master/04-example/arguments.pdf), [complexity](https://github.com/harris-ippp/lectures/blob/master/04-example/complexity.pdf).
