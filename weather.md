@@ -314,70 +314,70 @@ The additional crime is not concentrated in, for instance, financial crimes,
   </thead>
   <tbody>
     <tr>
-      <th>26</th>
+      <th>0</th>
       <td>THEFT</td>
       <td>99632</td>
       <td>6107</td>
       <td>1.900163</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>1</th>
       <td>BATTERY</td>
       <td>82358</td>
       <td>5034</td>
       <td>1.894825</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>2</th>
       <td>NARCOTICS</td>
       <td>60640</td>
       <td>1398</td>
       <td>0.714677</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>3</th>
       <td>CRIMINAL DAMAGE</td>
       <td>51790</td>
       <td>2677</td>
       <td>1.602375</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>4</th>
       <td>OTHER OFFENSE</td>
       <td>34592</td>
       <td>1953</td>
       <td>1.750202</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>5</th>
       <td>BURGLARY</td>
       <td>28125</td>
       <td>718</td>
       <td>0.791396</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>6</th>
       <td>ASSAULT</td>
       <td>26698</td>
       <td>957</td>
       <td>1.111207</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>7</th>
       <td>MOTOR VEHICLE THEFT</td>
       <td>25005</td>
       <td>803</td>
       <td>0.995521</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>8</th>
       <td>DECEPTIVE PRACTICE</td>
       <td>19260</td>
       <td>1527</td>
       <td>2.457788</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>9</th>
       <td>ROBBERY</td>
       <td>18942</td>
       <td>636</td>
