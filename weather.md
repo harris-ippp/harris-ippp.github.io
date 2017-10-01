@@ -135,7 +135,7 @@ The initial regression to report is simply daily crime rates on
   average (daily) temperature in Chicago.
 The regression displays a very clear trend but with enormous, non-normal residuals.
 
-<img src="img/ols_crime_temp.png" width="40%">
+<img src="img/ols_crime_temp.png" width="45%">
 
 The obviously missing factor is the secular reductions in crime.
 To address this, yearly fixed effects and a linear time trend are almost equally effective.
@@ -155,7 +155,7 @@ I use the average of both neighboring days instead of simply the preceding day,
 Looking simply at the difference with respect to the preceding day
   shows seasonal fluctuations as on average it gets warmer in the spring and cooler in the fall.
 
-<img src="img/daily_diff.png" width="40%">
+<img src="img/daily_diff.png" width="45%">
 
 All in all, with year _y_, day of week _w_, temperature _T_, and "daily difference" as DD, the the model is:
 
@@ -292,7 +292,7 @@ Fitting a non-parametric, locally-weighted linear regresion to the component + r
 This confirms the intuition that "at a certain point, even criminals start to melt."
 This behavior has previously been observed, in the work noted above.
 
-<img src="img/model_residuals.png" width="40%"> <img src="img/model_cpr.png" width="40%">
+<img src="img/model_residuals.png" width="45%"> <img src="img/model_cpr.png" width="45%">
 
 Also notable in the residuals is the presence of a dozen or so outliers,
   with crime levels far from the trend and outside the distribution.
@@ -403,7 +403,7 @@ Nevertheless, there are a few notable exceptions:
   crime types with increases far above the global ~80%.
 Namely, there are overwhelming spikes in sexual crimes and crimes involving children.
 
-<img src="img/jan1_ratios.png" width="80%">
+<img src="img/jan1_ratios.png" width="90%">
 
 ### A Non-Linear Model
 
