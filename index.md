@@ -176,7 +176,7 @@ I understand that computer mishaps happen,
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
 * **Assignment** ([README](https://github.com/harris-ippp/02-algorithmic-thinking/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c)): Algorithmic problem solving with several [Project Euler](https://projecteuler.net/) type problems. 
 
-## Week 3: List comprehension; functions, classes, and libraries.
+## Week 3: Functions, classes, and libraries; manipulating data by hand.
 
 1. Functions: parameters, defaults, and return values.  Scope.
    Member functions, classes and libraries.
