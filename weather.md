@@ -47,12 +47,10 @@ The datasets can be found here:
 * [Dallas](https://www.dallasopendata.com/Public-Safety/Police-Incidents/tbnj-w5hb/data)
 * [Phoenix](https://www.phoenix.gov/opendata)
 * [Philadelphia](https://www.opendataphilly.org/dataset/crime-incidents/resource/d6369e07-da6d-401b-bf6e-93fdfacdf24d)
-
 * [Los Angeles](https://data.lacity.org/A-Safe-City/Crimes-2012-2015/s9rj-h3s6/data)
 * [Portland](http://www.civicapps.org/datasets/)
 * [New York City](https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7)
 * Boston [2012-2015](https://data.cityofboston.gov/Public-Safety/Crime-Incident-Reports-July-2012-August-2015-Sourc/7cdf-6fgx) and [2015-present](https://data.cityofboston.gov/Public-Safety/Crime-Incident-Reports-August-2015-To-Date-Source-/fqn4-4qap)
-## Homicides, rapes, robberies, aggravated assaults, burglaries, thefts, motor vehicle thefts, arsons, and drug offenses
 * [Denver](http://data.denvergov.org/download/gis/crime/csv/crime.csv)
 
 A check-out script for all of these data is found here:
@@ -103,8 +101,7 @@ The bulk of the analysis is performed in python, pandas and statsmodels,
 The observation that motivates this analysis is the strong seasonal variation in Chicago crime rates,
   which correlates in an obvious way with temperature:
 
-<img src="img/chicago_temp.png" width="40%">
-<img src="img/chicago_crime.png" width="40%">
+<img src="img/chicago_temp.png" width="40%"> <img src="img/chicago_crime.png" width="40%">
 
 The first question is whether temperature is truly the "culprit,"
   or if instead the variation is simply seasonal.
@@ -116,10 +113,8 @@ Monthly crime rates for San Francisco, Phoenix, and Dallas
 By contrast other northern cities like Philadelphia do.
 This provides strong circumstantial evidence that temperature is the relevant factor.
 
-<img src="img/sf_crime.png" width="40%">
-<img src="img/phoenix_crime.png" width="40%">
-<img src="img/dallas_crime.png" width="40%">
-<img src="img/philly_crime.png" width="40%">
+<img src="img/phoenix_crime.png" width="40%"> <img src="img/dallas_crime.png" width="40%"> 
+<img src="img/sf_crime.png" width="40%"> <img src="img/philly_crime.png" width="40%">
 
 ### Regression Analysis
 
@@ -284,8 +279,7 @@ Fitting a non-parametric, locally-weighted linear regresion to the component + r
 This confirms the intuition that "at a certain point, even criminals start to melt."
 This behavior has previously been observed, in the work noted above.
 
-<img src="img/model_residuals.png" width="40%">
-<img src="img/model_cpr.png" width="40%">
+<img src="img/model_residuals.png" width="40%"> <img src="img/model_cpr.png" width="40%">
 
 Also notable in the residuals are dozen or so very-high crime days,
   with more than 400 more crimes than normally predicted.
@@ -308,21 +302,7 @@ The normal "heavy hitters" of theft and batter
 The additional crime is not concentrated in, for instance, financial crimes,
   that might have different reporting procedures.
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -405,13 +385,12 @@ The additional crime is not concentrated in, for instance, financial crimes,
     </tr>
   </tbody>
 </table>
-</div>
 
 Nevertheless, there are a few notable crime types
   with increases far above the global ~80%.
 Namely, there are overwhelming spikes in sexual crimes and crimes involving children.
 
-<img src="img/jan1_ratios.png" width="40%">
+<img src="img/jan1_ratios.png" width="80%">
 
 ### A Non-Linear Model
 
@@ -452,21 +431,7 @@ I tabulate the ten crime types (of the 20 common types)
 For each of battery, assault, and theft, the correlations 
   is around 60%.
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -538,5 +503,4 @@ For each of battery, assault, and theft, the correlations
     </tr>
   </tbody>
 </table>
-</div>
 
