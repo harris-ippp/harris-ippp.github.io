@@ -17,7 +17,7 @@ A README should detail the sources, describe problems encountered and solutions,
 and provide clear instructions for launching the analysis and accessing the output.
 
 During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
-  in which groups will demonstrate their functioning dashboard
+  in which groups will describe their work and demonstrate any dynamic functionality,
   for others in the class and for the professor and TAs.
 
 ## Baseline
