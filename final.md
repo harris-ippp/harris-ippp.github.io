@@ -11,7 +11,6 @@ By **October 31**, students should form groups and propose the analysis and proj
 The proposal should identify a question and data sources that help them to address it (with links).
 A number of data sources are listed below, for inspiration.
 It should specify a 'baseline' functionality, describe several extensions, and include a link to the code repository.
-(For an example, see [this proposal](http://cfss.uchicago.edu/ACS_final.html) from an earlier version of this class.)
 
 By midnight **December 1st**, all code must be definitively checked in.
 A README should detail the sources, describe problems encountered and solutions,
