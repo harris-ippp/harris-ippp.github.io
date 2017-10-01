@@ -38,7 +38,7 @@ Field's work at the monthly level for England and Wales
 
 ## Data
 
-Check-out scripts for the data in this analysis can be found in my `[data](https://github.com/JamesSaxon/data/)` repository.
+Check-out scripts for the data in this analysis can be found in my [`data`](https://github.com/JamesSaxon/data/) repository.
 
 ### City Crime Data
 
