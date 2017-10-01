@@ -152,7 +152,7 @@ I understand that computer mishaps happen,
    Getting basic answers to your questions, with bash.
    Uploading them with Git.
 
-* **Slides**: [Welcome](https://github.com/harris-ippp/lectures/blob/master/01/01a_welcome.pdf), bash, [Git](https://github.com/harris-ippp/lectures/blob/master/01/01b_git.pdf).
+* **Slides**: [Welcome and Bash](https://github.com/harris-ippp/lectures/blob/master/01-bash/01a_welcome.pdf), [Git](https://github.com/harris-ippp/lectures/blob/master/01-bash/01b_git.pdf), [scripts](https://github.com/harris-ippp/lectures/blob/master/01-bash/01b_scripting.pdf).
 * **Readings**: 
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
     * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
@@ -172,7 +172,7 @@ I understand that computer mishaps happen,
    Control statements (`if`, `else`, `break`, `continue`) and iterating with `for` and `while` loops.
    List Comprehension.
 
-* **Slides**:  [Python starter/scripts](https://github.com/harris-ippp/lectures/blob/master/01/01b_python.pdf), [Simple Program Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Simple%20Program.ipynb), [Variables and Types Notebook](https://github.com/harris-ippp/lectures/blob/master/01/Variables%20and%20Types.ipynb), [Control Statements](https://github.com/harris-ippp/lectures/blob/master/02/Control.ipynb).
+* **Slides**:  [Python starter/scripts](https://github.com/harris-ippp/lectures/blob/master/02-python-i/02_welcome.pdf), [Simple Program Notebook](https://github.com/harris-ippp/lectures/blob/master/02-python-i/Simple%20Program.ipynb), [Variables and Types Notebook](https://github.com/harris-ippp/lectures/blob/master/02-python-i/Variables%20and%20Types.ipynb), [Control Statements](https://github.com/harris-ippp/lectures/blob/master/02-python-i/Control.ipynb).
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
 * **Assignment** ([README](https://github.com/harris-ippp/02-algorithmic-thinking/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c)): Algorithmic problem solving with several [Project Euler](https://projecteuler.net/) type problems. 
 
@@ -183,18 +183,18 @@ I understand that computer mishaps happen,
 2. Reading in data.  Scripts revisited: programs, arguments, and reusable code.
 3. Fixing your code: debugging and asking questions.
 
-* **Slides**: [Functions, Classes and Modules](https://github.com/harris-ippp/lectures/blob/master/02/Functions%2C%20Classes%2C%20and%20Modules.ipynb); [Processing Files by Hand](); [Debugging](https://github.com/harris-ippp/lectures/blob/master/03/debugging.pdf)
+* **Slides**: [Functions, Classes and Modules](https://github.com/harris-ippp/lectures/blob/master/03-python-ii/Functions%2C%20Classes%2C%20and%20Modules.ipynb); [Input/Output](https://github.com/harris-ippp/lectures/blob/master/03-python-ii/Input%20and%20Output.ipynb); [Debugging](https://github.com/harris-ippp/lectures/blob/master/03-python-ii/debugging.pdf)
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
 * **Assignment** ([README](https://github.com/harris-ippp/03-salaries-turtles/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/acb6c296950cc73142b3ba923b8a35fc)): Salaries, revisited with Python.  Two problems with turtles.
 
 ## Week 4: Scripts: Putting it Together
 
 1. A large example: networks and inequality.
-   * Before class read: Antoni Calvó-Armengol and Matthew O. Jackson, [_The Effects of Social Networks on Employment and Inequality_](https://www.jstor.org/stable/3592937).
 2. Complexity (time permitting): big-O notation, computability, and pre-computation.
 
-* **Slides**: [complexity](https://github.com/harris-ippp/lectures/blob/master/03/complexity.pdf).
+* **Slides**: [Networks Replication](https://github.com/harris-ippp/lectures/blob/master/04-example/caj.pdf), [Arguments](https://github.com/harris-ippp/lectures/blob/master/04-example/arguments.pdf), [complexity](https://github.com/harris-ippp/lectures/blob/master/04-example/complexity.pdf).
 * **Readings**:
+    * **Before class read: Antoni Calvó-Armengol and Matthew O. Jackson, [_The Effects of Social Networks on Employment and Inequality_](https://www.jstor.org/stable/3592937).**
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
     * Asking for help.  Eric Steven Raymond wrote an important (though somewhat snarky) piece on [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#intro), to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!
 * **Assignment** ([README](https://github.com/harris-ippp/04-tic-tac-toe/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/829adc8487082580d8510e309105e51b)):  Solve Tic Tac Toe.  Students will work in pairs to implement the computer's strategy for tic tac toe.
@@ -206,7 +206,7 @@ Data Visualization with Python: matplotlib and pandas
 1. Pandas data types.  Data frames, series.  
 2. Reading basic files.  Basic exploration, slicing and plots.
 
-* **Slides**: [Introduction to Pandas](https://github.com/harris-ippp/lectures/blob/master/04/Introduction%20to%20Pandas.ipynb), [Worked Examples](https://github.com/harris-ippp/lectures/blob/master/04/Examples%2C%20and%20Some%20More%20Features.ipynb).
+* **Slides**: [Introduction to Pandas](https://github.com/harris-ippp/lectures/blob/master/05-pandas/Introduction%20to%20Pandas.ipynb), [Worked Examples](https://github.com/harris-ippp/lectures/blob/master/05-pandas/Examples%2C%20and%20Some%20More%20Features.ipynb).
 * **Readings**
     * Pandas: [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
     * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
@@ -218,7 +218,7 @@ Data Visualization with Python: matplotlib and pandas
 2. RESTful APIs and hidden APIs: Census, weather, and health.
 3. The Internet and the world wide web (time-permitting).
 
-* **Slides**: [The Internet, the Web, and HTML](https://github.com/harris-ippp/lectures/blob/master/06/web_html.pdf), [APIs and Scraping](https://github.com/harris-ippp/lectures/blob/master/06/resources.pdf).
+* **Slides**: [The Internet, the Web, and HTML](https://github.com/harris-ippp/lectures/blob/master/06-web/web_html.pdf), [APIs and Scraping](https://github.com/harris-ippp/lectures/blob/master/06-web/resources.pdf).
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
@@ -233,7 +233,7 @@ Data Visualization with Python: matplotlib and pandas
    Pandas integration.
 2. Aggregation in SQL and Pandas: `group by`, `order by`, `limit`, `max`, `avg`, etc.
 
-* **Slides**: [SQL](https://github.com/harris-ippp/lectures/blob/master/05/sql.pdf), see also the [examples](https://github.com/harris-ippp/lectures/tree/master/05/ex) directory.
+* **Slides**: [SQL](https://github.com/harris-ippp/lectures/blob/master/07-sql/sql.pdf), see also the [examples](https://github.com/harris-ippp/lectures/blob/master/07-sql/ex/) directory.
 * **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html).
 * **Assignment** ([README](https://github.com/harris-ippp/07-sql/blob/master/README.md), [Checkout](https://classroom.github.com/assignment-invitations/b113cb352b93c0517bde542d62df9b6e)): query data on the American Time Use Survey.  Create a salaries database.  Plot through pandas.
 
@@ -252,4 +252,5 @@ Data Visualization with Python: matplotlib and pandas
 
 * **Readings**: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
 * **Assignment**: finish your final project!!!
+* **Slides**: An introduction to GIS in Python: [spatial joins and geocoding](https://github.com/harris-ippp/lectures/blob/master/10-gis/gis.pdf).
 

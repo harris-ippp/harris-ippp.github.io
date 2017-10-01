@@ -32,6 +32,10 @@ Create a [**student GitHub account**](https://education.github.com/pack), or jus
       * If you have trouble creating the passphrase when the time comes ... don't (just leave it blank/hit return).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows your computer is _you_.  This last piece is not a prerequisite for starting on Monday, but _will_ be necessary, for downloading and starting your homework.
    2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac).
       * If `pbcopy` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
+  
+  In these instructions, you'll see a few lines that bein with a `$` or `#`.  Typically in coding instructions, `$ `is understood to be your prompt, and anything following a `#` is a comment.
+  This means that you don't copy the `$`-sign itself, and you completely skip the lines beginning with a `#` -- though they will actually do nothing if run.
+
 
 * Tell GitHub who you are, by executing the running the following commands,
     with appropriate substitutions:
