@@ -23,7 +23,7 @@ During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
 ## Baseline
 
 You are aiming for something like our week 9 example on weather and crime.
-You can see a straightforward writeup of this work, here:
+You can find a straightforward writeup of this work, here:
 
 https://harris-ippp.github.io/weather
 
@@ -31,20 +31,19 @@ https://harris-ippp.github.io/weather
   I am much more interested in projects that start from some sort of a "question" and that take the data merge seriously.
   This is not a statistics class, and I'm not looking for iron-clad causality.  But neither am I interested in a scatter plot of two random variables.
   * It is not enough to plot dots representing one type of incident on a choropleth map from another source, or plot school quality against crime rates.
-  * *I will make an exception for the two source rule, if one or more of the parameters require significant cleaning.  For example, fertility histories in the NLSY are very, very messy.  So too, are some state election returns.  But this is the exception, and you must discuss this with me before your proposal.
+  * *I will make an exception for the two source rule, if one or more of the parameters require _very_ significant cleaning.  For example, fertility histories in the NLSY are extremely messy.  So too, are some state election returns.  But exceptions need to be compellingly justified, and you must discuss this with me before your proposal.
 * Produce plots and tables and develop a sensible model with statsmodels.  Give that model a workout.
 * Describe what you have done in a clean and presentable notebook (or website), preferably with some degree of manipulability.
-* Document your technical work in the README file.
+* Document your technical work in the writeup or the README file for the repository.
 
 ## Suggested extensions
 
 * I recognize that not all data sources are equally easy to use.  I will reward efforts to use datasets that are take a bit of work.  For instance, lining up two 20-line excel spreadsheets... not that impressive.
 * Build a sqlite database from the two sources, and load your data from SQL in your functions.
-* Mapping the data... more points for "[very complex](http://saxon.harris.uchicago.edu/~jsaxon/migration/migration.html)") maps.
-* Build a website, and put it online as you did in Week 6.  You are welcome to use html as in HW6, or Jekyll themes on GitHub to do this, as I do for the class websites.  More points for your own, navigable HTML or Jekyll; less points for copying your jupyter notebook.
-* Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.  See [slides](https://github.com/harris-ippp/lectures/blob/master/old/nn/nn.pdf) from last year's class.  (This is fire -- be careful with this stuff in the real world.)
-* Build interactive functions or a dashboard as in our Thanksgiving lectures.
-* Use a machine learning model (sci-kit learn), to predict one outcome from inputs.  But you must be careful that the predictor makes sense.
+* Mapping the data... more points for "[very complex](http://saxon.harris.uchicago.edu/~jsaxon/migration/migration.html)" maps.
+* Build a website, and put it online as you did in Week 6.  You are welcome to use html as in HW6, or Jekyll themes on GitHub to do this, as I do for the class websites.  More points for presenting your own navigable HTML or Jekyll; less points for copying your jupyter notebook.
+* Depending on what data you use (if this is meaningful), apply a machine-learning method from sci-kit learn, to predict an outcome from inputs.  See [slides](https://github.com/harris-ippp/lectures/blob/master/old/nn/nn.pdf) from last year's class.  (This is playing fire -- be careful with this stuff in the real world.)
+* Build interactive functions or a dashboard as in our Thanksgiving lecture.
 
 ## Grading
 The grading rubric will be modified to benefit ambitious projects:
@@ -53,7 +52,7 @@ The grading rubric will be modified to benefit ambitious projects:
 * Correctness (20%): is the baseline analysis delivered bug-free with thought for the statistics?
 * Scope (20%): how much do you try to do?  You will get points for correct and meaningful: plots, tables, maps, manipulable data (drop-down, etc.), hosting the website online, etc. -- see "extensions."
 * Style (20%): are the front-end and code both navigable?  Is the code well-commented?  Does its division among files make sense?  Do all plots have appropriate legends and labels?  
-* Documentation (20%): is the presentation in the data palooza functional and engaging?  Does the README actually make it possible to understand how to find your data and run your site?  Is your code well-commented?
+* Documentation (20%): is the presentation in the data palooza functional and engaging?  Does the documentation (README) actually make it possible to understand how to find your data and run your site?  Is your code well-commented?
 
 ## Datasets for Inspiration
 
