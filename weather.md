@@ -144,9 +144,9 @@ Looking simply at the difference with respect to the preceding day
 
 <img src="img/daily_diff.png" width="40%">
 
-All in all, then the model is:
+All in all, with the "daily difference" as DD, the model is:
 
-_Crime ~ α<sub>yw</sub> + β<sub>T</sub> T β<sub>T</sub> T + β<sub>T</sub>T β<sub>DD</sub>DD_
+_Crime ~ α<sub>yw</sub> + β<sub>Y</sub>Y + β<sub>T</sub>T + β<sub>DD</sub>DD_
 
 The results are as follows:
 
@@ -408,10 +408,7 @@ In both cases, there is an apparent change in the slope at around 50° F.
 Since`statsmodels` isn't built for this type of fit, I have used `lmfit`
   to fit piecewise function with 
 
-$$Crime \sim \alpha + \beta_Y Y + \begin{cases}
-                                  \beta_T T  & \text{if } T < T_\text{cut} \\
-                                  \beta_T T_\text{cut} + \beta_{T,\text{high}} (T-T_\text{cut})  & \text{if } T \ge T_\text{cut}
-                                  \end{cases}$$
+<img src="img/piecewise.png" width="60%">
 
 
 The model indeed fits a sharpdrop in the slope at 51.7±1.6° F,
