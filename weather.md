@@ -4,13 +4,14 @@
 
 This project is an exploration of the interaction
   of weather and crime in Chicago.
-It is motivated by the simple initial observation of
-  a strong seasonal variation in crime rate in Chicago.
-Plotting stable crime rates for cities without cold winters,
-  we suggest that temperature is the relevant pathway.
-In the context of a regression on Chicago, 
+It is initially motivated by the
+  strong seasonal variation observed the crime rate for Chicago.
+By presenting stable crime rates for cities without cold winters,
+  I suggest that temperature -- rather than daylight or summer schedules --
+  is the relevant pathway for this seasonal effect.
+In the context of a regression for Chicago crime, 
   the coefficients on temperature and precipitation are large and significant.
-We thus confirm earlier results in this realm.
+I thus reproduce earlier results in this realm.
 After removing the secular trends over time,
   temperature is responsible for around 60% of the residual
   variation in the rates of battery, theft, and assault.
@@ -27,21 +28,26 @@ Recent studies by [Ranson](https://doi.org/10.1016/j.jeem.2013.11.008), and
   [Gamble and Hess](https://dx.doi.org/10.5811%2Fwestjem.2012.3.11746) in the context of climate change,
   have found strong positive correation of temperature with crime.
 Both find that the slope falls with increasing temperature.
-
-* [The Effect of Temperature on Crime](http://www.jstor.org/stable/23637533), Simon Field
+However, these and earlier work by [Field](http://www.jstor.org/stable/23637533) (1992)
+  was at the monthly level.
+This project therefore benefits from more-precise data
+  and can probe daily variation in temperature and precipitation.
+Field's work at the monthly level for England and Wales 
+  failed to identify a significant effect of rainfall,
+  whereas the daily analysis presented here finds a stark effect.
 
 ## Data
 
-Check-out scripts for the data in this analysis can be found in the `retrieval_scripts/` directory.
+Check-out scripts for the data in this analysis can be found in my `[data](https://github.com/JamesSaxon/data/)` repository.
 
 ### City Crime Data
 
-I found 10 major US cities with public crime data portals
+I have downloaded data from 10 major US cities with public crime data portals
   that report crimes with a time and location.
 While I focus the analysis on Chicago, 
-  I do use Dallas, San Francisco, Phoenix, and Philadelphia
-  to tease out seasonal variations from temperature variation.
-The datasets can be found here:
+  I do use data Dallas, San Francisco, Phoenix, and Philadelphia
+  to separate out seasonal variations from temperature variation.
+The datasets used are:
 * [Chicago](https://data.cityofchicago.org/view/5cd6-ry5g)
 * [San Francisco](https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry)
 * [Dallas](https://www.dallasopendata.com/Public-Safety/Police-Incidents/tbnj-w5hb/data)
@@ -55,7 +61,7 @@ The datasets can be found here:
 
 A check-out script for all of these data is found here:
 
-[**`retrieval_scripts/crime/download`**]()
+[**`data/crime/download`**](https://github.com/JamesSaxon/data/blob/master/crime/download)
 
 The reporting periods vary widely between cities.
 Records in Chicago and San Francisco go back to 2001 and 2003;
@@ -73,15 +79,18 @@ I could also have used the FBI's Uniform Crime Reports,
 ### Weather Underground API
 
 The Weather Underground API provides 
-  an outstanding interface for retrieving historical weather data.
+  an outstanding interface for retrieving historical weather data:
+ 
+* https://www.wunderground.com/weather/api/
+  
 The service provides hourly weather data for major US airports
   at the hourly level, dating further back than any of the crime datasets.
 A free account provides 500 calls per day and 10 calls per minute.
 Each call returns one day worth of day, usually with 24 hourly observations.
-A script is provided that downloads one airport and year,
+A script is provided that downloads one airport and year (365 calls, every 7 seconds),
   and which can be run daily:
 
-[**`retrieval_scripts/weather/download.py`**]()
+[**`data/weather/download.py`**](https://github.com/JamesSaxon/data/blob/master/weather/download.py)
 
 This script retains the complete json response for each call,
   and also extracts a daily csv "reduction,"
@@ -92,16 +101,20 @@ I have downloaded complete records for Chicago and Phoenix.
 
 ## Investigation
 
-All analysis code for this project is included in a single jupyter notebook.
+All analysis code for this project is included in a single jupyter notebook:
+
+[weather_crime.ipynb](https://github.com/harris-ippp/lectures/blob/master/09-weather/weather_crime.ipynb)
+
 The bulk of the analysis is performed in python, pandas and statsmodels,
   but I do use command line tools to reduce the data volume.
+These calls are also contained within the notebook.
 
 ### Comparison of Cities
 
 The observation that motivates this analysis is the strong seasonal variation in Chicago crime rates,
   which correlates in an obvious way with temperature:
 
-<img src="img/chicago_temp.png" width="40%"> <img src="img/chicago_crime.png" width="40%">
+<img src="img/chicago_temp.png" width="45%"> <img src="img/chicago_crime.png" width="45%">
 
 The first question is whether temperature is truly the "culprit,"
   or if instead the variation is simply seasonal.
@@ -113,8 +126,8 @@ Monthly crime rates for San Francisco, Phoenix, and Dallas
 By contrast other northern cities like Philadelphia do.
 This provides strong circumstantial evidence that temperature is the relevant factor.
 
-<img src="img/phoenix_crime.png" width="40%"> <img src="img/dallas_crime.png" width="40%"> 
-<img src="img/sf_crime.png" width="40%"> <img src="img/philly_crime.png" width="40%">
+<img src="img/phoenix_crime.png" width="45%"> <img src="img/dallas_crime.png" width="45%"> 
+<img src="img/sf_crime.png" width="45%"> <img src="img/philly_crime.png" width="45%">
 
 ### Regression Analysis
 
@@ -131,7 +144,7 @@ I choose the non-parametric approach (fixed-effects).
 #### The Baseline Model
 
 In addition to the secular trend,
-  we have seen before that crime rates display a strong weekly cyclicity.
+  we have seen before that crime rates exhibit strong weekly cyclicity.
 I therefore include yearly and day-of-week fixed effects.
 I also include a dummy for precipitation.
 The main item of interest is the coefficient on the temperature.
@@ -144,9 +157,9 @@ Looking simply at the difference with respect to the preceding day
 
 <img src="img/daily_diff.png" width="40%">
 
-All in all, with the "daily difference" as DD, the model is:
+All in all, with year _y_, day of week _w_, temperature _T_, and "daily difference" as DD, the the model is:
 
-_Crime ~ α<sub>yw</sub> + β<sub>Y</sub>Y + β<sub>T</sub>T + β<sub>DD</sub>DD_
+_Crime ~ α<sub>yw</sub> + β<sub>T</sub>T + β<sub>DD</sub>DD_
 
 The results are as follows:
 
@@ -267,7 +280,7 @@ The model has a high R² of 0.89.
 * The day-of-week fixed effects show crime peaking on Friday (4) and at its lowest on Sundays (6), as usual.
 * Temperature has a positive and extremely significant effect on crime (t = 79).
 * Precipitation leads to a large and highly significant (_t_ = 13) reduction in the daily crime rates.
-* These effects are so large that there is no doubt as to the impact of weather; however alternative specifications can alter somewhat the values of of the coefficients.
+* These effects are so large that there is no doubt as to the impact of weather, and little need for more-subtle tests.  Nevertheless, alternative specifications can alter somewhat the values of of the coefficients.
 * The coefficient on the "daily difference" is negative and moderately significant, but for alternative specifications can be consistent with 0.
 
 #### Observations on the Residuals
@@ -281,9 +294,9 @@ This behavior has previously been observed, in the work noted above.
 
 <img src="img/model_residuals.png" width="40%"> <img src="img/model_cpr.png" width="40%">
 
-Also notable in the residuals are dozen or so very-high crime days,
-  with more than 400 more crimes than normally predicted.
-We now turn to these days.
+Also notable in the residuals is the presence of a dozen or so outliers,
+  with crime levels far from the trend and outside the distribution.
+We now turn to those days with more than 400 more crimes than nominally predicted.
 
 ### Outliers Identified: New Year's Day.
 
@@ -296,7 +309,7 @@ Although there is a spate of crimes at midnight,
   not to a technical problem.
 Comparing the crime rate on New Year's to the rest of the month,
   we see a fairly uniform rise in the rate across types.
-The normal "heavy hitters" of theft and batter 
+In particular, the normal "heavy hitters" of theft and batter 
   have high ratios with respect to the normal expectations for January
   and make up for the bulk of the increase.
 The additional crime is not concentrated in, for instance, financial crimes,
@@ -386,8 +399,8 @@ The additional crime is not concentrated in, for instance, financial crimes,
   </tbody>
 </table>
 
-Nevertheless, there are a few notable crime types
-  with increases far above the global ~80%.
+Nevertheless, there are a few notable exceptions: 
+  crime types with increases far above the global ~80%.
 Namely, there are overwhelming spikes in sexual crimes and crimes involving children.
 
 <img src="img/jan1_ratios.png" width="80%">
@@ -398,24 +411,29 @@ Next, we turn to a non-linear model for crime,
   as suggested by the non-normal residuals.
 Since I am particularly interested in identifying the turn-over
   where it might get "too hot for crime,"
-  I focus this analysis on crime in the afternoon -- from noon to 6pm.
+  I focus here on crime in the afternoon (from noon to 6pm),
+  when it might really get "too hot."
 I allow for a linear coefficient for the year.
 We can see the effect we are trying to fit either 
   by plotting a profile plot of the temperature after subtracting off the trend in the year,
   or by plotting the component plus residuals of a Count ~ Year + Time model.
 In both cases, there is an apparent change in the slope at around 50° F.
 
-Since`statsmodels` isn't built for this type of fit, I have used `lmfit`
-  to fit piecewise function with 
+Since `statsmodels` isn't built for this type of fit, I have used `lmfit`
+  to fit a piecewise function with 
 
-<img src="img/piecewise.png" width="60%">
+<img src="img/piecewise.png" width="50%">
 
 
-The model indeed fits a sharpdrop in the slope at 51.7±1.6° F,
-  from 2.0±0.1 to 0.6±0.1° crimes per degree fahrenheit.
+The model indeed fits a sharp drop in the slope at 51.7±1.6° F,
+  from 2.0±0.1 to 0.6±0.1 crimes per degree fahrenheit.
 
 Alternative specifications for this behavior, for example as a quadratic,
   did not reliably converge.
+
+Note that as specified, this model still fits a single absolute reduction in crime across years,
+  rather than a percentage fluctuation
+The latter specification would potentially be more appropriate, but is not natural with `statsmodels`.
 
 ### The Most-Susceptible Types of Crime
 
@@ -500,4 +518,18 @@ For each of battery, assault, and theft, the correlations
     </tr>
   </tbody>
 </table>
+
+
+## Conclusions
+
+This study reproduces past results that find increases in crime rates with temperature.
+By using crime and weather data aggregated at daily frequency,
+  we also find tha precipitation puts a strong brake on crime.
+The crimes most susceptible to this temperature effect are battery, assault, theft and criminal damage.
+After accounting for the secular trends in crime rates, temperature is responsible
+  for more than half of the remaining variation in the daily rates of these crime types, in Chicago.
+
+We have explored alternative specifications, and confirmed that there is indeed a "ceiling" on this effect:
+  higher temperatures correlate with higher crime, but the effect is smaller for days that are already very hot.
+  
 
