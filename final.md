@@ -24,6 +24,9 @@ During the finals period (December 4, 1:30-3:30), we will have 2-hour palooza,
 ## Baseline
 
 You are aiming for something like our week 9 example on weather and crime.
+You can see a straightforward writeup of this work, here:
+
+https://harris-ippp.github.io/weather
 
 * Your work must* include data from at least two sources, specified in your proposal.
   I am much more interested in projects that start from some sort of a "question" and that take the data merge seriously.
