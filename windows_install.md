@@ -41,10 +41,6 @@ Bonus: if you need to install additional packages, you can just run the exact sa
       ```
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 |Anaconda 4...").
-* Exit python (`quit()`) and add a few more (mainly geographic) packages, with this command:
-  ```
-  conda install -c conda-forge geopandas geopy folium fiona shapely pyproj rtree pysal psycopg2 descartes beautifulsoup4 requests
-  ```
 * Finally, let's make sure that Jupyter can be started easily.
   * Search for it in the start menu, then right-click, and select "Properties."  (See pictures, below.)
     * If you're on Windows 10, I think you will need to first click on "Show in Folder," and then again right click to see "Properties."
@@ -56,7 +52,47 @@ Bonus: if you need to install additional packages, you can just run the exact sa
     C:\cygwin64\home\jsaxon\Conda\python.exe "C:/cygwin64/home/jsaxon/Conda/Scripts/jupyter-notebook-script.py" --NotebookApp.iopub_data_rate_limit=100000000 C:\WHERE\YOU\WANT\TO\LAUNCH
     ```
     Note that your classmates with Macs will simply launch `jupyter notebook`.  You should not do this, as it will launch multiple servers that are a pain to kill, and a potential security hole.
-You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
+    
+#### Geographic Libraries
+We'll want a few more libraries for week 10, that depend on some geographic libraries.  These have to be installed in their own environment.  We'll do this through the Anaconda Navigator program.
+
+<details><summary>Click here to see all the details, with pictures.</summary
+* Open Anaconda Navigator
+* Go to "Environments" on the left hand side.
+  
+![](img/w_geo_a.png?raw)
+
+* At the bottom, click "Create"
+
+![](img/w_geo_b.png?raw)
+
+* Name it py35 (or anything).  Select python version 3.5. Click create.
+
+![](img/w_geo_c.png?raw)
+
+* Click on "Channels" on the right hand side, then "Add."  Type "conda-forge" and "Update channels."
+
+![](img/w_geo_d.png?raw)
+
+* Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.
+
+![](img/w_geo_e.png?raw)
+
+* After doing this, you should be able to switch to "Selected," and see all four packages.
+
+![](img/w_geo_f.png?raw)
+
+* Click "Apply" in the bottom left hand side, and then confirm in the dialog.
+
+![](img/w_geo_g.png?raw)
+
+* In the future, you will launch jupyter notebooks for geographic work (only) by first clicking on the in _this environment_ (py35), and then clicking on the "Play" icon to "Open with Jupyter Notebook."  The notebook that then opens should be able to run you test-suite.ipynb.
+
+![](img/w_geo_h.png?raw)
+
+</details>
+    
+**You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!**
 
 ### Atom Install
 * Go to atom.io and download the Windows installer.  Launch it.  It is that easy!
