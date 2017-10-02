@@ -9,7 +9,7 @@ Download the **Python 3.6, 64-bit [Anaconda](https://www.continuum.io/downloads)
 * It may ask for your business email -- you can ignore it.)
 * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
 * When the install is complete, open Terminal and type `python`, then hit `<Enter>`.  It should read `Python 3.5.2 |Anaconda...` a new command prompt.  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac).
-* Finally exit python (`quit()`) and add an additional environment with a few more (mainly geographic) packages, with this command:
+* Finally add an additional environment with a few more (mainly geographic) packages, run these commands (from the terminal):
   ```
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
   brew install geos
