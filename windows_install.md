@@ -73,11 +73,11 @@ We'll want a few more libraries for week 10, that depend on some geographic libr
 
 ![](img/w_geo_d.png?raw=true)
 
-*  Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.
+*  Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.  Requests may already be installed.
 
 ![](img/w_geo_e.png?raw=true)
 
-*  After doing this, you should be able to switch to "Selected," and see all four packages.
+*  After doing this, you should be able to switch to "Selected," and see all four packages.  (Except of course, requests, if it was already installed.)
 
 ![](img/w_geo_f.png?raw=true)
 
