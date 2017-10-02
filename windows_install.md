@@ -56,40 +56,43 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 #### Geographic Libraries
 We'll want a few more libraries for week 10, that depend on some geographic libraries.  These have to be installed in their own environment.  We'll do this through the Anaconda Navigator program.
 
-<details><summary>Click here to see all the details, with pictures.</summary>
+<details>
+<summary>Click here to see all the details, with pictures.</summary>
 
-* Open Anaconda Navigator
-* Go to "Environments" on the left hand side.
+<ul>
+  <li>  Open Anaconda Navigator
+  <li>  Go to "Environments" on the left hand side.
+</ul>
 
-![](img/w_geo_a.png?raw)
+<img src=img/w_geo_a.png?raw>
 
-* At the bottom, click "Create"
+<ul><li>  At the bottom, click "Create"</ul>
 
-![](img/w_geo_b.png?raw)
+<img src=img/w_geo_b.png?raw>
 
-* Name it py35 (or anything).  Select python version 3.5. Click create.
+<ul><li>  Name it py35 (or anything).  Select python version 3.5. Click create.</ul>
 
-![](img/w_geo_c.png?raw)
+<img src=img/w_geo_c.png?raw>
 
-* Click on "Channels" on the right hand side, then "Add."  Type "conda-forge" and "Update channels."
+<ul><li>  Click on "Channels" on the right hand side, then "Add."  Type "conda-forge" and "Update channels."</ul>
 
-![](img/w_geo_d.png?raw)
+<img src=img/w_geo_d.png?raw>
 
-* Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.
+<ul><li>  Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.</ul>
 
-![](img/w_geo_e.png?raw)
+<img src=img/w_geo_e.png?raw>
 
-* After doing this, you should be able to switch to "Selected," and see all four packages.
+<ul><li>  After doing this, you should be able to switch to "Selected," and see all four packages.</ul>
 
-![](img/w_geo_f.png?raw)
+<img src=img/w_geo_f.png?raw>
 
-* Click "Apply" in the bottom left hand side, and then confirm in the dialog.
+<ul><li>  Click "Apply" in the bottom left hand side, and then confirm in the dialog.</ul>
 
-![](img/w_geo_g.png?raw)
+<img src=img/w_geo_g.png?raw>
 
-* In the future, you will launch jupyter notebooks for geographic work (only) by first clicking on the in _this environment_ (py35), and then clicking on the "Play" icon to "Open with Jupyter Notebook."  The notebook that then opens should be able to run you test-suite.ipynb.
+<ul><li> In the future, you will launch jupyter notebooks for geographic work (only) by first clicking on the in _this environment_ (py35), and then clicking on the "Play" icon to "Open with Jupyter Notebook."  The notebook that then opens should be able to run you test-suite.ipynb.</ul>
 
-![](img/w_geo_h.png?raw)
+<img src=img/w_geo_h.png?raw>
 
 </details>
     
