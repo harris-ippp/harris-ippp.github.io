@@ -58,27 +58,35 @@ We'll want a few more libraries for week 10, that depend on some geographic libr
 
 * Open Anaconda Navigator
 * Go to "Environments" on the left hand side.
+
 ![](img/w_geo_a.png?raw=true)
 
 * At the bottom, click "Create"
+
 ![](img/w_geo_b.png?raw=true)
 
 * Name it py35 (or anything).  Select python version 3.5. Click create.
+
 ![](img/w_geo_c.png?raw=true)
 
 * Click on "Channels" on the right hand side, then "Add."  Type "conda-forge" and "Update channels."
+
 ![](img/w_geo_d.png?raw=true)
 
 *  Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.
+
 ![](img/w_geo_e.png?raw=true)
 
 *  After doing this, you should be able to switch to "Selected," and see all four packages.
+
 ![](img/w_geo_f.png?raw=true)
 
 *  Click "Apply" in the bottom left hand side, and then confirm in the dialog.
+
 ![](img/w_geo_g.png?raw=true)
 
 * In the future, you will launch jupyter notebooks for geographic work (only) by first clicking on the in _this environment_ (py35), and then clicking on the "Play" icon to "Open with Jupyter Notebook."  The notebook that then opens should be able to run you test-suite.ipynb.
+
 ![](img/w_geo_h.png?raw=true)
 
     
