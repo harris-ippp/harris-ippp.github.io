@@ -56,10 +56,11 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 #### Geographic Libraries
 We'll want a few more libraries for week 10, that depend on some geographic libraries.  These have to be installed in their own environment.  We'll do this through the Anaconda Navigator program.
 
-<details><summary>Click here to see all the details, with pictures.</summary
+<details><summary>Click here to see all the details, with pictures.</summary>
+
 * Open Anaconda Navigator
 * Go to "Environments" on the left hand side.
-  
+
 ![](img/w_geo_a.png?raw)
 
 * At the bottom, click "Create"
