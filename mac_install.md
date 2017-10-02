@@ -10,13 +10,13 @@ Download the **Python 3.6, 64-bit [Anaconda](https://www.continuum.io/downloads)
 * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
 * When the install is complete, open Terminal and type `python`, then hit `<Enter>`.  It should read `Python 3.5.2 |Anaconda...` a new command prompt.  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac).
 * Finally exit python (`quit()`) and add an additional environment with a few more (mainly geographic) packages, with this command:
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-brew install geos
+  ```
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+  brew install geos
 
-conda create -n py36 python=3.6 -c conda-forge geopandas geopy folium requests
-```
-You will have to provide your password for the first command.  The [brew](http://macappstore.org/geos/) part is installing HomeBrew and geos.  Geopandas depends on fiona, which in turn depends on geos libraries.  Normally Anaconda deals with this stuff for us, but struggles with geographic libraries.  You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
+  conda create -n py36 python=3.6 -c conda-forge geopandas geopy folium requests
+  ```
+  You will have to provide your password for the first command.  The [brew](http://macappstore.org/geos/) part is installing HomeBrew and geos.  Geopandas depends on fiona, which in turn depends on geos libraries.  Normally Anaconda deals with this stuff for us, but struggles with geographic libraries.  You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
 
 ### Atom Text Editor
 I encourage you to use [**Atom**](https://atom.io/) as a text editor; it provides syntax highlighting that you will find useful.  The [Download](https://atom.io/) and installation should be trivial.  If you want, you can delete it when you're done.
