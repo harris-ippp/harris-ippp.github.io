@@ -17,7 +17,10 @@ Download the **Python 3.6, 64-bit [Anaconda](https://www.continuum.io/downloads)
   conda create -n py-geo -c conda-forge python=3.6 geopandas geopy folium requests
   ```
   You will have to provide your password for the first command.  The [brew](http://macappstore.org/geos/) part is installing HomeBrew and geos.  Geopandas depends on fiona, which in turn depends on geos libraries.  Normally Anaconda deals with this stuff for us, but struggles with geographic libraries.  
-  In the future, you will have to launch this notebook through the environments tab in Anaconda Navigator  (see below).
+  In the future, you will have to launch this notebook through the environments tab in Anaconda Navigator  (see picture below).
+
+![Launch Jupyter](img/mac_jupyter_launch.png?raw=true "Launch Jupyter")
+  
   
 You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
 
@@ -50,5 +53,3 @@ Create a [**student GitHub account**](https://education.github.com/pack), or jus
   git config --global user.name "Your Name"
   ```
 
-
-![Launch Jupyter](img/mac_jupyter_launch.png?raw=true "Launch Jupyter")
