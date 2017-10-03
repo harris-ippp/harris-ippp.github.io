@@ -300,7 +300,7 @@ We now turn to those days with more than 400 more crimes than nominally predicte
 
 ### Outliers Identified: New Year's Day.
 
-It turns out that every single one of these days is a New Year's Day (2002-20015).
+It turns out that every single one of these days is a New Year's Day (2002-2015).
 One might naturally worry about a data reporting issue:
   some crimes that did not have a definite time, could simply be set to January 1.
 This does not appear to be the case.
