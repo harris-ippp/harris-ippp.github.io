@@ -14,7 +14,7 @@ Download the **Python 3.6, 64-bit [Anaconda](https://www.continuum.io/downloads)
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
   brew install geos
 
-  conda create -n py36 python=3.6 -c conda-forge geopandas geopy folium requests
+  conda create -n py-geo -c conda-forge python=3.6 geopandas geopy folium requests
   ```
   You will have to provide your password for the first command.  The [brew](http://macappstore.org/geos/) part is installing HomeBrew and geos.  Geopandas depends on fiona, which in turn depends on geos libraries.  Normally Anaconda deals with this stuff for us, but struggles with geographic libraries.  You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
 
