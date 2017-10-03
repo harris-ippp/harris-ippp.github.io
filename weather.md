@@ -419,6 +419,8 @@ We can see the effect we are trying to fit either
   or by plotting the component plus residuals of a Count ~ Year + Time model.
 In both cases, there is an apparent change in the slope at around 50° F.
 
+<img src="img/afternoon_profile.png" width="45%"> <img src="img/afternoon_lowess.png" width="45%"> 
+
 Since `statsmodels` isn't built for this type of fit, I have used `lmfit`
   to fit a piecewise function with 
 
