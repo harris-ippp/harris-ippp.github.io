@@ -12,7 +12,7 @@ header-includes:
 * TAs: Emma Peterson, Victor Vilchis Tella, Yuxi Wu, Andrew Yaspan
 * Discussion Board: [Canvas](https://canvas.uchicago.edu/courses/10240/users).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, MW 9-10:20am; Section 2: MW 1:30-2:50
-* TA Sessions: Thursday and Friday afternoons, 3:30pm in 289A (Oct. 6 in 224).
+* TA Sessions: Thursday 1:30-2:50pm (224) and Friday afternoons, 3:30-5pm in 289A (Oct. 6 in 140B).
 
 # Course Aims
 The past decade has witnessed an explosion in the collection of ‘big data,’ and the sophistication and accessibility of the tools required to analyze those data.
