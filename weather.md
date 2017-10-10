@@ -45,7 +45,7 @@ Check-out scripts for the data in this analysis can be found in my [`data`](http
 I have downloaded data from 10 major US cities with public crime data portals
   that report crimes with a time and location.
 While I focus the analysis on Chicago, 
-  I do use data Dallas, San Francisco, Phoenix, and Philadelphia
+  I do use data from Dallas, San Francisco, Phoenix, and Philadelphia
   to separate out seasonal variations from temperature variation.
 The datasets used are:
 * [Chicago](https://data.cityofchicago.org/view/5cd6-ry5g)
