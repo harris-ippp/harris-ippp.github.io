@@ -74,7 +74,7 @@ For example Chicago and Philadelphia report crimes,
 I remove non-criminal offenses in the analysis.
 
 I could also have used the FBI's Uniform Crime Reports,
-  but these are aggregate to the monthly level.
+  but these are aggregated to the monthly level.
 
 ### Weather Underground API
 
@@ -121,8 +121,8 @@ The first question is whether temperature is truly the "culprit,"
 Are we simply seeing more kids off from school?
 Or more houses unattended while families take vacations?
 Or longer evening hours?
-Monthly crime rates for San Francisco, Phoenix, and Dallas
-  have far less severe winters and exhibit no notable cycles in crime rates.
+Winters in San Francisco, Phoenix, and Dallas are far less severe than Chicago,
+  and they exhibit no notable annual cycles in crime rates.
 By contrast other northern cities like Philadelphia do.
 This provides strong circumstantial evidence that temperature is the relevant factor.
 
