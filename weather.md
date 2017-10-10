@@ -133,11 +133,11 @@ This provides strong circumstantial evidence that temperature is the relevant fa
 
 The initial regression to report is simply daily crime rates on
   average (daily) temperature in Chicago.
-The regression displays a very clear trend but with enormous, non-normal residuals.
+The regression displays a very clear trend but enormous, non-normal residuals.
 
 <img src="img/ols_crime_temp.png" width="45%">
 
-The obviously missing factor is the secular reductions in crime.
+The obviously missing factor is the secular reductions in crime since reporting began.
 To address this, yearly fixed effects and a linear time trend are almost equally effective.
 I choose the non-parametric approach (fixed-effects).
 
@@ -145,7 +145,7 @@ I choose the non-parametric approach (fixed-effects).
 
 In addition to the secular trend,
   we have seen before that crime rates exhibit strong weekly cyclicity.
-I therefore include yearly and day-of-week fixed effects.
+I therefore include both yearly and day-of-week fixed effects.
 I also include a dummy for precipitation.
 The main item of interest is the coefficient on the temperature.
 Because I am curious as to the effect of hot _relative_ days,
@@ -285,7 +285,7 @@ The model has a high R² of 0.89.
 
 #### Observations on the Residuals
 
-The residuals of the full fit are dramatically smaller than the original temperature v. crime fit.
+The residuals of the elaborted model are dramatically tighter than the original temperature v. crime fit.
 However, at low temperature they are non-normal and tend to be negative.
 Fitting a non-parametric, locally-weighted linear regresion to the component + residual data, 
   the slope of the fit line indeed falls with temperature.
@@ -309,7 +309,7 @@ Although there is a spate of crimes at midnight,
   not to a technical problem.
 Comparing the crime rate on New Year's to the rest of the month,
   we see a fairly uniform rise in the rate across types.
-In particular, the normal "heavy hitters" of theft and batter 
+In particular, the normal "heavy hitters" of theft and battery
   have high ratios with respect to the normal expectations for January
   and make up for the bulk of the increase.
 The additional crime is not concentrated in, for instance, financial crimes,
@@ -400,7 +400,7 @@ The additional crime is not concentrated in, for instance, financial crimes,
 </table>
 
 Nevertheless, there are a few notable exceptions: 
-  crime types with increases far above the global ~80%.
+  crime types with increases far above the global increase of ~80%.
 Namely, there are overwhelming spikes in sexual crimes and crimes involving children.
 
 <img src="img/jan1_ratios.png" width="90%">
@@ -427,14 +427,14 @@ Since `statsmodels` isn't built for this type of fit, I have used `lmfit`
 <img src="img/piecewise.png" width="50%">
 
 
-The model indeed fits a sharp drop in the slope at 51.7±1.6° F,
+The model indeed fits a drop in the slope at 51.7±1.6° F,
   from 2.0±0.1 to 0.6±0.1 crimes per degree fahrenheit.
 
 Alternative specifications for this behavior, for example as a quadratic,
   did not reliably converge.
 
 Note that as specified, this model still fits a single absolute reduction in crime across years,
-  rather than a percentage fluctuation
+  rather than a percentage fluctuation.
 The latter specification would potentially be more appropriate, but is not natural with `statsmodels`.
 
 ### The Most-Susceptible Types of Crime
