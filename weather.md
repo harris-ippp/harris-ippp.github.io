@@ -25,13 +25,13 @@ I evaluate which types of crime are most related to temperature.
 
 Past work has validated the intuitive premise that crime rises with temperature.
 Recent studies by [Ranson](https://doi.org/10.1016/j.jeem.2013.11.008), and
-  [Gamble and Hess](https://dx.doi.org/10.5811%2Fwestjem.2012.3.11746) in the context of climate change,
-  have found strong positive correation of temperature with crime.
+  [Gamble and Hess](https://dx.doi.org/10.5811%2Fwestjem.2012.3.11746) in the context of climate change
+  have found strong positive correlation of temperature with crime.
 Both find that the slope falls with increasing temperature.
 However, these and earlier work by [Field](http://www.jstor.org/stable/23637533) (1992)
-  was at the monthly level.
-This project therefore benefits from more-precise data
-  and can probe daily variation in temperature and precipitation.
+  were at the monthly level.
+This project benefits from more-precise data
+  and probes daily variation in temperature and precipitation.
 Field's work at the monthly level for England and Wales 
   failed to identify a significant effect of rainfall,
   whereas the daily analysis presented here finds a stark effect.
