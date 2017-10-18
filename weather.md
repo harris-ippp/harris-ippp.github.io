@@ -285,7 +285,7 @@ The model has a high R² of 0.89.
 
 #### Observations on the Residuals
 
-The residuals of the elaborted model are dramatically tighter than the original temperature v. crime fit.
+The residuals of the elaborated model are dramatically tighter than the original temperature v. crime fit.
 However, at low temperature they are non-normal and tend to be negative.
 Fitting a non-parametric, locally-weighted linear regresion to the component + residual data, 
   the slope of the fit line indeed falls with temperature.
