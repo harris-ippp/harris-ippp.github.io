@@ -8,11 +8,12 @@ Please complete the cygwin installation before the first class!
 * Download the 64-bit version ([setup-x86_64.exe](https://cygwin.com/setup-x86_64.exe)) and open it.
 * Click through the first setup window (Cygwin Setup).
 * "Choose Installation Type" → "Install from Internet."
-* "Choose Installation Directory" → whatever you'd like, but the default (C:\cygwin64) is good.
+* "Choose Installation Directory" → whatever you'd like, but the default (C:\cygwin64) is good.  If you're updating an existing installation, be careful to ensure that it is the same location as your current copy!
 * "Select Local Package Directory" → again, whatever you'd like, but the Downloads default  is good.
 * "Select Connection Type" → "Direct Connection"
 * "Choose Download Sites" → any are fine.
 * "Select packages."  Switch "View" to "Not Installed."  Pay attention here: what you're doing is selecting the "additional prorams that you'll want!  
+   * search "sqlite3".  For "sqlite3: Client program for accessing SQLite3 databases", click on "Skip" that it says 3.20.1-1 (or so), instead of "Skip".
    * search "git".  For "git: Distributed version control system", click on "Skip" that it says 2.14.0-1 (or so), instead of "Skip".
    * search "python3".  Click on "python3: Py3K language interpreter" to replace "Skip" with (~3.6.1-1).
    * search "curl".  Click on "curl: Multi-protocol file transfer tool" to replace "Skip" with (~7.55.1-1).
