@@ -76,7 +76,7 @@ Each subsequent assignment will be assessed on:
 
 Since we may review challenging parts of the homeworks in class on Wednesday,
   late work submitted within one week will count for 80%; notify the TAs to 'pull' it when it is complete.
-You must complete (make a concerted effort) on eight of the nine assignments to pass the course.
+You must complete (make a concerted effort) on seven of the eight assignments to pass the course.
 (This includes pass/fail students.)
 
 
