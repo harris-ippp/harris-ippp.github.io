@@ -9,10 +9,16 @@ header-includes:
 ---
 
 * Instructor: Eric Potash ([epotash@uchicago.edu](mailto:epotash@uchicago.edu))
-* TAs: Ratul Esrar, Andrew Mao, Muhammad Umer Naeem, Darshan Sumant, Edric Tam, Minjia Zhu
+* TAs: [Ratul Esrar](mailto:resrar@uchicago.edu), [Muhammad Umer Naeem](umernaeem@uchicago.edu), [Darshan Sumant](darshansumant@uchicago.edu), [Nicholas Tallant](mailto:ndtallant@uchicago.edu), [Edric Tam](edrictam@uchicago.edu), [Minjia Zhu](minjiaz@uchicago.edu)
 * Discussion Board: [Canvas](https://canvas.uchicago.edu/courses/15137/).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, TuTh 10:30-11:50am; Section 2: TuTh 1:30-2:50pm
-* TA Lab Sessions: TBD
+* TA Lab Sessions
+    * Mondays 10:30am in 224 (Minjia)
+    * Mondays 4:30pm in 224 (Nicholas)
+    * Tuesdays 9am in 224 (Edric)
+    * Wednesdays 9am 140B (Darshan)
+    * Wednesdays 1:30pm in 224 (Ratul)
+    * Wednesdays 3pm in 224 (Umer)
 * Office Hours: TBD
 
 # Course Aims
