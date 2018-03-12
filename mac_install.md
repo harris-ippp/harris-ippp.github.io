@@ -9,20 +9,8 @@ Download the **Python 3.6, 64-bit [Anaconda](https://www.continuum.io/downloads)
 * It may ask for your business email -- you can ignore it.)
 * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
 * When the install is complete, open Terminal and type `python`, then hit `<Enter>`.  It should read `Python 3.5.2 |Anaconda...` a new command prompt.  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac).
-* Finally add an additional environment with a few more (mainly geographic) packages, run these commands (from the terminal):
-  ```
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-  brew install geos
-
-  conda create -n py-geo -c conda-forge python=3.6 geopandas geopy folium requests
-  ```
-  You will have to provide your password for the first command.  The [brew](http://macappstore.org/geos/) part is installing HomeBrew and geos.  Geopandas depends on fiona, which in turn depends on geos libraries.  Normally Anaconda deals with this stuff for us, but struggles with geographic libraries.  
-  In the future, you will have to launch this notebook through the environments tab in Anaconda Navigator  (see picture below).
-
-![Launch Jupyter](img/mac_jupyter_launch.png?raw=true "Launch Jupyter")
   
-  
-You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
+You're done with the python part! 
 
 ### Atom Text Editor
 I encourage you to use [**Atom**](https://atom.io/) as a text editor; it provides syntax highlighting that you will find useful.  The [Download](https://atom.io/) and installation should be trivial.  If you want, you can delete it when you're done.
@@ -33,21 +21,8 @@ I encourage you to use [**Atom**](https://atom.io/) as a text editor; it provide
 ### GitHub 
 Create a [**student GitHub account**](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.  Download and install [git](https://git-scm.com/downloads).
 * If your OS is more than five years old (10.7 or 10.8), you may need to get your git from [Sourceforge](https://sourceforge.net/p/git-osx-installer/activity/?page=0&limit=100#57cc86a334309d5c609e9fc8); search for version git-2.3.5-intel-universal-snow-leopard.dmg.  If you did the Window Cygwin setup, it should have included git.
-* To make submission easier, you should **"create an ssh key" key** for your GitHub account.
-  This is just the way that the git encrypts communication (lets you download files);
-    `ssh` (secure shell) is the standard way that we make secure connections from the command line.
-  Follow GithHub's instructions to 
-   1. [generate a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac)
-      * If you have trouble creating the passphrase when the time comes ... don't (just leave it blank/hit return).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows your computer is _you_.  This last piece is not a prerequisite for starting on Monday, but _will_ be necessary, for downloading and starting your homework.
-   2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac).
-      * If `pbcopy` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
-  
-  In these instructions, you'll see a few lines that bein with a `$` or `#`.  Typically in coding instructions, `$ `is understood to be your prompt, and anything following a `#` is a comment.
-  This means that you don't copy the `$`-sign itself, and you completely skip the lines beginning with a `#` -- though they will actually do nothing if run.
 
-
-* Tell GitHub who you are, by executing the running the following commands,
-    with appropriate substitutions:
+* Tell GitHub who you are, by executing the running the following commands, with appropriate substitutions from the command line (Terminal):
   ```
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"

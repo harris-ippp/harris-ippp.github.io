@@ -1,14 +1,14 @@
-title: Introduction to Programming for Public Policy (30550)
+title: Introduction to Programming for Public Policy (30550) Spring 2018
 authors:
-  JamesSaxon:
-    name: Jamie Saxon
-    display_name: Jamie Saxon
-    email: jsaxon@uchicago.edu
-    github: JamesSaxon
+  EricPotash:
+    name: Eric Potash
+    display_name: Eric Potash
+    email: epotash@uchicago.edu
+    github: potash
 description: "Class Syllabus"
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 
-gems:
-  - jekyll-mentions
+#gems:
+#  - jekyll-mentions

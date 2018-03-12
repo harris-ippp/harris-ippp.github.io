@@ -41,7 +41,7 @@ Bonus: if you need to install additional packages, you can just run the exact sa
       export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:/cygdrive/c/the/path/to/your/Continuum/Anaconda4/Scripts:$PATH
       ```
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
-* Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 |Anaconda 4...").
+* Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 \| Anaconda 4...").
 * Finally, let's make sure that Jupyter can be started easily.
   * Search for it in the start menu, then right-click, and select "Properties."  (See pictures, below.)
     * If you're on Windows 10, I think you will need to first click on "Show in Folder," and then again right click to see "Properties."
@@ -54,44 +54,7 @@ Bonus: if you need to install additional packages, you can just run the exact sa
     ```
     Note that your classmates with Macs will simply launch `jupyter notebook`.  You should not do this, as it will launch multiple servers that are a pain to kill, and a potential security hole.
     
-#### Geographic Libraries
-We'll want a few more libraries for week 10, that depend on some geographic libraries.  These have to be installed in their own environment.  We'll do this through the Anaconda Navigator program.
-
-* Open Anaconda Navigator
-* Go to "Environments" on the left hand side.
-
-![](img/w_geo_a.png?raw=true)
-
-* At the bottom, click "Create"
-
-![](img/w_geo_b.png?raw=true)
-
-* Name it py35 (or anything).  Select python version 3.5. Click create.
-
-![](img/w_geo_c.png?raw=true)
-
-* Click on "Channels" on the right hand side, then "Add."  Type "conda-forge" and "Update channels."
-
-![](img/w_geo_d.png?raw=true)
-
-*  Switch the packages to "Not installed."  Then search for and check: geopandas, geopy, requests, and folium.  Requests may already be installed.
-
-![](img/w_geo_e.png?raw=true)
-
-*  After doing this, you should be able to switch to "Selected," and see all four packages.  (Except of course, requests, if it was already installed.)
-
-![](img/w_geo_f.png?raw=true)
-
-*  Click "Apply" in the bottom left hand side, and then confirm in the dialog.
-
-![](img/w_geo_g.png?raw=true)
-
-* In the future, you will launch jupyter notebooks for geographic work (only) by first clicking on the in _this environment_ (py35), and then clicking on the "Play" icon to "Open with Jupyter Notebook."  The notebook that then opens should be able to run you test-suite.ipynb.
-
-![](img/w_geo_h.png?raw=true)
-
-    
-**You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!**
+**You're done the python part!**
 
 ### Atom Install
 * Go to atom.io and download the Windows installer.  Launch it.  It is that easy!
@@ -100,17 +63,8 @@ We'll want a few more libraries for week 10, that depend on some geographic libr
 ### GitHub Account
 * Create a [student GitHub account](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.
   You have already installed the command line git, through cygwin.
-* Finally, to make submission easier, you should "create an ssh key" key for your GitHub account.
-  This is just the way that the git encrypts communication (lets you download files);
-    `ssh` (secure shell) is the standard way that we make secure connections from the command line.
-  Follow GithHub's instructions to 
-   1. [generate a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows)
-      * If you have trouble creating the passphrase when the time comes ... don't (just leave it blank/hit return).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows your computer is _you_.  This last piece is not a prerequisite for starting on Monday, but _will_ be necessary, for downloading and starting your homework.
-   2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows).
-      * If `clip` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
   
-  In these instructions, you'll see a few lines that bein with a $ or #. Typically in coding instructions, $is understood to be your prompt, and anything following a # is a comment. This means that you don't copy the $-sign itself, and you completely skip the lines beginning with a # -- though they will actually do nothing if run.
-* Tell GitHub who you are, by executing from the command line (Terminal):
+* Tell GitHub who you are, by executing from the command line (cygwin):
   ```
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
