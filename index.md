@@ -98,8 +98,8 @@ This will enable them to straightforwardly continue using the skills that they d
 
 You will need the command line ([cygwin](https://www.cygwin.com/) on PCs, Terminal on Mac),
 python (I will only support the [Anaconda](https://www.continuum.io/downloads) distribution), and a text editor ([Atom](https://atom.io/)).
-Installation instructions are posted for [macs](mac_install) and
-[PCs](windows_install).  (If you're using Linux, you can probably figure it out yourself.)
+Installation instructions are posted for [Mac](mac_install) and
+[Windows](windows_install).  (If you're using Linux, you can probably figure it out yourself.)
 This installation is the entire first week's homework, but it will also be used in the first week's classes!
 At a minimum, you should have Atom (and cygwin, for Windows) installed *before the first class.*
 We will hold multiple lab sessions in the first week to support instalation of the software.
