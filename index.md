@@ -67,7 +67,7 @@ Unless otherwise noted, problem parts will be graded as follows:
 
 The lowest homework grade will be dropped.
 
-Since homework solutions will be posted and discussed in lab the following week, late homework can only be accepted until Sunday night. Notify the TAs to 'pull' when late homework is complete.
+Since homework solutions will be posted and discussed in lab the following week, late homework can only be accepted until Sunday night with a 10% deduction for each late day (starting Thursdays after 10:30am). Notify the TAs to 'pull' when late homework is complete.
 
 ## Final Projects (25%) 
 
