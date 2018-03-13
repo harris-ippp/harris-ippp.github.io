@@ -26,13 +26,14 @@ Please complete the cygwin installation before the first class!
 Bonus: if you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
 
 ### Anaconda
-* Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
+* Go to https://www.continuum.io/downloads.  Download and open the 64-bit Python 3.6 installer.  (Don't give them your email!)
 * Setup: Next.
 * "License Agreement" → Agree to the terms and conditions.
 * "Select Installation Type" → Just Me (recommended).
 * "Choose Install Location" → Default is probably fine.  *Make a note of where it goes.*  In my case:
    * `C:\cygwin64\home\<YOUR_USER_ID>\Continuum\Anaconda3`  (`<YOUR_USER_ID>` is actually your user id, not that string.)
 * "Advanced Installation Options" → just accept. "Install."  (Let it go.)
+* Skip the option to install Microsoft Visual Studio.
 * Learn about Anaconda cloud only if you feel like it (no).
 * Now, open up cygwin.  You will be at /home/\<YOUR_USER_ID\>/.  Type `which python`.  It will probably _not_ be the one you just installed.
    * Using Atom, open up the file `.bashrc`, which should be in `/home/UserName/` in your cygwin directory: in my case, `C:\cygwin\home\jsaxon\.bashrc`.
@@ -44,7 +45,7 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 \| Anaconda 4...").
 * Finally, let's make sure that Jupyter can be started easily.
   * Search for it in the start menu, then right-click, and select "Properties."  (See pictures, below.)
-    * If you're on Windows 10, I think you will need to first click on "Show in Folder," and then again right click to see "Properties."
+    * If you're on Windows 10, I think you will need to first click on "Open File Location," and then again right click to see "Properties."
   * Change the target field to the following, _with appropriate substitutions_!  By "appropriate substitutions," I mean that you will replace the final path in this string to where you want juptyer notebooks to launch.
     The earlier parts will be different from mine -- they are on your computer.
     The last bit -- the final path -- is where you want to the notebook to launch, and it is the only part you will change.
