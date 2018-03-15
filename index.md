@@ -80,7 +80,7 @@ Full details and due dates to come.
 
 ## Quizzes (15%)
 
-There will be a short (less than 5 minutes) quiz in lecture about every other week. Quizzes will be annouced at least a week in advance.
+There will be a short (less than 5 minutes) quiz in lecture about every other week. Quizzes will be announced at least a week in advance.
 
 ## Curve
 
@@ -108,7 +108,7 @@ Installation instructions are posted for [Mac](mac_install) and
 [Windows](windows_install).  (If you're using Linux, you can probably figure it out yourself.)
 This installation is the entire first week's homework, but it will also be used in the first week's classes!
 At a minimum, you should have Atom (and cygwin, for Windows) installed *before the first class.*
-We will hold multiple lab sessions in the first week to support instalation of the software.
+We will hold multiple lab sessions in the first week to support installation of the software.
 You **must** get the help you need at that point -- we won't provide this support for the entire quarter.
 
 **Bring your laptop to every class** -- short demos will be an important part of the lectures.
