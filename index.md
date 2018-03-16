@@ -12,14 +12,17 @@ header-includes:
 * TAs: [Ratul Esrar](mailto:resrar@uchicago.edu), [Muhammad Umer Naeem](umernaeem@uchicago.edu), [Darshan Sumant](darshansumant@uchicago.edu), [Nicholas Tallant](mailto:ndtallant@uchicago.edu), [Edric Tam](edrictam@uchicago.edu), [Minjia Zhu](minjiaz@uchicago.edu)
 * Discussion Board: [Canvas](https://canvas.uchicago.edu/courses/15137/).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, TuTh 10:30-11:50am; Section 2: TuTh 1:30-2:50pm
+* Office Hours: Tu, Th 3-4pm in TBD
 * TA Lab Sessions in Harris room 224:
-    * Mondays 10:30am (Minjia)
-    * Mondays 4:30pm (Nicholas)
+    * Mondays 10:30am (Minjia), 4:30pm (Nicholas)
     * Tuesdays 4:30pm (Edric)
-    * Wednesdays 9am (Darshan)
-    * Wednesdays 1:30pm (Ratul)
-    * Wednesdays 3pm (Umer)
-* Office Hours: TBD
+    * Wednesdays 9am (Darshan), 1:30pm (Ratul), 3pm (Umer)
+* TA Office Hours:
+    * Mondays 2pm (Edric)
+    * Tuesdays 3:30-4:30pm (Nicholas)
+    * TBD (Minjia, Umer)
+    * Thursdays 3-4pm (Darshan)
+    * Fridays 12-1pm (Ratul)
 
 # Course Aims
 This is an introductory course in programming and data analysis for public policy students with no prior coding experience;
@@ -58,7 +61,7 @@ This said, two books published by O'Reilly are very good and available electroni
 Seeing the material multiple times will help -- so please use these resources!
 
 # Assignments and Grading 
-## Weekly assignments (60%)
+## Weekly assignments (80%)
 Assignments will be due on Thursdays before first section (10:30am sharp) and will posted on this website at least one week in advance. Work will be collected through Chalk and GitHub, so get a student account [here](https://education.github.com/pack).
 
 Unless otherwise noted, problem parts will be graded as follows:
@@ -69,18 +72,9 @@ The lowest homework grade will be dropped.
 
 Since homework solutions will be posted and discussed in lab the following week, late homework can only be accepted until Sunday night with a 10% deduction for each late day (starting Thursdays after 10:30am). Notify the TAs to 'pull' when late homework is complete.
 
-## Final Projects (25%) 
+## Quizzes (20%)
 
-Working in groups of up to four, students will ask a simple policy question.
-To answer it they will identify at least two disjoint data sources, merge them,
-perform a simple but correct statistical analysis
-and create a simple (but possibly dynamic) dashboard to illustrate this.
-A proposal including a dataset and a question is due in Week 5.
-Full details and due dates to come.
-
-## Quizzes (15%)
-
-There will be a short (less than 5 minutes) quiz in lecture about every other week. Quizzes will be announced at least a week in advance.
+There will be a short (about 5 minutes) quiz in lecture every week after week 1.
 
 ## Curve
 
