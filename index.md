@@ -12,15 +12,15 @@ header-includes:
 * TAs: [Ratul Esrar](mailto:resrar@uchicago.edu), [Muhammad Umer Naeem](umernaeem@uchicago.edu), [Darshan Sumant](darshansumant@uchicago.edu), [Nicholas Tallant](mailto:ndtallant@uchicago.edu), [Edric Tam](edrictam@uchicago.edu), [Minjia Zhu](minjiaz@uchicago.edu)
 * Discussion Board: [Canvas](https://canvas.uchicago.edu/courses/15137/).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, TuTh 10:30-11:50am; Section 2: TuTh 1:30-2:50pm
-* Office Hours: Tu, Th 3-4pm in TBD
+* Office Hours: Tu, Th 3-4pm in 217
 * TA Lab Sessions in Harris room 224:
     * Mondays 10:30am (Minjia), 4:30pm (Nicholas)
     * Tuesdays 4:30pm (Edric)
     * Wednesdays 9am (Darshan), 1:30pm (Ratul), 3pm (Umer)
 * TA Office Hours:
-    * Mondays 2pm (Edric)
+    * Mondays 11:30 (Minjia), 2pm (Edric)
     * Tuesdays 3:30-4:30pm (Nicholas)
-    * TBD (Minjia, Umer)
+    * TBD (Umer)
     * Thursdays 3-4pm (Darshan)
     * Fridays 12-1pm (Ratul)
 
