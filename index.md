@@ -22,7 +22,7 @@ header-includes:
     * Tuesdays 3:30-4:30pm (Nicholas)
     * TBD (Umer)
     * Thursdays 3-4pm (Darshan)
-    * Fridays 12-1pm (Ratul)
+    * Fridays 12-1pm in Harris 140C (Ratul)
 
 # Course Aims
 This is an introductory course in programming and data analysis for public policy students with no prior coding experience;
