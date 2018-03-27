@@ -20,7 +20,7 @@ header-includes:
 * TA Office Hours:
     * Mondays 11:30 (Minjia), 2pm (Edric)
     * Tuesdays 3:30-4:30pm (Nicholas)
-    * 3-4pm (Umer)
+    * Fridays 3-4pm (Umer)
     * Thursdays 3-4pm (Darshan)
     * Fridays 12-1pm in Harris 140C except 4/27/18 (Ratul)
 
