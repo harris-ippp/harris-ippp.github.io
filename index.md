@@ -9,7 +9,7 @@ header-includes:
 ---
 
 * Instructor: Eric Potash ([epotash@uchicago.edu](mailto:epotash@uchicago.edu))
-* TAs: [Ratul Esrar](mailto:resrar@uchicago.edu), [Muhammad Umer Naeem](umernaeem@uchicago.edu), [Darshan Sumant](darshansumant@uchicago.edu), [Nicholas Tallant](mailto:ndtallant@uchicago.edu), [Edric Tam](edrictam@uchicago.edu), [Minjia Zhu](minjiaz@uchicago.edu)
+* TAs: [Ratul Esrar](mailto:resrar@uchicago.edu), [Muhammad Umer Naeem](mailto:umernaeem@uchicago.edu), [Darshan Sumant](mailto:darshansumant@uchicago.edu), [Nicholas Tallant](mailto:ndtallant@uchicago.edu), [Edric Tam](mailto:edrictam@uchicago.edu), [Minjia Zhu](mailto:minjiaz@uchicago.edu)
 * Discussion Board: [Canvas](https://canvas.uchicago.edu/courses/15137/).  Please use -- we will monitor.
 * Meeting Day/Time: Section 1, TuTh 10:30-11:50am; Section 2: TuTh 1:30-2:50pm
 * Office Hours: Tu, Th 3-4pm in 217
