@@ -124,7 +124,7 @@ One-on-one installation tech support after the first week is at the discretion o
    Getting basic answers to your questions, with bash.
    Uploading them with Git.
 
-* **Slides**: [Introduction and Command Line](https://github.com/harris-ippp/lectures-s18/raw/master/01/01.pdf)
+* **Slides**: [Introduction and Command Line](https://github.com/harris-ippp/lectures-s18/raw/master/01/01.pdf), [Git](https://github.com/harris-ippp/lectures-s18/raw/master/01/01_git.pdf), [Python](https://github.com/harris-ippp/lectures-s18/raw/master/01/01_python.pdf)
 * **Readings**: 
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
     * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
