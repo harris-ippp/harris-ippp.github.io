@@ -129,7 +129,7 @@ One-on-one installation tech support after the first week is at the discretion o
     * Git: [Hello World](https://guides.github.com/activities/hello-world/), GitHub Guides.
     * Shell: [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php), William E. Shotts, Jr, parts 2, 3, 5, and 6.
     * Asking for help:  Eric Steven Raymond wrote an important (though somewhat snarky) piece on [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#intro), to get people to respond with the answer you need.  Thinking carefully about your question will often bring you to the answer!
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a01/README.md) and [Checkout](https://classroom.github.com/a/l08HbtXA)
 
 ## Week 2: Introduction to Python
 
