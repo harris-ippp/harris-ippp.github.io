@@ -21,7 +21,7 @@ header-includes:
     * Mondays 11:30 (Minjia), 2pm (Edric)
     * Tuesdays 3:30-4:30pm (Nicholas)
     * Fridays 3-4pm in Harris Cafe (Umer)
-    * Thursdays 3-4pm (Darshan)
+    * Thursdays 3-4pm in 154 (Darshan)
     * Fridays 12-1pm in Harris 140C except 4/27/18 (Ratul)
 
 # Course Aims
