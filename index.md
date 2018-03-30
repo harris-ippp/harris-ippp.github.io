@@ -22,7 +22,7 @@ header-includes:
     * Tuesdays 3:30-4:30pm (Nicholas)
     * Fridays 3-4pm in Harris Cafe (Umer)
     * Thursdays 3-4pm in 154 (Darshan)
-    * Fridays 12-1pm in Harris 140C except 4/27/18 (Ratul)
+    * Fridays 12-1pm in Harris 140A except 4/27/18 (Ratul)
 
 # Course Aims
 This is an introductory course in programming and data analysis for public policy students with no prior coding experience;
