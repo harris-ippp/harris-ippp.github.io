@@ -18,7 +18,7 @@ header-includes:
     * Tuesdays 4:30pm (Edric)
     * Wednesdays 9am (Darshan), 1:30pm (Ratul), 3pm (Umer)
 * TA Office Hours:
-    * Mondays 11:30 (Minjia), 2pm (Edric)
+    * Mondays 11:30 (Minjia), 2pm (Edric - in the Harris Cafe)
     * Tuesdays 3:30-4:30pm (Nicholas)
     * Fridays 3-4pm in Harris Cafe (Umer)
     * Thursdays 3-4pm in 154 (Darshan)
