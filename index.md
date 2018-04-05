@@ -142,9 +142,9 @@ One-on-one installation tech support after the first week is at the discretion o
    Control statements (`if`, `else`, `break`, `continue`) and iterating with `for` and `while` loops.
    List Comprehension.
 
-* **Slides**: [Python](https://github.com/harris-ippp/lectures-s18/raw/master/02/02.pdf)
+* **Slides**: [Python](https://github.com/harris-ippp/lectures-s18/raw/master/02/02.pdf), [Iteration and Algorithms](https://github.com/harris-ippp/lectures-s18/raw/master/02/02_b.pdf)
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) (Downey), Chapters 1, 2, 10, and 11.  For an alternative take, consult chapters 1-5 of the official [Python Tutorial](https://docs.python.org/3/tutorial/index.html).
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a02/blob/master/README.md), [Checkout](https://classroom.github.com/a/ea-FaLox)
 
 ## Week 3: Functions, classes, and libraries; manipulating data by hand.
 
