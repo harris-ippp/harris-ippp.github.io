@@ -153,7 +153,7 @@ One-on-one installation tech support after the first week is at the discretion o
 2. Reading in data.  Scripts revisited: programs, arguments, and reusable code.
 3. Fixing your code: debugging and asking questions.
 
-* **Slides**: To come.
+* **Slides**: [Lists, Strings, and Dictionaries](https://github.com/harris-ippp/lectures-s18/raw/master/03/03.pdf)
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
 * **Assignment**: To come.
 
