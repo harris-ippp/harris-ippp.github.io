@@ -155,7 +155,7 @@ One-on-one installation tech support after the first week is at the discretion o
 
 * **Slides**: [Lists, Strings, and Dictionaries](https://github.com/harris-ippp/lectures-s18/raw/master/03/03.pdf)
 * **Readings**: [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) chapters 3 and 5-8.
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a03), [Checkout](https://classroom.github.com/a/pwUy3T_U)
 
 ## Week 4: Scripts: Putting it Together
 
