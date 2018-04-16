@@ -159,12 +159,11 @@ One-on-one installation tech support after the first week is at the discretion o
 
 ## Week 4: Scripts: Putting it Together
 
-1. A large example: networks and inequality.
-2. Complexity (time permitting): big-O notation, computability, and pre-computation.
+A large example: the hospital-resident matching problem
 
 * **Slides**: To come.
 * **Readings**:
-    * **Before class read: Antoni Calvó-Armengol and Matthew O. Jackson, [_The Effects of Social Networks on Employment and Inequality_](https://www.jstor.org/stable/3592937).**
+    * **Before class read: D. Gale and L.S. Shapely [_College Admissions and the Stability of Marriage_](https://www.jstor.org/stable/2312726).**
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
 * **Assignment** To come.
 
