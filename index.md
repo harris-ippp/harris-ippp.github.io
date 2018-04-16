@@ -161,7 +161,8 @@ One-on-one installation tech support after the first week is at the discretion o
 
 A large example: the hospital-resident matching problem
 
-* **Slides**: To come.
+* **Slides**: [Matching](https://github.com/harris-ippp/lectures-s18/raw/master/04/04.pdf)
+* **Code**: [match.py](https://gist.github.com/potash/0473ae32439ff20c46c4c926253ad7de)
 * **Readings**:
     * **Before class read: D. Gale and L.S. Shapely [_College Admissions and the Stability of Marriage_](https://www.jstor.org/stable/2312726).**
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
