@@ -166,7 +166,7 @@ A large example: the hospital-resident matching problem
 * **Readings**:
     * **Before class read: D. Gale and L.S. Shapely [_College Admissions and the Stability of Marriage_](https://www.jstor.org/stable/2312726).**
     * Python: official documentation for [argparse](https://docs.python.org/3/library/argparse.html), [Think Python](http://proquestcombo.safaribooksonline.com.proxy.uchicago.edu/book/programming/python/9781449332006) Chapter 20 on debugging and 21 on complexity.
-* **Assignment** To come.
+* **Assignment** [README](https://github.com/harris-ippp/s18-a04/), [Checkout](https://classroom.github.com/a/wYaRwnC9)
 
 ## Week 5: Pandas introduction and file formats.
 
