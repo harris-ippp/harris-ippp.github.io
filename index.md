@@ -161,7 +161,7 @@ One-on-one installation tech support after the first week is at the discretion o
 
 A large example: the hospital-resident matching problem
 
-* **Slides**: [Matching](https://github.com/harris-ippp/lectures-s18/raw/master/04/04.pdf)
+* **Slides**: [Matching](https://github.com/harris-ippp/lectures-s18/raw/master/04/04.pdf), [Sets](https://github.com/harris-ippp/lectures-s18/raw/master/04/04_set.pdf), [Simulation and Plotting](https://github.com/harris-ippp/lectures-s18/raw/master/04/04_simulation.pdf)
 * **Code**: [match.py](https://gist.github.com/potash/0473ae32439ff20c46c4c926253ad7de)
 * **Readings**:
     * **Before class read: D. Gale and L.S. Shapely [_College Admissions and the Stability of Marriage_](https://www.jstor.org/stable/2312726).**
