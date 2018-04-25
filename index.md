@@ -16,7 +16,7 @@ header-includes:
 * TA Lab Sessions in Harris room 224:
     * Mondays 10:30am (Minjia), 4:30pm (Nicholas)
     * Tuesdays 4:30pm (Edric)
-    * Wednesdays 9am (Darshan), 1:30pm (Ratul), 3pm (Umer)
+    * Wednesdays 9am (Darshan), 1:30pm (Ratul - moved to Lecture Hall), 3pm (Umer)
 * TA Office Hours:
     * Mondays 11:30 - 12:30 (Minjia - in Room 224), 2pm (Edric - in the Harris Cafe)
     * Tuesdays 2:50 - 3:50 pm (Nicholas - Harris Cafe)
