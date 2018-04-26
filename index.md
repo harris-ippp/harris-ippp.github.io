@@ -175,7 +175,7 @@ Data Visualization with Python: matplotlib and pandas
 1. Pandas data types.  Data frames, series.  
 2. Reading basic files.  Basic exploration, slicing and plots.
 
-* **Slides**: [NumPy and Pandas Introduction](https://github.com/harris-ippp/lectures-s18/raw/master/05/05.pdf)
+* **Slides**: [NumPy and Pandas Introduction](https://github.com/harris-ippp/lectures-s18/raw/master/05/05.pdf), [More Pandas](https://github.com/harris-ippp/lectures-s18/raw/master/05/05b.pdf)
 * **Readings**
     * Pandas: [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
     * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
