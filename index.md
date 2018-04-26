@@ -179,7 +179,7 @@ Data Visualization with Python: matplotlib and pandas
 * **Readings**
     * Pandas: [Official Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html), with [tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html).  I think [Greg Reda's](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/) is easier to understand for new users.  Once you've read that, Tom Augspurger's [Modern Pandas](https://tomaugspurger.github.io/modern-1.html) (with Jupyter notebooks) gives a bit more detail.
     * Matplotlib [Beginner's Guide](http://matplotlib.org/users/beginner.html) and [Python for Data Analysis, Ch. 8](http://www3.canisius.edu/~yany/python/Python4DataAnalysis.pdf) (McKinney).
-* **Assignment**: To come.
+* **Assignment** [README](https://github.com/harris-ippp/s18-a05/), [Checkout](https://classroom.github.com/a/RzGTN6cJ)
 
 ## Week 6: Reading and Scraping Static Websites; Querying APIs
 
@@ -210,14 +210,18 @@ Data Visualization with Python: matplotlib and pandas
 1. Scipy statistical tests.  Statsmodels -- regressions from data
 2. Dashboards with Plotly.
 
+* **Slides**: To come.
 * **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
+* **Assignment**: To come.
 
 ## Week 9: Large-Scale Example -- Weather and Crime
+* **Assignment**: To come.
 
 ## Week 10: Geographic Information Systems (Time Permitting)
 1. Introduction to GIS in GeoPandas.  Shapefiles and data -- what's available?
    Making a map: projections and coordinate reference systems.
 2. Spatial joins and aggregation.
 
+* **Slides**: To come.
 * **Readings**: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
-
+* **Assignment**: To come.
