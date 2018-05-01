@@ -187,7 +187,7 @@ Data Visualization with Python: matplotlib and pandas
 2. RESTful APIs and hidden APIs: Census, weather, and health.
 3. The Internet and the world wide web (time-permitting).
 
-* **Slides**: To come.
+* **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf)
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
