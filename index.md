@@ -18,7 +18,7 @@ header-includes:
     * Tuesdays 4:30pm (Edric)
     * Wednesdays 9am (Darshan), 1:30pm (Ratul - moved to Lecture Hall), 3pm (Umer)
 * TA Office Hours:
-    * Mondays 11:30 - 12:30 (Minjia - in Room 224), 2pm (Edric - in the Harris Cafe) (Except April 30th (Monday) original 2pm office hours will be moved to May 2rd at 11am...Edric will make himself highly available via email on Monday afternoon)
+    * Mondays 11:30 - 12:30 (Minjia - in Room 224), 2pm (Edric - in the Harris Cafe) 
     * Tuesdays 2:50 - 3:50 pm (Nicholas - Harris Cafe)
     * Fridays 3-4pm in Harris Cafe (Umer)
     * Thursdays 3-4pm in 140A (Darshan)
