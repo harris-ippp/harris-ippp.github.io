@@ -187,7 +187,7 @@ Data Visualization with Python: matplotlib and pandas
 3. Running regressions using statsmodels
 
 * **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf), [Pandas Group Aggregation and Transformation](https://github.com/harris-ippp/lectures-s18/raw/master/06/06b.pdf)
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a06/), [Checkout](https://classroom.github.com/a/_G0JiJfQ)
 
 ## Week 7: Reading and Scraping Static Websites; Querying APIs
 
