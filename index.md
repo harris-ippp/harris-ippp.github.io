@@ -186,7 +186,7 @@ Data Visualization with Python: matplotlib and pandas
 2. Aggregating and summarizing data using groupby
 3. Running regressions using statsmodels
 
-* **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf)
+* **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf), [Pandas Group Aggregation and Transformation](https://github.com/harris-ippp/lectures-s18/raw/master/06/06b.pdf)
 * **Assignment**: To come.
 
 ## Week 7: Reading and Scraping Static Websites; Querying APIs
