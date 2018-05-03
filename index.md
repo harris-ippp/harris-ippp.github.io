@@ -226,7 +226,5 @@ Data Visualization with Python: matplotlib and pandas
 1. Introduction to GIS in GeoPandas.  Shapefiles and data -- what's available?
    Making a map: projections and coordinate reference systems.
 2. Spatial joins and aggregation.
-* **Assignment**: To come.
 * **Slides**: To come.
 * **Readings**: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
-* **Assignment**: To come.
