@@ -222,7 +222,7 @@ Data Visualization with Python: matplotlib and pandas
 * **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
 * **Assignment**: To come.
 
-## Week 9: Large-Scale Example and Geographic Information Systems
+## Week 10: Large-Scale Example and Geographic Information Systems
 1. Introduction to GIS in GeoPandas.  Shapefiles and data -- what's available?
    Making a map: projections and coordinate reference systems.
 2. Spatial joins and aggregation.
