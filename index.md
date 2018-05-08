@@ -186,16 +186,16 @@ Data Visualization with Python: matplotlib and pandas
 2. Aggregating and summarizing data using groupby
 3. Running regressions using statsmodels
 
-* **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf), [Pandas Group Aggregation and Transformation](https://github.com/harris-ippp/lectures-s18/raw/master/06/06b.pdf)
+* **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf), [Pandas Group Aggregation and Transformation](https://github.com/harris-ippp/lectures-s18/raw/master/06/06b.pdf), [Pandas Addendum](https://github.com/harris-ippp/lectures-s18/raw/master/06/06c.pdf)
 * **Assignment**: [README](https://github.com/harris-ippp/s18-a06/), [Checkout](https://classroom.github.com/a/_G0JiJfQ)
 
 ## Week 7: Reading and Scraping Static Websites; Querying APIs
 
-1. Reading and scraping html.  Beautiful Soup.  HTTP requests.  School data.
-2. RESTful APIs and hidden APIs: Census, weather, and health.
-3. The Internet and the world wide web (time-permitting).
+1. The Internet and the world wide web.
+2. Reading and scraping html.  Beautiful Soup.  HTTP requests.
+3. RESTful APIs and hidden APIs: Census, weather, and health.
 
-* **Slides**: To come.
+* **Slides**: [The Web and Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07.pdf)
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
