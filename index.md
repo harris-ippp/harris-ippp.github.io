@@ -199,7 +199,7 @@ Data Visualization with Python: matplotlib and pandas
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a07), [Checkout](https://classroom.github.com/a/HH-0wNfq)
 
 
 ## Week 8: Relational Databases
