@@ -195,7 +195,7 @@ Data Visualization with Python: matplotlib and pandas
 2. Reading and scraping html.  Beautiful Soup.  HTTP requests.
 3. RESTful APIs and hidden APIs: Census, weather, and health.
 
-* **Slides**: [The Web and Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07.pdf)
+* **Slides**: [The Web and Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07.pdf), [Scraping and APIs](https://github.com/harris-ippp/lectures-s18/raw/master/07/07b.pdf)
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
