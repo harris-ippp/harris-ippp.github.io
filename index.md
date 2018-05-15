@@ -189,20 +189,28 @@ Data Visualization with Python: matplotlib and pandas
 * **Slides**: [Pandas Merge, Transformation, and Time Series](https://github.com/harris-ippp/lectures-s18/raw/master/06/06.pdf), [Pandas Group Aggregation and Transformation](https://github.com/harris-ippp/lectures-s18/raw/master/06/06b.pdf), [Pandas Addendum](https://github.com/harris-ippp/lectures-s18/raw/master/06/06c.pdf)
 * **Assignment**: [README](https://github.com/harris-ippp/s18-a06/), [Checkout](https://classroom.github.com/a/_G0JiJfQ)
 
-## Week 7: Reading and Scraping Static Websites; Querying APIs
+## Week 7: Reading and Scraping Static Websites
 
 1. The Internet and the world wide web.
 2. Reading and scraping html.  Beautiful Soup.  HTTP requests.
-3. RESTful APIs and hidden APIs: Census, weather, and health.
 
-* **Slides**: [The Web and Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07.pdf), [Scraping and APIs](https://github.com/harris-ippp/lectures-s18/raw/master/07/07b.pdf)
+* **Slides**: [The Web and Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07.pdf), [Scraping](https://github.com/harris-ippp/lectures-s18/raw/master/07/07b.pdf)
 * **Readings**:
     * [The Internet, explained](http://www.vox.com/cards/the-internet) and [40 maps that explain the internet](http://www.vox.com/a/internet-maps), by Timothy B. Lee at Vox (not Tim Berners-Lee, the inventor of the web!).
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 * **Assignment**: [README](https://github.com/harris-ippp/s18-a07), [Checkout](https://classroom.github.com/a/HH-0wNfq)
 
+## Week 8: APIs; Statistical Tools and Dashboards.
+1. RESTful APIs and hidden APIs: Census, weather, and health.
+2. Scipy statistical tests.  Statsmodels -- regressions from data
+3. Dashboards with Plotly.
 
-## Week 8: Relational Databases
+* **Slides**: [APIs](https://github.com/harris-ippp/lectures-s18/raw/master/08/08.pdf)
+* **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
+* **Assignment**: To come.
+
+
+## Week 9: Relational Databases
 
 1. Relational databases and Structured Query Language (SQL).
    Selecting.
@@ -214,17 +222,9 @@ Data Visualization with Python: matplotlib and pandas
 * **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html).
 * **Assignment**: To come.
 
-## Week 9: Statistical Tools and Dashboards.
-1. Scipy statistical tests.  Statsmodels -- regressions from data
-2. Dashboards with Plotly.
-
-* **Slides**: To come.
-* **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
-* **Assignment**: To come.
-
-## Week 10: Large-Scale Example and Geographic Information Systems
-1. Introduction to GIS in GeoPandas.  Shapefiles and data -- what's available?
+## Week 10: Intro to Geographic Information Systems
+1. Introduction to GIS in QGIS.  Shapefiles and data -- what's available?
    Making a map: projections and coordinate reference systems.
 2. Spatial joins and aggregation.
 * **Slides**: To come.
-* **Readings**: [GeoPandas](http://geopandas.org/) and the [shapely](http://toblerity.org/shapely/manual.html) users manual.
+* **Readings**: To come.
