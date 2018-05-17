@@ -207,7 +207,7 @@ Data Visualization with Python: matplotlib and pandas
 
 * **Slides**: [APIs](https://github.com/harris-ippp/lectures-s18/raw/master/08/08.pdf),[Visualization and Regression](https://github.com/harris-ippp/lectures-s18/raw/master/08/08b.pdf)
 * **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
-* **Assignment**: [README](https://github.com/harris-ippp/s18-a08/), Checkout](https://classroom.github.com/a/k4nitW64)
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a08/), [Checkout](https://classroom.github.com/a/k4nitW64)
 
 
 ## Week 9: Relational Databases
