@@ -200,14 +200,14 @@ Data Visualization with Python: matplotlib and pandas
     * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 * **Assignment**: [README](https://github.com/harris-ippp/s18-a07), [Checkout](https://classroom.github.com/a/HH-0wNfq)
 
-## Week 8: APIs; Statistical Tools and Dashboards.
+## Week 8: APIs; Statistical Tools and Visualizations
 1. RESTful APIs and hidden APIs: Census, weather, and health.
 2. Scipy statistical tests.  Statsmodels -- regressions from data
 3. Seaborn
 
 * **Slides**: [APIs](https://github.com/harris-ippp/lectures-s18/raw/master/08/08.pdf),[Visualization and Regression](https://github.com/harris-ippp/lectures-s18/raw/master/08/08b.pdf)
 * **Resources**: [Plotly tutorial](https://plot.ly/python/ipython-notebook-tutorial/), and [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/stats.html) and [statsmodels](http://statsmodels.sourceforge.net/stable/) documentation.
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a08/), Checkout](https://classroom.github.com/a/k4nitW64)
 
 
 ## Week 9: Relational Databases
