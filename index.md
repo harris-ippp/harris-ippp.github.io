@@ -220,7 +220,7 @@ Data Visualization with Python: matplotlib and pandas
 
 * **Slides**: [Relational Databases and SQL](https://github.com/harris-ippp/lectures-s18/raw/master/09/09.pdf), [More SQL and Python Integration](https://github.com/harris-ippp/lectures-s18/raw/master/09/09b.pdf)
 * **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html).
-* **Assignment**: To come.
+* **Assignment**: [README](https://github.com/harris-ippp/s18-a09), [Checkout](https://classroom.github.com/a/P6o-Jv0A).
 
 ## Week 10: Intro to Geographic Information Systems
 1. Introduction to GIS in QGIS.  Shapefiles and data -- what's available?
