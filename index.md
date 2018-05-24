@@ -218,7 +218,7 @@ Data Visualization with Python: matplotlib and pandas
    Pandas integration.
 2. Aggregation in SQL and Pandas: `group by`, `order by`, `limit`, `max`, `avg`, etc.
 
-* **Slides**: [Relational Databases and SQL](https://github.com/harris-ippp/lectures-s18/raw/master/09/09.pdf)
+* **Slides**: [Relational Databases and SQL](https://github.com/harris-ippp/lectures-s18/raw/master/09/09.pdf), [More SQL and Python Integration](https://github.com/harris-ippp/lectures-s18/raw/master/09/09b.pdf)
 * **Readings**: [SQL Cookbook](https://catalog.lib.uchicago.edu/vufind/Record/10176227) Chapters 1-3 and [SQLite Tutorial](http://www.sqlitetutorial.net/).  The [psycopg2 basic model usage](http://initd.org/psycopg/docs/usage.html).
 * **Assignment**: To come.
 
