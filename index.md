@@ -226,4 +226,5 @@ Data Visualization with Python: matplotlib and pandas
 1. Introduction to GIS in QGIS.  Shapefiles and data -- what's available?
    Making a map: projections and coordinate reference systems.
 2. Spatial joins and aggregation.
+
 * **Slides**: [GIS](https://github.com/harris-ippp/lectures-s18/raw/master/10/10.pdf)
