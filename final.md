@@ -101,7 +101,7 @@ But I particularly enjoy seeing foreign datasets.
   * [Minnesota](https://gisdata.mn.gov/dataset/bdry-electionresults-2012-2020) 
   * [Wisconsin](http://data-ltsb.opendata.arcgis.com/datasets/e702e29dbdf74d3b8b153c06fac2c721_0)
   * Ask if you want more -- these are a pain to work with.  But you can get TN, MD, TX, FL, etc.
-* Stocks: These are constantly breaking (Google and Yahoo just did).  But check out [Bloomberg](https://www.bloomberg.com/professional/support/api-library) and you can look around for a way to hack google finance.  As Harris students, you also have access to the Bloomberg terminal in the basement...
+* Stocks: check out one of the packages like [googlefinance.client](https://pypi.org/project/googlefinance.client/1.3.0/).  Scraping these yourselve can get a bit involved.
 * Twitter has one of _the_ great [APIs](https://dev.twitter.com/rest/public)
 * [google maps](https://developers.google.com/maps/documentation/) -- they have APIs for elevations (biking!?), travel times (isolation?), distances, geolocation, etc.
 * Weather Underground has a [fantastic, free API](https://www.wunderground.com/weather/api/d/docs?d=data/history) for current and historical weather data.
