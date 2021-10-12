@@ -278,9 +278,10 @@ The model has a high R² of 0.89.
 
 * The yearly fixed effects show spectacular yearly reductions in crime, over the past fourteen years.
 * The day-of-week fixed effects show crime peaking on Friday (4) and at its lowest on Sundays (6), as usual.
-* Temperature has a positive and extremely significant effect on crime (t = 79).
-* Precipitation leads to a large and highly significant (_t_ = 13) reduction in the daily crime rates.
-* These effects are so large that there is no doubt as to the impact of weather, and little need for more-subtle tests.  Nevertheless, alternative specifications can alter somewhat the values of of the coefficients.
+* Temperature is positively and extremely significantly associated on crime (t = 79).
+* Precipitation is associated with a large and highly significant (_t_ = 13) reduction in the daily crime rates.
+* These estimates are so large that there is no doubt as to that weather is associated with rates, and little need for more-subtle tests.  Nevertheless, alternative specifications can alter somewhat the values of of the coefficients.
+* I would argue that these effects are plausibly causal, given the evidence from other cities.
 * The coefficient on the "daily difference" is negative and moderately significant, but for alternative specifications can be consistent with 0.
 
 #### Observations on the Residuals
